@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.539363",
+                    "16.356355"
+                ]
+            },
+            "properties": {
+                "id": "690935abbcc5aa2976f26d664575f90d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/reas-tours-amp-travels/206",
+                "url": "",
+                "name": "Reas Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9619726089",
+                "address": "Shop Number 6 Plot Number 110 Opp Nerul Rly Ststion, Nerul, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

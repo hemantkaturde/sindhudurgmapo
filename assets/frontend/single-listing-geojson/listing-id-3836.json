@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.534804",
+                    "16.355022"
+                ]
+            },
+            "properties": {
+                "id": "4c17f68416c0eecd9be3e0d2d0f597e9",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/r-m-communication/3836",
+                "url": "",
+                "name": "R. M. COMMUNICATION",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8698224844",
+                "address": "Shop No 1, near Bhandari High School, opp. Hotel Swami, Somwar Peth, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

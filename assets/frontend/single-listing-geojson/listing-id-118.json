@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.564724",
+                    "16.361247"
+                ]
+            },
+            "properties": {
+                "id": "9587885c085a68b8658bdf8e0a736cee",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/khanna-travels-amp-holidays-khanna-holidays-private-limited/118",
+                "url": "khannatravels.com",
+                "name": "Khanna Travels &amp; Holidays ( Khanna Holidays Private Limited )",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2241555555",
+                "address": "4V7+69M, Old Panvel, Panvel, Navi Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

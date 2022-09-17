@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.530413",
+                    "16.362425"
+                ]
+            },
+            "properties": {
+                "id": "efbcd6198439cf38ae2036263c1e4e58",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/at-travels/171",
+                "url": "attravelsonline.com",
+                "name": "AT TRAVELS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9594695650",
+                "address": "69A-PLPT,SEC 4A, Khanda Colony, Panvel, Navi Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.535977",
+                    "16.359597"
+                ]
+            },
+            "properties": {
+                "id": "1c0ae4aca1e9bcb82ad851bf1ce36892",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/j-n-travels-and-gawade-tours-and-travels/71",
+                "url": "",
+                "name": "J.N. Travels And Gawade Tours And Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9022152002",
+                "address": "Shop No-AA10, Plot No-456, Kasturi II CHS Limited, National Highway-4, Old Panvel, Takka, Takka Colony, Panvel, Navi Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

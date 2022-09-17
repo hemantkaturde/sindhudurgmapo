@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.546481",
+                    "16.352252"
+                ]
+            },
+            "properties": {
+                "id": "28796bc166c8586119fcb8b9007c4020",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/anushka-enterprises/3583",
+                "url": "",
+                "name": "Anushka Enterprises",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Achara Rd, Kankavli, Shrawan, Maharashtra 416616rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

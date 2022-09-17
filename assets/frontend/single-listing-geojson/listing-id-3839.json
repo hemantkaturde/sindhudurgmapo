@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.524409",
+                    "16.359582"
+                ]
+            },
+            "properties": {
+                "id": "f11a6745d6b04ed0f5223d16b09fe588",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/vayusut-communication/3839",
+                "url": "",
+                "name": "Vayusut Communication",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9423304376",
+                "address": "Shop No 2595 Main Road Clg Road Nera By Bharad Titha, opp. Datta Mandir, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

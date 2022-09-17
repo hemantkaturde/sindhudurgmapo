@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.526998",
+                    "16.357319"
+                ]
+            },
+            "properties": {
+                "id": "6d17cdb2fcc6883bdacddd6e2d61e429",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/ibrahim-clinic/155",
+                "url": "",
+                "name": "Ibrahim Clinic",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Dr Pawaskar house,Katali, taluka Rajapur, dist, Maharashtrarn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

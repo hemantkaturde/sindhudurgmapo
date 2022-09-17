@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.489624",
+                    "16.349622"
+                ]
+            },
+            "properties": {
+                "id": "7a2449593797edf4b751c0d03b724348",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/kshetrapaleshwar-clinical-laboratory/1280",
+                "url": "",
+                "name": "Kshetrapaleshwar Clinical Laboratory",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "7768904969",
+                "address": "Shop No. 4, Hodawada, Bajarpeth, Vengurla Sawantwadi Road, near by Sindhudurg Bank, Hodawade, Maharashtra 416529rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

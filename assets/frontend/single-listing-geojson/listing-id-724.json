@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.539679",
+                    "16.361146"
+                ]
+            },
+            "properties": {
+                "id": "5a1bd9898e6b59ac44bc5aa15bdb37e1",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/f5-weddings/724",
+                "url": "f5weddings.com",
+                "name": "F5 Weddings",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9967837722",
+                "address": "30/113, Shree Laxmi Vijay Industrial Premises,, Laxmi Industrial Estate, New Link Road, Andheri West, Mumbai, Maharashtra 400053rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

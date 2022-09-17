@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.584952",
+                    "16.35627"
+                ]
+            },
+            "properties": {
+                "id": "412b1a2e060ae09d788e669e0d772909",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/saileela-hospital-natal-kankavali/1787",
+                "url": "",
+                "name": "Saileela Hospital, Natal, Kankavali",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8275137575",
+                "address": "Natal Rd, Natal, Maharashtra 416609rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

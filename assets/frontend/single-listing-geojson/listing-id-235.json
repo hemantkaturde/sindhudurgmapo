@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.525781",
+                    "16.360449"
+                ]
+            },
+            "properties": {
+                "id": "e7140c5194680feef7b22571cb6f9a21",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/mm-travels/235",
+                "url": "mmtravels.in",
+                "name": "MM Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "410, Moreshwar Krupa Society, near Gajanan Maharaj Chowk, Sector 5, Sanpada, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

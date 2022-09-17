@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.531218",
+                    "16.362417"
+                ]
+            },
+            "properties": {
+                "id": "c73f8027abf938d89da2b8b1c7a3dccb",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sai-shraddha-mobile-service/3841",
+                "url": "",
+                "name": "SAI SHRADDHA MOBILE SERVICE",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Shop No 1 Malvan Bazarpeth, Maharashtra 416602rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

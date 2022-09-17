@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.584645",
+                    "16.351758"
+                ]
+            },
+            "properties": {
+                "id": "56558216059d4ce1c7ffd721148e2e0d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/saanvi-event-planner/1970",
+                "url": "",
+                "name": "SAANVI EVENT PLANNER",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "CQ5V+895, Headland Sada, Vasco da Gama, Goa 403804rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

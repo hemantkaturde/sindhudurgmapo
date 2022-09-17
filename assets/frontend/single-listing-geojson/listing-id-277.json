@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.533502",
+                    "16.360119"
+                ]
+            },
+            "properties": {
+                "id": "b26d30f9260d249bf2e90d0500a86cdd",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/trade-wings-ltd/277",
+                "url": "tradewings.in",
+                "name": "Trade Wings Ltd",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9930899108",
+                "address": "2A, Plot 63, Kaveri, Sector 17, Vashi, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

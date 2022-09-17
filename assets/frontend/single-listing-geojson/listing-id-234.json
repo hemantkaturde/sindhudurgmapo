@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.530757",
+                    "16.353366"
+                ]
+            },
+            "properties": {
+                "id": "11a2565d5cef9b1851b2a264a7ec23fa",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-swami-samarth-tours-amp-travels/234",
+                "url": "",
+                "name": "Shree Swami Samarth Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9819888271",
+                "address": "Star Heaven CHS, A 404, Plot No. 40,Sector 5, Kamothe, Navi Mumbai, Maharashtra 410209rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.535561",
+                    "16.351719"
+                ]
+            },
+            "properties": {
+                "id": "64fec52cc32f3b582a0b6ef8f51153e3",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/lifeline-foundation/33",
+                "url": "",
+                "name": "Lifeline Foundation",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9422401000",
+                "address": "Opp. State Bank of India, Taluka District, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

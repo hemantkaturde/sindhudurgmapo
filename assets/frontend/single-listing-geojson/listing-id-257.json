@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537448",
+                    "16.360614"
+                ]
+            },
+            "properties": {
+                "id": "23233d8e08c20d318691875e7fb6c168",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/roohi-travels/257",
+                "url": "",
+                "name": "Roohi Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9820029872",
+                "address": "roohi-travels.ueniweb.comrn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

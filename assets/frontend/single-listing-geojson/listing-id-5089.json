@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.521432",
+                    "16.362682"
+                ]
+            },
+            "properties": {
+                "id": "c22c57431978d16ccd5ece5da2a30e27",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/spandan-hospital/5089",
+                "url": "healthplix.com",
+                "name": "Spandan Hospital",
+                "category": "general",
+                "email": "support@healthplix.com,",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

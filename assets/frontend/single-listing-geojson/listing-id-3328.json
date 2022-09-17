@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.523025",
+                    "16.359333"
+                ]
+            },
+            "properties": {
+                "id": "90fee5f2b2862d558bc5f27f0ec39144",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/pathology-lab/3328",
+                "url": "",
+                "name": "pathology lab",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "3F57+JJ5, Dhuriwada, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

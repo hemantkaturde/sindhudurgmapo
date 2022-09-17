@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.517632",
+                    "16.354888"
+                ]
+            },
+            "properties": {
+                "id": "542e1c9c3f6eef0ad6753d5fc0be8053",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/vaze-hospitalvaze-hospital/3326",
+                "url": "",
+                "name": "Vaze HospitalVaze Hospital",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Malwan Exit Rd, Near Malvan Nagar Parishad, Dhuriwada, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

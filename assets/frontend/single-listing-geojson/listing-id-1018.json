@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.560055",
+                    "16.357484"
+                ]
+            },
+            "properties": {
+                "id": "a5cadef970e310958cf5d6b2426f8d29",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dhumaskar-hospital/1018",
+                "url": "",
+                "name": "Dhumaskar Hospital",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "JVG5+567, Comprem, Tivim, Goa 403502rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

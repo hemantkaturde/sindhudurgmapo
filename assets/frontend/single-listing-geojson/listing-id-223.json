@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.553433",
+                    "16.36012"
+                ]
+            },
+            "properties": {
+                "id": "d2d634cdb96105720da20cc9c62d1067",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/omer-travels-agency/223",
+                "url": "",
+                "name": "Omer Travels Agency",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2227656712",
+                "address": "C-92, Vashi Plaza, Sector 17, Vashi, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

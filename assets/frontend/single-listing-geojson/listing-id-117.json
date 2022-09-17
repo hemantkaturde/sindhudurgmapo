@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.541909",
+                    "16.350895"
+                ]
+            },
+            "properties": {
+                "id": "26f56b4b7bfdef9b85eb20cd6ea01d2f",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/nandai-travels-g/117",
+                "url": "",
+                "name": "Nandai Travels g",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9323780033",
+                "address": "Shop No 6 Plot No 12,13 Sector 36 Kamothe Navi Mumbai, Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

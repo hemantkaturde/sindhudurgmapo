@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.541329",
+                    "16.355382"
+                ]
+            },
+            "properties": {
+                "id": "b7ad0045eeb6612e6741ac4ab3e290d9",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/adventure-tours-of-mh07/3247",
+                "url": "",
+                "name": "Adventure Tours of MH07",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Adventure Tour of MH-07 Aniruddha Ghadi , 2957, Swami Nivas, near Rameshwar Mandir, Dewoolwada, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

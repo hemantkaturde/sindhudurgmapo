@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.556127",
+                    "16.352828"
+                ]
+            },
+            "properties": {
+                "id": "7cc5808772c9ddbbf9b68628667d8741",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/gk-beach-resort/2045",
+                "url": "",
+                "name": "GK BEACH RESORT",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9619097492",
+                "address": "Achara Beach Road, achara, Pirawadi, Maharashtra 416614rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

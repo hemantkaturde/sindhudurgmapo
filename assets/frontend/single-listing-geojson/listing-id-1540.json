@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.612031",
+                    "16.354992"
+                ]
+            },
+            "properties": {
+                "id": "57d9351cadc9ab96cfb3770ac052e550",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/siddhivinayak-mandir-bhomwadi/1540",
+                "url": "",
+                "name": "Siddhivinayak Mandir Bhomwadi",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9403315112",
+                "address": "Kudase, Maharashtra 416512rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

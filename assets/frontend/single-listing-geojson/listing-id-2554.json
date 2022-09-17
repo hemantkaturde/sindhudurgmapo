@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.54496",
+                    "16.34871"
+                ]
+            },
+            "properties": {
+                "id": "662877caaa0de9d78bfc692357917cd2",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/hotel-abhimanyu/2554",
+                "url": "",
+                "name": "Hotel Abhimanyu",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2362223947",
+                "address": "Kudal-Vengurla Rd, Kumbharwadi, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

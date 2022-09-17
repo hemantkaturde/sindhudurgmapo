@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.527935",
+                    "16.3623"
+                ]
+            },
+            "properties": {
+                "id": "cbed964f49777baf5025fd068b008c11",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/pwd-rest-house-kudal/3584",
+                "url": "",
+                "name": "PWD Rest House, Kudal",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "2M3V+6HF, Gudhipur, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

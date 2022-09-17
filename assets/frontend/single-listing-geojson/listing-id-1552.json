@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.590393",
+                    "16.363662"
+                ]
+            },
+            "properties": {
+                "id": "9b23422074de7c0b6e1d61ffc99584fc",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-devi-mauli-mandir-morgaon/1552",
+                "url": "",
+                "name": "Shree Devi Mauli Mandir, Morgaon",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Shri Devi Mauli Devi Mandeer, Aadali, SH 124, Morgaon, Maharashtra 416511rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.5352",
+                    "16.363043"
+                ]
+            },
+            "properties": {
+                "id": "9dc15d983ba107d3e26aa5c918f644f1",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/star-india-events-goa-management/721",
+                "url": "cmimediaevents.com",
+                "name": "Star India Events Goa Management",
+                "category": "general",
+                "email": "cmimediaevents@gmail.com, u003Ecmimediaevents@gmail.com, u003ECmimediaeventsmumbai@gmail.com, u003Eartistcall.in@gmail.com,",
+                "stars": "0.0",
+                "phone": "",
+                "address": ": Shop No. 23 A-II Naika Vaddo, Calangute, Calangute - Baga Rd, goa, Goa 403516rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

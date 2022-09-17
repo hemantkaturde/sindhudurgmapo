@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.568702",
+                    "16.361761"
+                ]
+            },
+            "properties": {
+                "id": "9b73be58db80b1de7815af469f94b80d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-mahalakshmi-ambabai-temple-kolhapur/2247",
+                "url": "mahalaxmikolhapur.com",
+                "name": "Shree Mahalakshmi Ambabai Temple, Kolhapur",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2312541779",
+                "address": "Mahadwar Rd, B Ward, C Ward, Kolhapur, Maharashtra 416012rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

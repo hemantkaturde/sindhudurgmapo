@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.546588",
+                    "16.363378"
+                ]
+            },
+            "properties": {
+                "id": "ad3099090f10b1a47b3df8fb59fb6152",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dr-sagar-kolhe/2442",
+                "url": "drsagarkolhe.com",
+                "name": "Dr. Sagar Kolhe",
+                "category": "general",
+                "email": "core-js-bundle@3.2.1, focus-within-polyfill@5.0.9, 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com, 831126cb46b74583bf6f72c5061cba9d@sentry-viewer.wixpress.com, lodash@4.17.21, react@16.13.1, react-dom@16.13.1, ragasehlok@gmail.com,",
+                "stars": "0.0",
+                "phone": "8208287344",
+                "address": "Om Kartavya Sadhana Hospital, Kumbharwadi, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

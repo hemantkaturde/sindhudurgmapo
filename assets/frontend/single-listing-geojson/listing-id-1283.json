@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.600022",
+                    "16.358868"
+                ]
+            },
+            "properties": {
+                "id": "5f34bb729aba7860ad2beef6c49df47d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/smitanand-clinical-laboratory/1283",
+                "url": "",
+                "name": "Smitanand Clinical Laboratory",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "MANGLAM GEOTECH SERVICES.rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

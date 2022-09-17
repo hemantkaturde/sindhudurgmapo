@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.51938",
+                    "16.350934"
+                ]
+            },
+            "properties": {
+                "id": "fa4b0ba6aec7971c7e913ab0aef2f42c",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/hotel-aarya/2502",
+                "url": "",
+                "name": "Hotel Aarya",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9011112877",
+                "address": "Shop No 5, Kankavli Road, Fanas Nagar, Shivajinagar, Varavade, Maharashtra 416602rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

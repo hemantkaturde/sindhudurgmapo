@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.512407",
+                    "16.355013"
+                ]
+            },
+            "properties": {
+                "id": "01b6dc847f04e40804344482b64b2adc",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/fergie-pinto/723",
+                "url": "fergiepinto.com",
+                "name": "Fergie Pinto",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9823396406",
+                "address": "Alfredo Villa, 21/2-B, Birmottem, Bastora, Goa 403508rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

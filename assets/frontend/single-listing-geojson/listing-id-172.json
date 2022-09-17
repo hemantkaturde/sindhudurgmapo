@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.527155",
+                    "16.363476"
+                ]
+            },
+            "properties": {
+                "id": "db05346c259ed500e759e57f76ee7542",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/agrawal-travels/172",
+                "url": "agrawaltravels.business.site",
+                "name": "Agrawal Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9820270413",
+                "address": "NL 4, Building Number-11, Shop No.- 2, Type, Sector 11, 400706, Sector 11, Nerul, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

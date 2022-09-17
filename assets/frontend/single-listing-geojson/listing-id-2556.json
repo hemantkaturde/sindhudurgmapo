@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.572131",
+                    "16.356026"
+                ]
+            },
+            "properties": {
+                "id": "ef5c30b8d53b70b44e3e43e4b36c163b",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dr-surve-clinic/2556",
+                "url": "",
+                "name": "Dr. Surve clinic",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2363272348",
+                "address": "WR79+4RH, Sawantwadi, Maharashtra 416510rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

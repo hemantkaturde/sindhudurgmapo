@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536474",
+                    "16.361825"
+                ]
+            },
+            "properties": {
+                "id": "5a0aebfa18ceea20ff5a5dc95036a7a9",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-sadguru-krupa-stores/3068",
+                "url": "",
+                "name": "SHREE SADGURU KRUPA STORES",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9158767573",
+                "address": "Kudal Vengurla Main Road, Mhapsekar Titha, near by Ganpati Temple, Pinguli, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

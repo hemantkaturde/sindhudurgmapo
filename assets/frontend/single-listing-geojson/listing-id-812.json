@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.533703",
+                    "16.362261"
+                ]
+            },
+            "properties": {
+                "id": "d2cb9d8edac523367bd22d263cac5904",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/wedding-venues-in-mandrem/812",
+                "url": "weddingz.in",
+                "name": "Wedding Venues in Mandrem",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "08048072314",
+                "address": "Mandrem, Goa 403519",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

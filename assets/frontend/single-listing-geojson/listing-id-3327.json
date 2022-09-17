@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536864",
+                    "16.356572"
+                ]
+            },
+            "properties": {
+                "id": "fdc3988edd286706c0156f9565ffc021",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/redkar-hospital-research-center/3327",
+                "url": "redkarhospital.com",
+                "name": "Redkar Hospital Research Center",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Opp. Malvan ST Stand, Revtale, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

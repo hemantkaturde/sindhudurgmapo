@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.533673",
+                    "16.363414"
+                ]
+            },
+            "properties": {
+                "id": "43378cfee9699d3e2b6ee228a242b836",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/setmi-tours-and-travels/159",
+                "url": "",
+                "name": "Setmi Tours and Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9867306024",
+                "address": "180, Tulsi Niwas, Sector 5, Sanpada, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

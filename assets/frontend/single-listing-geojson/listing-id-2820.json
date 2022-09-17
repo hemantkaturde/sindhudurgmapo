@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.566472",
+                    "16.357523"
+                ]
+            },
+            "properties": {
+                "id": "06e89e73988154a24075a7e21ae83246",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/bamboo-events-planning-amp-decor/2820",
+                "url": "bambooevents.co.in",
+                "name": "Bamboo Events Planning &amp; Decor",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9994924984",
+                "address": "35, divine residency, Peelamedu, Cheran ma Nagar, Coimbatore, Tamil Nadu 641004rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

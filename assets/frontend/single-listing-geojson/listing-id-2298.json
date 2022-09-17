@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.541274",
+                    "16.36898"
+                ]
+            },
+            "properties": {
+                "id": "952ff27b65c5d1feb7b87063de6aa40a",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/harikrupa-guide-point/2298",
+                "url": "",
+                "name": "Harikrupa Guide Point",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9860181027",
+                "address": "Malvan - Achara Rd, Revandi, Kolamb, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.584131",
+                    "16.360072"
+                ]
+            },
+            "properties": {
+                "id": "0b37f674d3c18737229f194d07b766df",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dadeshwar-temple/1539",
+                "url": "",
+                "name": "Dadeshwar Temple",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "PV32+6C5, Dargalim, Goa 403513rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

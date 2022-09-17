@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.544311",
+                    "16.349248"
+                ]
+            },
+            "properties": {
+                "id": "8a0e41e2f67773a53c1ec1868183b742",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/gujarat-travels/220",
+                "url": "gujarattravels.co.in",
+                "name": "Gujarat Travels",
+                "category": "general",
+                "email": "info@gujarattravels.co.in",
+                "stars": "0.0",
+                "phone": "2227801537",
+                "address": "Navprerna Apartment, Shop No.4, Shivsadan, nr. ICL School, Vashi, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

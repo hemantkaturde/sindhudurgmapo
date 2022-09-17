@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.531634",
+                    "16.360033"
+                ]
+            },
+            "properties": {
+                "id": "13cdc7fe1d4bbb74aac61f104e030051",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/urmila-ticket-agency/253",
+                "url": "",
+                "name": "Urmila Ticket Agency",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Pravin Kori , NL-1/B Building No.21, Room no. -05, Sector 10, Nerul, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

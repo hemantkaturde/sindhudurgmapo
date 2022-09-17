@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.535561",
+                    "16.356331"
+                ]
+            },
+            "properties": {
+                "id": "9ca33eab7572c68214c05702819bfcf5",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/urja-pranic-healing-center/23",
+                "url": "",
+                "name": "URJA Pranic Healing Center",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "99HP+HCQ, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

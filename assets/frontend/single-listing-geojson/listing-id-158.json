@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.529402",
+                    "16.355178"
+                ]
+            },
+            "properties": {
+                "id": "64c11c641c9214fe033ac683d689b173",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/seawoods-tours-amp-travels/158",
+                "url": "",
+                "name": "Seawoods Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Mahavir Dham,, Shop No-08, Plot No-27/28, Sector No-40, Seawoods, Nerul, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

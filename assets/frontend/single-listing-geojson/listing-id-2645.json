@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537331",
+                    "16.361616"
+                ]
+            },
+            "properties": {
+                "id": "564ba3f7cc5d856fc53b79c8817bd0dc",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/trisha-events/2645",
+                "url": "",
+                "name": "Trisha Events",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "ucassaim, lourdes waddo, Mapusa, Goa 403507t-rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

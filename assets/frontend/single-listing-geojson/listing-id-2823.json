@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.520747",
+                    "16.354558"
+                ]
+            },
+            "properties": {
+                "id": "484c1e2950252d2597629fe23745dbc1",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/malvan-scuba-diving-and-watersports/2823",
+                "url": "",
+                "name": "MALVAN SCUBA DIVING AND WATERSPORTS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "bandar jetty, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

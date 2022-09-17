@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.541566",
+                    "16.358637"
+                ]
+            },
+            "properties": {
+                "id": "fa14ba00dcaeb7fa8cb36eff5a42ca7a",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dhanvantari-clinic-amp-panchakarma-centre/14",
+                "url": "",
+                "name": "Dhanvantari Clinic &amp; Panchakarma Centre",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

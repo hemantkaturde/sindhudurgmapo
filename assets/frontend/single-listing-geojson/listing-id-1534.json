@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.584988",
+                    "16.354319"
+                ]
+            },
+            "properties": {
+                "id": "9d2be6ee4b5734e8cce0cb23981a4355",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/bhalandeshwar-temple/1534",
+                "url": "",
+                "name": "Bhalandeshwar Temple",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Banda - Dodamarg Rd, Kumbral, Maharashtra 416511rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

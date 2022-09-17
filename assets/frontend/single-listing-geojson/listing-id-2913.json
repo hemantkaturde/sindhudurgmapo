@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.542611",
+                    "16.357021"
+                ]
+            },
+            "properties": {
+                "id": "12ca9c2b2bb1dd93fe70b8bc33fee753",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/forest-office/2913",
+                "url": "",
+                "name": "Forest Office",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Forest Office Rd, Salaiwada, Sawantwadi, Maharashtra 416510rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

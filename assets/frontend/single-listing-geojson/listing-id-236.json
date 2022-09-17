@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.567646",
+                    "16.358971"
+                ]
+            },
+            "properties": {
+                "id": "233c7f7ea5dea47e65a7251f68b30660",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/adwait-tours-amp-travelsesh/236",
+                "url": "",
+                "name": "Adwait Tours &amp; Travelsesh",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9867444547",
+                "address": "Shop No.12, Sector 30, Sanpada, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.524408",
+                    "16.362096"
+                ]
+            },
+            "properties": {
+                "id": "0585f517d1fc59c19d41af460bfcae1c",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/satvik-tours-and-travels/170",
+                "url": "business.site",
+                "name": "SATVIK TOURS AND TRAVELS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Sector : 09 Park, SHANKHESHWAR PALLAZO, B-202 PLOT NO.182, Ulwe, Navi Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

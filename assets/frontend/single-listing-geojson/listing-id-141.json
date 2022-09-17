@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.535561",
+                    "16.358472"
+                ]
+            },
+            "properties": {
+                "id": "bcaabdee7eeaa593e7c8dfc7f2f258a4",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/gawas-tours-and-travels/141",
+                "url": "gawastravels.business.site",
+                "name": "Gawas tours and travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "SAI HRIDVI APARTMENT HOUES 391 ROOM 001 SAI, Sector 6 Nerul Rd, Sarsola Village, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

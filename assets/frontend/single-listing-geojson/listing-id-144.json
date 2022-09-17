@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.525952",
+                    "16.363414"
+                ]
+            },
+            "properties": {
+                "id": "47f33cc722487ef390834c31484f8117",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/ambar-tours-amp-travels/144",
+                "url": "",
+                "name": "Ambar Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9892287595",
+                "address": "Ambar Hotel, Near Vashi Highway, Vashi Plaza, Sector-17, Vashi, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

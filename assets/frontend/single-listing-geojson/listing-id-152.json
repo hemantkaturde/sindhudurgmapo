@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.543625",
+                    "16.350236"
+                ]
+            },
+            "properties": {
+                "id": "1baa68c6ce7015f57f44bcb277347235",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/government-hospital-shirgaon/152",
+                "url": "",
+                "name": "Government hospital shirgaon",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Devgad - Nipani Hwy, Gavthan, Shirgaon, Maharashtra 416610rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

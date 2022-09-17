@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536131",
+                    "16.363738"
+                ]
+            },
+            "properties": {
+                "id": "40434588ba22b72483ce20bfb96e0675",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/walke-medical-stores/1794",
+                "url": "",
+                "name": "Walke Medical Stores",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Mumbai - Goa Hwy, near ravalnath Temple, Sindhu Durg, Oros, Maharashtra 416628rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

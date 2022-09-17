@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.587731",
+                    "16.361761"
+                ]
+            },
+            "properties": {
+                "id": "3b8408ffb7a65ed14977b7fe65af127a",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/pikule-kelbai-temple/1544",
+                "url": "",
+                "name": "PIKULE KELBAI TEMPLE",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "MAHARASHTRArn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

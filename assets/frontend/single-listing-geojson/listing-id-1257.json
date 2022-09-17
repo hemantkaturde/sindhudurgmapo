@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.587843",
+                    "16.353735"
+                ]
+            },
+            "properties": {
+                "id": "cb041310a3004558103530bfe1835486",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/vicco-laboratories-goa/1257",
+                "url": "",
+                "name": "Vicco Laboratories (Goa)",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8322284583",
+                "address": "Unnamed Road, Carambolim, Corlim, Goa 403110rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

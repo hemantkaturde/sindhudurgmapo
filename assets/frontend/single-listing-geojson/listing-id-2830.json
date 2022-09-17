@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.548988",
+                    "16.354558"
+                ]
+            },
+            "properties": {
+                "id": "5115ac842dacd9fb587ad19bf32a1e8b",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/ivory-events-wedding-planner-event-management/2830",
+                "url": "ivoryeventsweddings.com",
+                "name": "IVORY EVENTS Wedding Planner/Event Management",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9745134422",
+                "address": "Kozhencherry Church Rd, Kozhencherry, Kerala 689641rn ",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

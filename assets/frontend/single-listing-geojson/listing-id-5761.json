@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.655186",
+                    "16.331787"
+                ]
+            },
+            "properties": {
+                "id": "42550ef4b4b44147057f6e866fdccff9",
+                "index": 0,
+                "isActive": true,
+                "logo": "904e6f7db47a2ba60109cc22775b9078.jpg",
+                "image": "904e6f7db47a2ba60109cc22775b9078.jpg",
+                "link": "https://sindhudurg.mapodiary.com/hotel/pioneer-hotel/5761",
+                "url": "www.pioneeracademypace.com",
+                "name": "Pioneer Hotel",
+                "category": "hotel",
+                "email": "mapodiary@gmail.com",
+                "stars": "0.0",
+                "phone": "8888844444",
+                "address": "Talav vada  Bazarpeth , Sawantwadi ",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

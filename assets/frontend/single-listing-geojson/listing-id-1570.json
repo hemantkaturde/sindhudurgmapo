@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.591845",
+                    "16.357358"
+                ]
+            },
+            "properties": {
+                "id": "9217df7cab52120dea62e7e59335beec",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-raamapurusha-temple/1570",
+                "url": "",
+                "name": "Shree Raamapurusha Temple",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Vainguinim, Maem, Goa 403504rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

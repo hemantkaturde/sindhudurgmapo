@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.534975",
+                    "16.362105"
+                ]
+            },
+            "properties": {
+                "id": "2d5a1c37a848a6c47215f00764aae7ec",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/achara-post-office/3582",
+                "url": "indiapost.gov.in",
+                "name": "Achara Post Office",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Sindhudurg, SH-181, Kankavli Achare Road, Sindhudurga, Sindhudurga, Maharashtra 416614rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

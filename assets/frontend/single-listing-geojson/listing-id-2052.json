@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.584474",
+                    "16.361641"
+                ]
+            },
+            "properties": {
+                "id": "ff39b714947959f1ea67b767dc702bf4",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/events-fun-music-birthday-party/2052",
+                "url": "",
+                "name": "Events Fun Music Birthday Party",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "HRV8+PGP, Dangui Colony, Mapusa, Goa 403507rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

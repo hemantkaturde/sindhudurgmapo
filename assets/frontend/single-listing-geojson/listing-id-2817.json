@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.529788",
+                    "16.359664"
+                ]
+            },
+            "properties": {
+                "id": "347960bb979798ae99b9e7d5441b7dbb",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/glamtouch-events/2817",
+                "url": "",
+                "name": "GLAMTOUCH EVENTS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8208102368",
+                "address": "Health and safety: Appointment required Â· Mask required Â· 4 morern",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

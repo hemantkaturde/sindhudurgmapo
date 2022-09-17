@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.559274",
+                    "16.363408"
+                ]
+            },
+            "properties": {
+                "id": "b0010197f4c034cbac8922f5f4ba5add",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/simran-beauty-parlor/1788",
+                "url": "",
+                "name": "SIMRAN BEAUTY PARLOR",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9405758177",
+                "address": "Shop No 1Shreeshilp Apartment, nearby Nadar Doctor, Parabwadi, Kankavli, Maharashtra 416602rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

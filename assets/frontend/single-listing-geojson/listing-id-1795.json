@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.59476",
+                    "16.358122"
+                ]
+            },
+            "properties": {
+                "id": "1568a0f9c7c2a05c5334ca6e134bd1e2",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sai-samarth-clinic/1795",
+                "url": "",
+                "name": "SAI SAMARTH CLINIC",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9823095608",
+                "address": "H.No.512/A Pan bajar Near Babachand Darga, opp. Maratha Cloth Stores, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

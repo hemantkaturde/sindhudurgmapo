@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.526792",
+                    "16.367256"
+                ]
+            },
+            "properties": {
+                "id": "f45271547061fa93bc46b3bd2907fa85",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dream-tours-and-travels/222",
+                "url": "",
+                "name": "Dream tours and travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Shop no 3 gorund floor,b-2/4/1, Sector-16, Vashi, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

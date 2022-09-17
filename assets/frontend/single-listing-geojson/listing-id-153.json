@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.526295",
+                    "16.363743"
+                ]
+            },
+            "properties": {
+                "id": "b5561c438ac0e9b295007924eb360a5d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/carry-on-trip-book-flight-tickets-holiday-packages-rail-amp-bus-tickets-online/153",
+                "url": "carryontrip.com",
+                "name": "CARRY ON TRIP : Book Flight tickets, Holiday packages, Rail &amp; Bus tickets Online",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9819791166",
+                "address": "Shop No 4, Plot B108 ,Balkrishna Apartments Sector 23, Near South Indian Bank Seawoods railway Station East, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

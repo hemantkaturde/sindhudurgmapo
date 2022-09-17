@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.585805",
+                    "16.35926"
+                ]
+            },
+            "properties": {
+                "id": "456887a375fa91af2d1eafbab8bc9af5",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/golwan-gram-panchayat/3580",
+                "url": "",
+                "name": "Golwan Gram Panchayat",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "4HPP+C9P, Golwan, Maharashtra 416604rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

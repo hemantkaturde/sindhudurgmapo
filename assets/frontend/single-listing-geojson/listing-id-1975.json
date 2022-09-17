@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.556874",
+                    "16.350276"
+                ]
+            },
+            "properties": {
+                "id": "2a550a5b2d5caa596e7e77ee420f5005",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/mode-event-planners-pvt-ltd/1975",
+                "url": "",
+                "name": "MODE Event Planners Pvt Ltd",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9822980756",
+                "address": "304, Citi Center , Patto, Panaji, Goa 403001rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

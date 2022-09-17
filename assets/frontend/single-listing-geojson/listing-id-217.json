@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.531271",
+                    "16.361437"
+                ]
+            },
+            "properties": {
+                "id": "627aff57f15fb32a780b6d5236433bdd",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/mi-tour-amp-travels-navi-mumbai/217",
+                "url": "g.co",
+                "name": "MI TOUR &amp; TRAVELS NAVI MUMBAI",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Laxman Palace, Sector 5, Sanpada, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

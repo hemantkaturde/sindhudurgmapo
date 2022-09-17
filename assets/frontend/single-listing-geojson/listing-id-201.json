@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.518997",
+                    "16.362865"
+                ]
+            },
+            "properties": {
+                "id": "9aee1fa5a529fa5e5b84c83681227f84",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/pragati-tours-amp-travels/201",
+                "url": "",
+                "name": "Pragati Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Kumar Corner, Jambhul Marg, Nerul East, Sector 21, Nerul, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

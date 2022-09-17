@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.563388",
+                    "16.353899"
+                ]
+            },
+            "properties": {
+                "id": "f3d752ed64464cfb6a27b9bfe3dc1691",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/7-events/1971",
+                "url": "",
+                "name": "7 Events",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "7741028573",
+                "address": "1209, Madel, Madel Road, Chorao, Goa 403102rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

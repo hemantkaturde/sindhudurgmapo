@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.533673",
+                    "16.355507"
+                ]
+            },
+            "properties": {
+                "id": "95039f9369d70e42b5ace2e6fb01aae1",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/jai-bhawani-travels-amp-cargo/219",
+                "url": "jaibhawanibus.net",
+                "name": "Jai Bhawani Travels &amp; Cargo",
+                "category": "general",
+                "email": "jbt9324121177@gmail.com,",
+                "stars": "0.0",
+                "phone": "9320553011",
+                "address": "Bldg,No-2,Phase, 130 Central Facility, 2, Sector 19 Vashi Rd, Vashi, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

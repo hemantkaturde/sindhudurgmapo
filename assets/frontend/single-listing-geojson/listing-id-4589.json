@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.600353",
+                    "16.34764"
+                ]
+            },
+            "properties": {
+                "id": "549db136d679e59e721115f8bf466afa",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/mauli-medical-store/4589",
+                "url": "",
+                "name": "Mauli Medical Store",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9623369753",
+                "address": "Shop No 15, Dhargal, Goa 403512rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

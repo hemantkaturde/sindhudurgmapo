@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.549255",
+                    "16.359499"
+                ]
+            },
+            "properties": {
+                "id": "10c262e06843293695e6164fc9bad221",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/hotel-konkan-sindhu/2437",
+                "url": "",
+                "name": "Hotel Konkan Sindhu",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "near Don Basco school, Police Line, Oros, Maharashtra 416534rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

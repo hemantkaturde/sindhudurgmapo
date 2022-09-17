@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.532081",
+                    "16.35645"
+                ]
+            },
+            "properties": {
+                "id": "03bc315a93962474076e6cde31b0b4c0",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sai-shreya-tours-and-travels/95",
+                "url": "",
+                "name": "Sai shreya Tours and travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Devad, New Panvel East, Panvel, Vichumbe, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

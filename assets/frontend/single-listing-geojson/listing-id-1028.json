@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.587702",
+                    "16.360449"
+                ]
+            },
+            "properties": {
+                "id": "66c9fc04300a954619eec36c3b482906",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/jeevanrekha-health-care-services-private-limited/1028",
+                "url": "",
+                "name": "Jeevanrekha Health Care Services Private Limited",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8322361094",
+                "address": "Adhar Hospital, Near Annapurna Hotel, Parvati Nagar, Sarvan, Bicholim, Bicholim, Goa, 403504rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.551903",
+                    "16.358496"
+                ]
+            },
+            "properties": {
+                "id": "5a89760a219e20690e3e260117da36b8",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/maha-e-seva-kendra-kadawal/2921",
+                "url": "",
+                "name": "Maha-E-Seva Kendra Kadawal",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9420206091",
+                "address": "Maha-E-Seva Kendra Kadawal,Bajarwadi, near Mahapurush Mandir, Kadawal, Maharashtra 416521rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

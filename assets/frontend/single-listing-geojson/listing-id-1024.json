@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.541508",
+                    "16.354849"
+                ]
+            },
+            "properties": {
+                "id": "41b068f9f184a4516b8b0e27e1cd1716",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/arogya-clinic/1024",
+                "url": "",
+                "name": "Arogya Clinic",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Nirwade, Sindhudurg, SH-123, Mumbai Goa Highway, Sindhudurga, Sindhudurga, Maharashtra 416510rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

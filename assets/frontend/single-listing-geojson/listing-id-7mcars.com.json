@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.542424",
+                    "16.351225"
+                ]
+            },
+            "properties": {
+                "id": "b638c6f8371c9b21e2cc1d38a443c83d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sarita-hospital-dr-k-n-borphalkar/7",
+                "url": "healthplix.com",
+                "name": "Sarita Hospital ( Dr. K. N. Borphalkar)",
+                "category": "general",
+                "email": "support@healthplix.com,",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Jamsande,Tal. Devgad, Dist, Jamsande, Maharashtra 416612rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

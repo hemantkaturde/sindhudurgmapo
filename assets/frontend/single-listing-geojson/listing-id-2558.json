@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536303",
+                    "16.360428"
+                ]
+            },
+            "properties": {
+                "id": "f06629d4603f81881db636b2046fbafe",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/anand-interiors-kudal/2558",
+                "url": "",
+                "name": "Anand Interiors ,kudal",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "2M4P+XWF, Laxmi Wadi, Rawoolwadi, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

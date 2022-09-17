@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.587902",
+                    "16.350934"
+                ]
+            },
+            "properties": {
+                "id": "35723577bf71737fb032b0956bf39852",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/parab-kuldev-temple/1541",
+                "url": "",
+                "name": "Parab Kuldev Temple",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Khalacha wada, Madhlawada, Menkurem, Goa 403513rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

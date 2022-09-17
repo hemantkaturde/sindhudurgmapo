@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.520019",
+                    "16.345633"
+                ]
+            },
+            "properties": {
+                "id": "d405132ddc1fde9381c9c5dd0816b2ca",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/classic-photo-labs/1352",
+                "url": "",
+                "name": "Classic Photo Labs",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Caetano de Albuquerque Rd, Near Municipal Market, Panaji, Goa 403001rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

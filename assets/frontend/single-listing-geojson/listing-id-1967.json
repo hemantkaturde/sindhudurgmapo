@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.601778",
+                    "16.352252"
+                ]
+            },
+            "properties": {
+                "id": "feb21356bbffeb72ccd4f1a7a9e29b98",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/creative-touch-events-suprise-planners-goa/1967",
+                "url": "",
+                "name": "Creative Touch Events - Suprise Planners Goa",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "near Sateri Temple, Ghateshwar Nagar, Khorlim, Mapusa, Goa 403507rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

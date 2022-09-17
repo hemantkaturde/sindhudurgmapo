@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.5311",
+                    "16.359625"
+                ]
+            },
+            "properties": {
+                "id": "5be556848f0a663d22797175249966ba",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/abhishek-tours-amp-travels/275",
+                "url": "",
+                "name": "Abhishek Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9831552425",
+                "address": "G-187C, Moongipa Arcade ,Ashtavinayak CHS, D.N.Nagar, Andheri West, Mumbai, Maharashtra 400053rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

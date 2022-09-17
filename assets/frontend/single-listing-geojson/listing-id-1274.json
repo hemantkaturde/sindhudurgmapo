@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.585502",
+                    "16.362569"
+                ]
+            },
+            "properties": {
+                "id": "974990fa36d0ce27ce8ecbe8e5eca521",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/metropolis-healthcare-ltd/1274",
+                "url": "labs.metropolisindia.com",
+                "name": "Metropolis Healthcare Ltd",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9321272715",
+                "address": "COVID-19 info Â· metropolisindia.comrn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

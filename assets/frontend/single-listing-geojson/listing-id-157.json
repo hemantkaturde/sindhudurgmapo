@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.547571",
+                    "16.360449"
+                ]
+            },
+            "properties": {
+                "id": "35118b9241fc559d74fe2f439090a8c7",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/travel-agency-in-cbd-belapur/157",
+                "url": "",
+                "name": "Travel Agency in cbd belapur",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "093231 27456",
+                "address": "093231 27456rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

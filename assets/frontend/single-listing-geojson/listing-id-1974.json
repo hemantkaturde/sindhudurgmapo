@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.538531",
+                    "16.363829"
+                ]
+            },
+            "properties": {
+                "id": "572a411a19029c226fc88a7c6e6ed8de",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/crafty-sheen/1974",
+                "url": "",
+                "name": "Crafty Sheen",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "7719097834",
+                "address": "Fernandez Vaddo, Siolim, Goa 403517rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.533159",
+                    "16.357978"
+                ]
+            },
+            "properties": {
+                "id": "21c15f26e4be291165434b573e5cc703",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/bhagyalaxmi-holidays/209",
+                "url": "business.site",
+                "name": "BHAGYALAXMI HOLIDAYS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "SHOP NO-79, D-WING, VASHI PLAZA VASHI PLAZA, Vashi, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

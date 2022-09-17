@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.569328",
+                    "16.351554"
+                ]
+            },
+            "properties": {
+                "id": "0c7f13ba1f58125b5d6b1f9998206911",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/hospital-sawant/1026",
+                "url": "",
+                "name": "Hospital Sawant",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "PPPC+3GR, Deul Wada, Aronda, Maharashtra 416513rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

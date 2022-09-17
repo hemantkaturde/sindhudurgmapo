@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537276",
+                    "16.349083"
+                ]
+            },
+            "properties": {
+                "id": "a0698a50213c4337f89efd9eb9d3c1ce",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/jyotirling-tours-amp-travels/192",
+                "url": "",
+                "name": "Jyotirling Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Ex Service Man Center, Shop No -B1,Sector -1,Shirawane, Navimumbai, Nerul, Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

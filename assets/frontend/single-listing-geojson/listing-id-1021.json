@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.592511",
+                    "16.359955"
+                ]
+            },
+            "properties": {
+                "id": "e54f5a67878c04c24c63b547ae7dc6ff",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/our-lady-of-grace-maternity-clinic/1021",
+                "url": "",
+                "name": "Our Lady Of Grace Maternity Clinic",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8322362042",
+                "address": "HWQX+X3X, Bicholim, Goa 403504rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

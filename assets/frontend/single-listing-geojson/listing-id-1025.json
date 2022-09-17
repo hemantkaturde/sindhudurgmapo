@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.576025",
+                    "16.358802"
+                ]
+            },
+            "properties": {
+                "id": "027ba88b9e93d3ce6f40a48ce50958d9",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/trimurti-clinic/1025",
+                "url": "",
+                "name": "Trimurti Clinic",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Amboli Road, Nimgajgawadi, Banda, Maharashtra 416511rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

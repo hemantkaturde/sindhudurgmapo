@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.54076",
+                    "16.357514"
+                ]
+            },
+            "properties": {
+                "id": "ea82503ec216ec6cc36164d9a7ee5747",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/ayurcure-healthcare/2561",
+                "url": "",
+                "name": "AYURCURE HEALTHCARE",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9422076588",
+                "address": "Shop No.4 Audumber Plaza, Kudal Malvan Rd, opp. M. Sons, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

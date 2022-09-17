@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.528579",
+                    "16.35503"
+                ]
+            },
+            "properties": {
+                "id": "f29609eb6125e87d06c1e0250a40a849",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/reynold-events-amp-promotions/727",
+                "url": "reynoldevents.com",
+                "name": "Reynold Events &amp; Promotions",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9637093407",
+                "address": "Kirbhat, Nuvem, Goa 403604rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

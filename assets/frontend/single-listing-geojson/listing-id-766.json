@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.53762",
+                    "16.355013"
+                ]
+            },
+            "properties": {
+                "id": "29dea46ac005811fbe792fd7a7d3bc95",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/riniging-bells-event-planner/766",
+                "url": "ringingbells.in",
+                "name": "Riniging Bells Event Planner",
+                "category": "general",
+                "email": "no-reply@domain.com, jljinfosys@gmail.com",
+                "stars": "0.0",
+                "phone": "8308837353",
+                "address": "FRJ6+FP9, Miramar, Panaji, Goa 403001rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

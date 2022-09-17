@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.572131",
+                    "16.36209"
+                ]
+            },
+            "properties": {
+                "id": "122c71a19b0dd8e310e688ac569fb767",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/krishna-steel-amp-ceramic/2408",
+                "url": "",
+                "name": "Krishna steel &amp; ceramic",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Mumbai Goa Highway, Sangirdewadi Rd, opp. primary school, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

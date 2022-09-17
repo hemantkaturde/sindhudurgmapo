@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.549974",
+                    "16.35106"
+                ]
+            },
+            "properties": {
+                "id": "7803211f078fd069d9229a86c70dd5de",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/fly4wonders-travels-private-limited/34",
+                "url": "fly4wonders.com",
+                "name": "FLY4WONDERS TRAVELS PRIVATE LIMITED",
+                "category": "general",
+                "email": "info@fly4wonders.com",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Plot 27, Sai Prasad Arcade, Office no 22, Sector 7, Kamothe, Navi Mumbai, Maharashtra 410209rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.584474",
+                    "16.36051"
+                ]
+            },
+            "properties": {
+                "id": "7f7e5fcea957fee7d32e87f8f38b7710",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/pepermint-hospitality/2050",
+                "url": "",
+                "name": "Pepermint Hospitality",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8669199075",
+                "address": "Joveca Abode, Colcondem Verla, Parra, Goa 403510rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

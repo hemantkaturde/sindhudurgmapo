@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.603791",
+                    "16.353899"
+                ]
+            },
+            "properties": {
+                "id": "791deb687b912270b7e7914c3372fb07",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/my-dream-destination/1966",
+                "url": "mydreamdestinationweddings.com",
+                "name": "My Dream Destination",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9923015151",
+                "address": "SS Plaza III, Office No 2, 3rd Floor, above Cotton King Showroom, Morod, Mapusa, Goa 403507rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.52177",
+                    "16.356634"
+                ]
+            },
+            "properties": {
+                "id": "3c5f625271bce3517ae78c5df9a3992c",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/plan-on-perfection-goa-india/765",
+                "url": "planonperfection.in",
+                "name": "Plan On Perfection Goa India",
+                "category": "general",
+                "email": "contact@planonperfection.in",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Vancio Vaddo, Mapusa, Goa 403507rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

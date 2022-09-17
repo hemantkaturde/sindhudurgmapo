@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.5269",
+                    "16.357335"
+                ]
+            },
+            "properties": {
+                "id": "dcd65cee3bca3316486272b4f1260d75",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/travellers-world/216",
+                "url": "travellersworld.co.in",
+                "name": "Travellers World",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9867171418",
+                "address": "16/A, Arenja Arcade, Sector 17, Vashi, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

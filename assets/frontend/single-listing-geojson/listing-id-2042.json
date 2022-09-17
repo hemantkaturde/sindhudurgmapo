@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.551145",
+                    "16.34871"
+                ]
+            },
+            "properties": {
+                "id": "94bdf75b28f037fb4a92bdb8b20f4e8b",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/kinara-resort/2042",
+                "url": "",
+                "name": "Kinara Resort",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9665514055",
+                "address": "Malvan-Tarkarli Road, Vayari, Bhutnath, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

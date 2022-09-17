@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.53659",
+                    "16.360778"
+                ]
+            },
+            "properties": {
+                "id": "7e7d6fa99ec59ffdd2de31878e729200",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/aarvi-tours-amp-travels/77",
+                "url": "",
+                "name": "Aarvi Tours &amp;Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Sector 20, Kamothe, Panvel, Navi Mumbai, Maharashtra 410209rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

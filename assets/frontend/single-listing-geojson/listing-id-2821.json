@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536474",
+                    "16.363453"
+                ]
+            },
+            "properties": {
+                "id": "0ece513911ce608ba8fe365f66773c26",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/godwill-planners/2821",
+                "url": "Identifies as women-owned",
+                "name": "Godwill Planners",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8192906630",
+                "address": "C-197, N Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

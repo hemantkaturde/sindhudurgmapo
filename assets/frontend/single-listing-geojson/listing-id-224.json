@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.554947",
+                    "16.351719"
+                ]
+            },
+            "properties": {
+                "id": "4c248404a8530d9afcd8293991c73d42",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dev-tours-and-travel/224",
+                "url": "",
+                "name": "DEV TOURS AND TRAVEL",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Shop no 1 Amar Niwas, Sector 10, Navi Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.534417",
+                    "16.360158"
+                ]
+            },
+            "properties": {
+                "id": "684d9fa98f9c75887cfd889f6e89bea7",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shirke-wadi-padave/2300",
+                "url": "",
+                "name": "Shirke wadi, Padave",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "4MCF+FHV, Ranbambuli, Maharashtra 416534rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

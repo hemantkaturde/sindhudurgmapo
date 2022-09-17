@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.560097",
+                    "16.349248"
+                ]
+            },
+            "properties": {
+                "id": "74411153704654e5f3cad6b2469bdf1c",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/southern-travels-and-carriers/273",
+                "url": "mangoholidays.in",
+                "name": "Southern Travels And Carriers",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2224335500",
+                "address": "Southern Travels And CarriersrnShop no:C-1, Mafco Market, Sector 18, Navi Mumbai, Thane, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

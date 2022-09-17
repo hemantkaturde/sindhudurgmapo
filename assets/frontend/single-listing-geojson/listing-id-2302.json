@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.555784",
+                    "16.35184"
+                ]
+            },
+            "properties": {
+                "id": "732bc54390d25fead2767cf73772d15c",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/the-kombe-039-s-house-lake-view/2302",
+                "url": "",
+                "name": "The kombe&#039;s House..lake view",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9167769672",
+                "address": "Pednekar wadi stop, Tarkarli Devbag Rd, Devbag, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

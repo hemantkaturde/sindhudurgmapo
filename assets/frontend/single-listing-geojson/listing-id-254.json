@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.565669",
+                    "16.365926"
+                ]
+            },
+            "properties": {
+                "id": "5718b4033d3977cb618a2a2a650e1e2a",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/kesar-tour-amp-travel/254",
+                "url": "m.facebook.com",
+                "name": "Kesar Tour &amp; Travel",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9892068585",
+                "address": "Jn2-81/A.1,, Sector 9, Vashi, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.568632",
+                    "16.363872"
+                ]
+            },
+            "properties": {
+                "id": "ba5bf71ce0730eedb116e24138ae734d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sscc-online-services/3526",
+                "url": "",
+                "name": "SSCC Online Services",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "House No. 23, Near Hotel Abhilasha Jay Ganesh Mandir, Road, Dhuriwada, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

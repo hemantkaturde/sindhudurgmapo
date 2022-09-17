@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.58286",
+                    "16.340353"
+                ]
+            },
+            "properties": {
+                "id": "b4839f60cb57fa6d8b9547004d1d5aae",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/hotel/pioneer-academy/5759",
+                "url": "www.pioneeracademypace.com",
+                "name": "Pioneer academy",
+                "category": "hotel",
+                "email": "pioneeracademypace.@gmail.com",
+                "stars": "0.0",
+                "phone": "7037015601",
+                "address": "erfer r34r23r234r23r23r r r32r23r",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

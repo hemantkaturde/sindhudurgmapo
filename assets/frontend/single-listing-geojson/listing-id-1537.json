@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.583617",
+                    "16.35089"
+                ]
+            },
+            "properties": {
+                "id": "2667e022dce3c0ee243c6c9b0ba1c6ee",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-nagnath-temple-terwan-medhe-dodamarg/1537",
+                "url": "",
+                "name": "Shree Nagnath Temple, Terwan-Medhe, Dodamarg",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "SH130, Maharashtra 416512rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

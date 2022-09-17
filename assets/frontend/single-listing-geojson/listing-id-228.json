@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.570748",
+                    "16.371813"
+                ]
+            },
+            "properties": {
+                "id": "fdd364b23e7632cd9990e4f58cec2851",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sana-tours-amp-travels-sana-engineering-services/228",
+                "url": "",
+                "name": "Sana Tours &amp; Travels, Sana Engineering Services",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "Shop No. 05 Matrupitru Sadan, Building, No. 01, Nerul Village Rd, Nerul (W, Sector 20, Navi Mumbai, Maharashtra 400706",
+                "address": "Sana Tours &amp; Travels, Sana Engineering Servicesrn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

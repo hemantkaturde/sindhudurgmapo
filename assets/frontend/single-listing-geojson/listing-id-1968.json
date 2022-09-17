@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.607533",
+                    "16.353735"
+                ]
+            },
+            "properties": {
+                "id": "52a010313209b95247df6f9bca0ea761",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/hunting-buck-event-planners-belgaum/1968",
+                "url": "",
+                "name": "Hunting buck event planners belgaum",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "VGP6+WQ8, Sangameshwar Nagar, Sadashiv Nagar, Belagavi, Karnataka 590010rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

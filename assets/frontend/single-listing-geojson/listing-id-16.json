@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.556528",
+                    "16.35825"
+                ]
+            },
+            "properties": {
+                "id": "442d08d1674d1bb43d1e28585503ab92",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/nab-eye-hospital-devgad/16",
+                "url": "",
+                "name": "NAB EYE HOSPITAL DEVGAD",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Opp State Bank Of India Devgad Medical Foundation Campus Devgad Nipani State Highway Devgad Tal, Dist, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

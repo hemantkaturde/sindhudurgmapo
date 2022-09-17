@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.541733",
+                    "16.366752"
+                ]
+            },
+            "properties": {
+                "id": "a83a588c521409ffbaac9c727e3b8fa7",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/anand-decorators-nigave/4737",
+                "url": "",
+                "name": "Anand Decorators nigave",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Hanuman Mandir near Nigave khalasa, tal, karveer, Maharashtra 416207rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.524236",
+                    "16.365061"
+                ]
+            },
+            "properties": {
+                "id": "99e0385e9f5bd6dd1f5cc6c60c58ef86",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/7x-weddings-by-dev-raj/770",
+                "url": "7xweddings.com",
+                "name": "7X Weddings By Dev-Raj",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9998180008",
+                "address": "205, Safal Pegasus, Prahalad Nagar, Prahlad Nagar, Ahmedabad, Gujarat 380015rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

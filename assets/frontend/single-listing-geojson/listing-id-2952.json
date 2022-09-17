@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.526486",
+                    "16.356716"
+                ]
+            },
+            "properties": {
+                "id": "6b81d07508c5b8bc653306773760f9a6",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/panchayat-samiti-vengurla/2952",
+                "url": "",
+                "name": "Panchayat Samiti Vengurla",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2366262052",
+                "address": "VJ6J+58C, Vengurla, Maharashtra 416516rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

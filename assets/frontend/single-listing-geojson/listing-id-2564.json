@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.53476",
+                    "16.359425"
+                ]
+            },
+            "properties": {
+                "id": "0d6d9f74568f93bd531f9a79f82840b8",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dr-sachin-govenkar-clinic/2564",
+                "url": "",
+                "name": "Dr Sachin Govenkar Clinic",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "JQG8+CG5, Kudal, Siolim, Goa 403519rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.515309",
+                    "16.354025"
+                ]
+            },
+            "properties": {
+                "id": "9c5498f9c91e3546318aa4e6b0fe0b66",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/makemytrip-india-private-limited/258",
+                "url": "makemytrip.com",
+                "name": "MakeMyTrip India Private Limited",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "7303093249",
+                "address": "Haware Fantasia Business Park, G4/Ground Floor,Plot No- 47, Sector 30A, Vashi, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

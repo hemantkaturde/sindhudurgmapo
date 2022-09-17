@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.533045",
+                    "16.361267"
+                ]
+            },
+            "properties": {
+                "id": "9541a23f1c83c9a910d19a3fd9906321",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/breakingboundriestrips/2306",
+                "url": "",
+                "name": "BREAKINGBOUNDRIESTRIPS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "7065501138",
+                "address": "661, Lore-1, Mumbai, Maharashtra 416601rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

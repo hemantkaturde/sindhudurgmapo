@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.548474",
+                    "16.357029"
+                ]
+            },
+            "properties": {
+                "id": "00abe490bdfd889b104f8ef941947b1c",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/mars-event-planners/2048",
+                "url": "marseventplanners.com",
+                "name": "Mars Event Planners",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8309728086",
+                "address": "6-3-596/95/A, Anand nagar Irrum Manzil Near Anugraha Appartments, opposite Beam office, Hyderabad, Telangana 500004rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

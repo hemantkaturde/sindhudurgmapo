@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.527019",
+                    "16.355614"
+                ]
+            },
+            "properties": {
+                "id": "fbc6045ef7abdbf061b9069dcc2b0bad",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/datta-krupa-travels/272",
+                "url": "dattakrupatravels.com",
+                "name": "Datta Krupa Travels",
+                "category": "general",
+                "email": "info@dattakrupatravels.com,",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Mumbai Hwy, Vashi Flyover, Sector 17, Vashi, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

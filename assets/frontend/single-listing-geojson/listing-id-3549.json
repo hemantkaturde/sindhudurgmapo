@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.532056",
+                    "16.354393"
+                ]
+            },
+            "properties": {
+                "id": "5946f67cb5cc122c66e2c12faf10ab8e",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/grampanchyant-sukalwad/3549",
+                "url": "",
+                "name": "Grampanchyant Sukalwad",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "4M69+WGJ, Sukalwad, Maharashtra 416534rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

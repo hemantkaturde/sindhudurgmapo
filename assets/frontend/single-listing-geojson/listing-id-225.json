@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.520286",
+                    "16.354519"
+                ]
+            },
+            "properties": {
+                "id": "346287af26ebca1c46f4b41812017637",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/veena-world-nikhils-holidays/225",
+                "url": "veenaworld.com",
+                "name": "Veena World - Nikhils Holidays",
+                "category": "general",
+                "email": "font-awesome@4.7.0, travel@veenaworld.com, nishad@veenaworld.com, kshama@veenaworld.com,",
+                "stars": "0.0",
+                "phone": "9820963538",
+                "address": "Shop No. 20, Millennium Park CHSL, near Shivam Eye Foundation / RBL Bank, Seawoods East, Sector 25, Nerul, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

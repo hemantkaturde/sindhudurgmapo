@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.514223",
+                    "16.362272"
+                ]
+            },
+            "properties": {
+                "id": "26b5acdfb21f2f1d3cb15c564e144ebb",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/vighnaharta-mobile-shopee/3850",
+                "url": "",
+                "name": "VIGHNAHARTA MOBILE SHOPEE",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9405086809",
+                "address": "Shop No 1 Near Hanuman Mandir Katta Main Bazarpeth Near Vitthal Mandir Katta Malvan Katta, Maharashtra 416604rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

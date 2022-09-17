@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.518318",
+                    "16.362584"
+                ]
+            },
+            "properties": {
+                "id": "47b7eb0af4a5e3f33127331054777b3a",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/swastik-mobiles/3837",
+                "url": "",
+                "name": "SWASTIK MOBILES",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9421189889",
+                "address": "Shop No 1, near Malvan, Somwar Peth Malvan, Bazarpeth, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

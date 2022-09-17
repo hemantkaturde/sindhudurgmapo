@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.556494",
+                    "16.352213"
+                ]
+            },
+            "properties": {
+                "id": "5837b96b95efcb4ec44c557ccc9cf45c",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/piyush-tours-travels/195",
+                "url": "",
+                "name": "Piyush Tours Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Om shrusthi, Sankalp CHS, Sanpada Rd, Sector 4, Sanpada, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

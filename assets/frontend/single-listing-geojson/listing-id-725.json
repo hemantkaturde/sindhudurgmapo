@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537277",
+                    "16.354684"
+                ]
+            },
+            "properties": {
+                "id": "6db11fa4a112fb59fa5d8f0fd8513b4d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/severina-gardens/725",
+                "url": "",
+                "name": "Severina gardens",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8888700444",
+                "address": "1/103 Severina Gardens, Xelpem, Duler, Mapusa, Goa 403507rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

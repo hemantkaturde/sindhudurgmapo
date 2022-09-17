@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.532472",
+                    "16.362919"
+                ]
+            },
+            "properties": {
+                "id": "9b1f0b758cc62008189f2a173aa0c79d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/matoshree-tours-and-travels/259",
+                "url": "",
+                "name": "MATOSHREE TOURS AND TRAVELS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8369380964",
+                "address": "Shop No 12, Sector 30A, Sanpada, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

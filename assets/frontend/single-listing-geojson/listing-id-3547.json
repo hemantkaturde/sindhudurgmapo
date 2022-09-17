@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.530854",
+                    "16.35324"
+                ]
+            },
+            "properties": {
+                "id": "1fa9ee2c37911379b8aa346f9fea8cc6",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/post-office-hadi/3547",
+                "url": "",
+                "name": "Post Office Hadi",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Sindhudurg, SH-04, Aachare Vengurla Road, Sindhudurga, Sindhudurga, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

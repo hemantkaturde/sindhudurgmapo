@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.545217",
+                    "16.361147"
+                ]
+            },
+            "properties": {
+                "id": "63095660643a377aeb72590c125d8e74",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/yogesh-stores/3069",
+                "url": "",
+                "name": "Yogesh Stores",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9049084385",
+                "address": "Shop No, 1, Mumbai - Goa Hwy, near by New St Depo, Rawoolwadi, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

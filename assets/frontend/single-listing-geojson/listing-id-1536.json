@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.597666",
+                    "16.351054"
+                ]
+            },
+            "properties": {
+                "id": "d9b168cc54f659af2fa1a9eb175b98e0",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/vasdev-temple/1536",
+                "url": "",
+                "name": "Vasdev Temple",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "QV4H+5PP, Kholbagwadi, Netarde, Goa 403512rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

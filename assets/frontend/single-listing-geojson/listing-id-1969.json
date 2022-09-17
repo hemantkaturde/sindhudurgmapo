@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.58276",
+                    "16.361298"
+                ]
+            },
+            "properties": {
+                "id": "3298d4c9cc08fee4733b0e3f4329cc86",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/event-basket/1969",
+                "url": "eventbasket.in",
+                "name": "Event Basket",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9834690040",
+                "address": "Hno:24 Antil Peth, Bicholim, Goa 403504rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

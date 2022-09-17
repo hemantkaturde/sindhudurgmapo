@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.538306",
+                    "16.361108"
+                ]
+            },
+            "properties": {
+                "id": "3baa7103963a157db69221e872b595b1",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/yashtoursandtravels/103",
+                "url": "yashtoursandtravels.com",
+                "name": "yashtoursandtravels",
+                "category": "general",
+                "email": "info@supports24x7.com, info@yashtourstravels.com,",
+                "stars": "0.0",
+                "phone": "",
+                "address": "sector 1 karanjade navi mumbai, Panvel, navimumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

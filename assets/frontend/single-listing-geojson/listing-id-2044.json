@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.539903",
+                    "16.355457"
+                ]
+            },
+            "properties": {
+                "id": "6070604e57ed9ec191ff0c0802f333c7",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/starfish-events-goa/2044",
+                "url": "instagram.com",
+                "name": "StarFish Events Goa",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9860471232",
+                "address": "Carrem Main St, Carrem, Aradi Socorro, Goa 403203rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

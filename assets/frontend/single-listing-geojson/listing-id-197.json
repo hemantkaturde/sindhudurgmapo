@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.516923",
+                    "16.37709"
+                ]
+            },
+            "properties": {
+                "id": "b57eb53e18b269bbd3a3a9a671b10cce",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/korners-of-india-best-jungle-safari-in-maharashtra-best-tiger-safari-in-india-pench-jungle-safari-booking-dudhwa-national-park-ranthambore-safari-booking-wildlife-safari-in-india-tadoba-jungle-safari-booking/197",
+                "url": "kornersofindia.in",
+                "name": "Korners of India - Best Jungle Safari in Maharashtra | best tiger safari in India | Pench Jungle Safari Booking | Dudhwa National Park | Ranthambore safari booking | Wildlife Safari in India | Tadoba Jungle Safari booking",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9167475180",
+                "address": "Progressive Cottage, Sector 11, Kopar Khairane, Navi Mumbai, Maharashtra 400709rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

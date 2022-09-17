@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.532531",
+                    "16.3595"
+                ]
+            },
+            "properties": {
+                "id": "2f9e197150fc69a209b56f5c954cbc5b",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-rameshwar-life-care-clinic/2555",
+                "url": "",
+                "name": "SHREE RAMESHWAR LIFE CARE CLINIC",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Kasal - Malvan Rd, Malvan, Maharashtra 416604rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.531958",
+                    "16.35979"
+                ]
+            },
+            "properties": {
+                "id": "01c3a437b66db35ccebd08a3bf6a5318",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/vishakha-travels/96",
+                "url": "",
+                "name": "vishakha travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9819086543",
+                "address": "304/C,Shree Sankul Plot-A7,Sector-7,Khanda Colony, Khandeshwar, Navi Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

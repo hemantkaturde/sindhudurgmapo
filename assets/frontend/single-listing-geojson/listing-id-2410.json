@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.534931",
+                    "16.357016"
+                ]
+            },
+            "properties": {
+                "id": "564a06cf866a173dc89eb09dad196cb7",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/rachana-builders-and-developer/2410",
+                "url": "rachanabuilders.in",
+                "name": "Rachana Builders and Developer",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9422064000",
+                "address": "Kudal-Vengurla Rd, Kumbharwadi, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

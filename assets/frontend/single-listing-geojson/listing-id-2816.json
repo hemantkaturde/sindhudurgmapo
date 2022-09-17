@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.544703",
+                    "16.354229"
+                ]
+            },
+            "properties": {
+                "id": "c090ea0d3ee586cc88d370342b35d532",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/raw-events-goa/2816",
+                "url": "rawevents.in",
+                "name": "RAW Events Goa",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9049051717",
+                "address": "Tarchibhat, Siolim, Goa 403517rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

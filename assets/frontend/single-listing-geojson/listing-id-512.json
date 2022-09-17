@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.538649",
+                    "16.361437"
+                ]
+            },
+            "properties": {
+                "id": "70738ddebe255d415dbf8c87ae5c8ec9",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dirghayu-health-care-centre-jamsande/512",
+                "url": "",
+                "name": "DIRGHAYU HEALTH CARE CENTRE JAMSANDE",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Jamsande Devgad, Devgad, Maharashtra 416612rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

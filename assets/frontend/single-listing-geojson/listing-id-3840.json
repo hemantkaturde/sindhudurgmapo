@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.522827",
+                    "16.35867"
+                ]
+            },
+            "properties": {
+                "id": "433eeba6f1d4e6caeccecab003210992",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/vakratund-mobile-repairing/3840",
+                "url": "",
+                "name": "VAKRATUND MOBILE REPAIRING",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9960036452",
+                "address": "Shop No.1 Main Road Malavan, near by Bharad Naka, beside Orasakar Bakery, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

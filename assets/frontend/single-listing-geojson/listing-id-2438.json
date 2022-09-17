@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.574874",
+                    "16.355052"
+                ]
+            },
+            "properties": {
+                "id": "c6290aaa9e826ef8f7fcef57456aaa1c",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/new-gurkrupa-medical-stores/2438",
+                "url": "",
+                "name": "NEW GURKRUPA MEDICAL STORES",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9284527252",
+                "address": "Laxmi Narsingh Tower Main Road, Jijamata Chowk, near by Post Office, Shivaji Nagar, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

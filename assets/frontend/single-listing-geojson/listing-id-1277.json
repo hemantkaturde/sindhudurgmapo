@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.58276",
+                    "16.358135"
+                ]
+            },
+            "properties": {
+                "id": "6ef1c1916ae10dff262798c8c0a3625a",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/swayambhu-clinical-lab/1277",
+                "url": "",
+                "name": "SWAYAMBHU CLINICAL LAB",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2362221549",
+                "address": "Unnamed Road, Rawoolwadi, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

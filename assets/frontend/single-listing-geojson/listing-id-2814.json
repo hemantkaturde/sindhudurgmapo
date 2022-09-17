@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.538531",
+                    "16.35992"
+                ]
+            },
+            "properties": {
+                "id": "e6d3a5afd0c239da3be52729447eaafb",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/kudal-deshkar-bhavan-hall/2814",
+                "url": "",
+                "name": "Kudal Deshkar Bhavan Hall",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9869308338",
+                "address": "Rajaji Path road, Gali No 1, opp. Swaminarayan Temple, Ramnagar, Dombivli, Maharashtra 421201rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

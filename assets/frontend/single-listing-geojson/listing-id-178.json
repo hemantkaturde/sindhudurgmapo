@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.538478",
+                    "16.363084"
+                ]
+            },
+            "properties": {
+                "id": "9300692faf9b8c1397a087c273c61346",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/lpo-holidays/178",
+                "url": "",
+                "name": "LPO Holidays",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8828311555",
+                "address": "LPO Holidays, 201, 2nd Floor, Plot No.9, Above Blue Dart, next to ICICI Bank Turbhe-Sector 24, Navi Mumbai-Branch &amp; ATM, Sector 24, Sanpada, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

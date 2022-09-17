@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.586874",
+                    "16.358511"
+                ]
+            },
+            "properties": {
+                "id": "9aa018f837e1685593ee1d2646e0f6a5",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/wedding-master-of-ceremonies-anchor/1973",
+                "url": "",
+                "name": "Wedding Master Of Ceremonies /Anchor",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9561467167",
+                "address": "house number 77 Goa zoidar waddo nachinola, Goa, 403508rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

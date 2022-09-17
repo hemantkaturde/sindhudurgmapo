@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.578988",
+                    "16.358132"
+                ]
+            },
+            "properties": {
+                "id": "8cf652b296fb19839516764fbb686105",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dhanvantarri-homoeopathy-clinic/3075",
+                "url": "sites.google.com",
+                "name": "DHANVANTARRI HOMOEOPATHY CLINIC",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9423398229",
+                "address": "Shop No 1 DNYANESHWARI Appartment Before Law College Ganesh Nagar, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

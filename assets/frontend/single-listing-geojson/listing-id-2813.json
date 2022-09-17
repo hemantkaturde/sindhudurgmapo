@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.530646",
+                    "16.358509"
+                ]
+            },
+            "properties": {
+                "id": "a2787745d1e8c9fc5b76cd4bffd28f63",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shagun-wedding-amp-event-planner/2813",
+                "url": "",
+                "name": "Shagun Wedding &amp; Event Planner",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8102612345",
+                "address": "Ranchi Patna Rd, Jhumri Telaiya, Jharkhand 825409rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

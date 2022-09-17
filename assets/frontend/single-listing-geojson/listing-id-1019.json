@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.586157",
+                    "16.36029"
+                ]
+            },
+            "properties": {
+                "id": "bdb2f0a9e3a7ee2d372d328fda8cceeb",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/health-centre-pirna/1019",
+                "url": "",
+                "name": "Health Centre Pirna",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "MV5J+MF7, Dessaiwada, Pirna, Goa 403513rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.579103",
+                    "16.353892"
+                ]
+            },
+            "properties": {
+                "id": "4f11ae4a165a47bd4397b48d18a74978",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dr-khanolkar/1792",
+                "url": "",
+                "name": "Dr.khanolkar",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2363272105",
+                "address": "WR5C+88X, Sawantwadi, Maharashtra 416510rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

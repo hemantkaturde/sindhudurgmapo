@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.541222",
+                    "16.356732"
+                ]
+            },
+            "properties": {
+                "id": "e9aef180c26a9e0a1f3ac7a82ad88e1e",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/ranbambuli-grampanchayat-office/3545",
+                "url": "",
+                "name": "Ranbambuli ,Grampanchayat Office",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "4MCW+F7M, Police Line, Oros, Maharashtra 416534rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

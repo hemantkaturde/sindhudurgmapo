@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.53129",
+                    "16.385172"
+                ]
+            },
+            "properties": {
+                "id": "26bf0131d425cb3004967ab10c1f833b",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dr-prabhakar-posam/61",
+                "url": "",
+                "name": "Dr Prabhakar Posam",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9637820035",
+                "address": "F8WX+MP5, Girye, Maharashtra 416806rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

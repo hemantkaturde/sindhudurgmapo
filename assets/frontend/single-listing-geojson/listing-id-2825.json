@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.553807",
+                    "16.370091"
+                ]
+            },
+            "properties": {
+                "id": "0368bfc0b1ae556b337e5eb63d6af869",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/executive-events/2825",
+                "url": "executiveevents.in",
+                "name": "Executive Events",
+                "category": "general",
+                "email": "raju.executive@gmail.com, info@executiveevents.in,",
+                "stars": "0.0",
+                "phone": "9947058123",
+                "address": "#kv-8, 5th cross road, Panampilly Nagar, Ernakulam, Kerala 682036rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

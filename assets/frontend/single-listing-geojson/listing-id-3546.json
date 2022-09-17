@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536006",
+                    "16.349287"
+                ]
+            },
+            "properties": {
+                "id": "a73d00a4ccf892c6d41f27c8192e21ba",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/post-office-pinguli/3546",
+                "url": "",
+                "name": "Post office pinguli",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "XMQM+R7, MIDC Area, Kudal, Maharashtra 416528rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537791",
+                    "16.35979"
+                ]
+            },
+            "properties": {
+                "id": "d4ed13cc761c292da395063b099932b6",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/trinity-air-travel-amp-tours-pvt-ltd/122",
+                "url": "trinityairtravel.com",
+                "name": "Trinity Air Travel &amp; Tours Pvt. Ltd",
+                "category": "general",
+                "email": "holidays@trinityairtravel.com,",
+                "stars": "0.0",
+                "phone": "8108030161",
+                "address": "31- ASHIANA GROUND FLOOR, opp. MC DONALD&#039;S, near ABHYUDAYA BANK, Sector 17, Vashi, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.522296",
+                    "16.359977"
+                ]
+            },
+            "properties": {
+                "id": "7a9058a227ce48f261de34b35184cdeb",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/doctor-gaytonde-hospital/4419",
+                "url": "",
+                "name": "Doctor Gaytonde hospital",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "RV47+J7F, Banda, Maharashtra 416511rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

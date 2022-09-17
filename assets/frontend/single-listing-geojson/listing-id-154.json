@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536527",
+                    "16.361677"
+                ]
+            },
+            "properties": {
+                "id": "c6b9e55cb6d1ab3090656d3060eb0761",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/relive-a-travel-shoppe/154",
+                "url": "reliveatravelshoppe.com",
+                "name": "Relive a Travel Shoppe",
+                "category": "general",
+                "email": "manisha@reliveatravelshoppe.com, info@reliveatravelshoppe.com,",
+                "stars": "0.0",
+                "phone": "9820613858",
+                "address": "Plot No 37,Sector 26, Parsik Hill, CBD Belapur, Navi Mumbai, Maharashtra 400614rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

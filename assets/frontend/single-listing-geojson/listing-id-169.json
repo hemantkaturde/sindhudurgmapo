@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.528869",
+                    "16.358966"
+                ]
+            },
+            "properties": {
+                "id": "73b7deb3b8ffd73e1095cdd681ec85fb",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/eziitours/169",
+                "url": "",
+                "name": "EziiTours",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9619034948",
+                "address": "Ambience Court, 12, Sector 19D, Vashi, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

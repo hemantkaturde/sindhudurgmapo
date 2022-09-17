@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.539164",
+                    "16.350731"
+                ]
+            },
+            "properties": {
+                "id": "d28076435c524515e99bac21ce7adca7",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/elite-wedding-planner/771",
+                "url": "eliteweddingplanner.in",
+                "name": "Elite Wedding Planner",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9820215215",
+                "address": "Crystal Enclave, A402, Military Rd, Marol, Andheri East, Mumbai, Maharashtra 400059rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

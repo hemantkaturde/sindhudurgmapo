@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.531636",
+                    "16.355052"
+                ]
+            },
+            "properties": {
+                "id": "7cfa68855608a618e39f3cb7dd7bec95",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/hotel-saj/2440",
+                "url": "",
+                "name": "Hotel SAJ",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9421237311",
+                "address": "Ap Wagade Gopuri Kankavli Main Road, Maharashtra 416602rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

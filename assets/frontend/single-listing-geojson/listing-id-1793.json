@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.597502",
+                    "16.354498"
+                ]
+            },
+            "properties": {
+                "id": "c4d29b867dbc9f63787cb14cb314555c",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/swami-samarth-clinic/1793",
+                "url": "",
+                "name": "Swami Samarth Clinic",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8208341017",
+                "address": "G 3 Rameshwar Plaza Near By National Highway, Main Road, opp. On Sai Gift, Pandur, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

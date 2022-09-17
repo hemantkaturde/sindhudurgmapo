@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.522864",
+                    "16.360943"
+                ]
+            },
+            "properties": {
+                "id": "0009f631e2ac9cbcc671adde8a70bfe7",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/vintage-car/720",
+                "url": "",
+                "name": "vintage car",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Room No.102,D wing jeevan Dhara Society Devgad Gaon, Panvel-410206, Panvel, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.52371",
+                    "16.355801"
+                ]
+            },
+            "properties": {
+                "id": "99e9b136bdf61bbf9a926ceb92aa3959",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/jeevika-tours-amp-travels/205",
+                "url": "business.site",
+                "name": "Jeevika Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Kusumkunj nivas sec 11, Juhu Village, Vashi, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.529555",
+                    "16.364237"
+                ]
+            },
+            "properties": {
+                "id": "8e0dd2e0376983ff09c1c3df8997a4ad",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/legend-india-holidays-navi-mumbai/149",
+                "url": "legendindiaholidays.com",
+                "name": "Legend India Holidays Navi Mumbai",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "E3, S-125, Haware Fantasia park, Sector - 30 A, near Inorbit Mall, Vashi, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

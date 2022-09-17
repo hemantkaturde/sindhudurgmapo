@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.58276",
+                    "16.359275"
+                ]
+            },
+            "properties": {
+                "id": "4c61c95e25cc0ffa82264a7d543ec5a1",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/diagnear-health-partners-llp/1276",
+                "url": "diagnear.com",
+                "name": "DIAGNEAR HEALTH PARTNERS LLP",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8595977759",
+                "address": "First Floor, SAUDADE Raj Waddo, near Kenkre Hardware, Rajwaddo, Mapusa, Goa 403507rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

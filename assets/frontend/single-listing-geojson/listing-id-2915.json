@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.53248",
+                    "16.356111"
+                ]
+            },
+            "properties": {
+                "id": "5cd1d8ad22fd9f6ad1171dccc2ba5d54",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/vajaratkar-hospital/2915",
+                "url": "",
+                "name": "Vajaratkar Hospital",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2362223392",
+                "address": "MIDC,, MIDC Area, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

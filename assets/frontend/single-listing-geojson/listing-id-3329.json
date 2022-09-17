@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.526904",
+                    "16.361446"
+                ]
+            },
+            "properties": {
+                "id": "ae84ad76e2de7a921873554898e3dc45",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dr-thakur-039-s-eye-clinic/3329",
+                "url": "",
+                "name": "Dr.Thakur&#039;s Eye Clinic",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9423302793",
+                "address": "Revtale Adarsha Nagar Rd, Adarsha Nagar, Revtale, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

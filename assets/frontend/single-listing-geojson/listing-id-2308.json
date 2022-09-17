@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.552417",
+                    "16.345124"
+                ]
+            },
+            "properties": {
+                "id": "c00dd375b95c1359c7455de7095052d0",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/prasad-travels-and-services/2308",
+                "url": "",
+                "name": "PRASAD TRAVELS AND SERVICES",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "7758924040",
+                "address": "Shop No. 1 Main Road Sawantwadi Near By Shreedhar Apartment, opp. St Stand, Sawantwadi, Maharashtra 416510rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

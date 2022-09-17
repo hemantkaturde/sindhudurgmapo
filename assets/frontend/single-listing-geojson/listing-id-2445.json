@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.52276",
+                    "16.362375"
+                ]
+            },
+            "properties": {
+                "id": "12bc22990d04af7b6afaf0b65f21339a",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dr-patwari-physiotherapy-and-rehabilitation-center/2445",
+                "url": "",
+                "name": "Dr. Patwari physiotherapy and rehabilitation center",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Kudal-Vengurla Rd, Rawoolwadi, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

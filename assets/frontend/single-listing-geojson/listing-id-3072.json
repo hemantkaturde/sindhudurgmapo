@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.542131",
+                    "16.364253"
+                ]
+            },
+            "properties": {
+                "id": "5aff95982d5088efdc5af65ec0b9ee81",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shri-krishna-garments/3072",
+                "url": "",
+                "name": "SHRI KRISHNA GARMENTS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9404934242",
+                "address": "Shop No 7 Main Road Bazar Peth Near By KUDAL Medical, beside Bank Of Maharashtra, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

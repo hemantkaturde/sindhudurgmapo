@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.521663",
+                    "16.360778"
+                ]
+            },
+            "properties": {
+                "id": "1695845cd8755397094276f01f2aa0df",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/bruno-tours-amp-travels/255",
+                "url": "",
+                "name": "BRUNO TOURS &amp; TRAVELS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Merchant Center Off No, 526, A-wing, APMC Market, Sector 19, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

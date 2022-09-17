@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.560218",
+                    "16.367598"
+                ]
+            },
+            "properties": {
+                "id": "6dbcb22d6e5fde0c4b0ad5512056412f",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/mulpurush-electronics/4095",
+                "url": "",
+                "name": "Mulpurush Electronics",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9405086682",
+                "address": "Shop No 8, MG Road, Banda, Goa 403512rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.527496",
+                    "16.359131"
+                ]
+            },
+            "properties": {
+                "id": "180947c89fc238e50c1a861ff9bab78d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/bloomingdale/767",
+                "url": "",
+                "name": "Bloomingdale",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "AF 10, 1st Floor Sand Pebbles, Khobra Vaddo, Calangute, Goa 403516rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

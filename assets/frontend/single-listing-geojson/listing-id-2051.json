@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.548474",
+                    "16.34776"
+                ]
+            },
+            "properties": {
+                "id": "33655f2b0713a97ae8b006427aa6acba",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/seven-vow-stories/2051",
+                "url": "",
+                "name": "Seven Vow Stories",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8668517818",
+                "address": "752, E Ward, shop no. 2 , Balkrishna apt, 4th Ln, Shahupuri, Kolhapur, Maharashtra 416001rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

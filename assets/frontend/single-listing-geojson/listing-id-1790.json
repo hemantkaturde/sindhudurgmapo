@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.587045",
+                    "16.354229"
+                ]
+            },
+            "properties": {
+                "id": "78f98773cc92ded8000e2b9ac3d74ca1",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sumedh-lab/1790",
+                "url": "",
+                "name": "Sumedh Lab",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2362223677",
+                "address": "Mehneel Plaza, Malvan Rd, Kelbaiwadi, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

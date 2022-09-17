@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.535617",
+                    "16.355816"
+                ]
+            },
+            "properties": {
+                "id": "3f35f0bc0254a4c8bce58db892dcbae3",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-ganesh-hospital/2434",
+                "url": "",
+                "name": "Shree Ganesh Hospital",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2362222047",
+                "address": " Hindu Colony, Rawoolwadi, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

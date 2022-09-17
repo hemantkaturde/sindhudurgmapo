@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.526982",
+                    "16.364072"
+                ]
+            },
+            "properties": {
+                "id": "11ca7d7a2e569ab4063b4dc76de4e91f",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/suryoday-tours-amp-travel-private-limited/213",
+                "url": "suryodaytravel.com",
+                "name": "Suryoday Tours &amp; Travel Private Limited",
+                "category": "general",
+                "email": "info@suryodaytravel.com",
+                "stars": "0.0",
+                "phone": "2227889933",
+                "address": "Off No 2/3/4, 1st Floor, Plot No 73, Welfare Chamber, Turbhe Main Road,, Sector-17, Vashi, Vashi, Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

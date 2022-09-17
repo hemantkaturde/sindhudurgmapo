@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.542081",
+                    "16.36539"
+                ]
+            },
+            "properties": {
+                "id": "c6d5576b4118e6c0340103b75f99b852",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sawant-tours-amp-travels/135",
+                "url": "sawanttours.co.in",
+                "name": "Sawant Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "7804919191",
+                "address": "Bapu Krupa, Sector 23, Juinagar, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

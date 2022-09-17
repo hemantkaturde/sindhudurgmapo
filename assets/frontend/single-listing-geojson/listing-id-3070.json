@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.53476",
+                    "16.3623"
+                ]
+            },
+            "properties": {
+                "id": "4b97762589927223c90be1b7fcda58a5",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/mahalakshmi-medicals/3070",
+                "url": "",
+                "name": "Mahalakshmi Medicals",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2362221429",
+                "address": "2M3Q+VPW, Hindu Colony, Rawoolwadi, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.535147",
+                    "16.360069"
+                ]
+            },
+            "properties": {
+                "id": "5fc9bd92492bc8f823d2f46d24b44af5",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sai-superspecialty-dental-clinic-dr-sarvesh-raikar/3325",
+                "url": "",
+                "name": "Sai superspecialty dental clinic- Dr Sarvesh Raikar",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Somwarpet Moreshwar Sankul, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

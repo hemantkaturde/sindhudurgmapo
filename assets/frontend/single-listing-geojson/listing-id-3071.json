@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.529799",
+                    "16.34764"
+                ]
+            },
+            "properties": {
+                "id": "6937df39ac4ef550ad42c6f6b00032cb",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/keluskar-agencies/3071",
+                "url": "",
+                "name": "KELUSKAR AGENCIES",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9422381299",
+                "address": "Shop No 5 Gagangiri Niwas Near Hotel Satkar, behind Datt Medical Stores, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

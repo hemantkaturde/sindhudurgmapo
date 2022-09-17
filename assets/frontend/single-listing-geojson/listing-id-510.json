@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.549459",
+                    "16.35784"
+                ]
+            },
+            "properties": {
+                "id": "d1da65f3f24f1d2bd912708ffeee43eb",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/rameshwar-medical/510",
+                "url": "",
+                "name": "Rameshwar Medical",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2364261055",
+                "address": "naka, College Rd, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

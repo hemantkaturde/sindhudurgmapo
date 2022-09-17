@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.59148",
+                    "16.359625"
+                ]
+            },
+            "properties": {
+                "id": "f4d4ac754402d3c2d6c39ca77a88f913",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/primary-health-sub-centre/1027",
+                "url": "",
+                "name": "Primary Health Sub Centre",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "COVID-19 vaccine locationrn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

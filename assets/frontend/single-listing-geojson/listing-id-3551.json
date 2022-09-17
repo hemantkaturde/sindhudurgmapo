@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.531909",
+                    "16.35552"
+                ]
+            },
+            "properties": {
+                "id": "6098ae95ca75e0e6b360752fcdc8eaff",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/mtdc-head-office-sindhudurg/3551",
+                "url": "",
+                "name": "MTDC head Office Sindhudurg",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "4P84+4V8, Sindhu Durg, Oros, Maharashtra 416812rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.526639",
+                    "16.360943"
+                ]
+            },
+            "properties": {
+                "id": "8637475618dbd9360527da4ec9183384",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/happy-holidays/218",
+                "url": "happyholidaystrip.com",
+                "name": "Happy Holidays",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8767711888",
+                "address": "D 87 VASHI PLAZA, Sector 17, Vashi, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

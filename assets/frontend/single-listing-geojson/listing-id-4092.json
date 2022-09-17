@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.548026",
+                    "16.356093"
+                ]
+            },
+            "properties": {
+                "id": "1489029a29d3e9a41cd0cf116737f138",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/jaytir-krupa-gareaj/4092",
+                "url": "",
+                "name": "Jaytir krupa gareaj",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9420075898",
+                "address": "Shop no 2 main road vengurla murarwadi, near by siddheswar mandir, Talavade, Maharashtra 416529rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

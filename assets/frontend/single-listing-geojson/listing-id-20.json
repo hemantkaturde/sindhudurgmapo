@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.532682",
+                    "16.354762"
+                ]
+            },
+            "properties": {
+                "id": "3cf2f2008b5f1fa3e95a0765d22aa346",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/family-dental-care-dr-dhananjay-bhide/20",
+                "url": "",
+                "name": "Family Dental Care - Dr Dhananjay Bhide",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "1st floor Mangalmurti Arcade College Naka, above Cottonking, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

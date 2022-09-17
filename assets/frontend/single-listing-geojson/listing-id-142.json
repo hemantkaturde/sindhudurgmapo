@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.510723",
+                    "16.353366"
+                ]
+            },
+            "properties": {
+                "id": "ca6a1c1aa260246f0fb99ee4d21197fc",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/amit-travel-agency/142",
+                "url": "",
+                "name": "Amit Travel Agency",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "7021386704",
+                "address": "Room No G2, Plot No 312, Sector 5, Sanpada, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

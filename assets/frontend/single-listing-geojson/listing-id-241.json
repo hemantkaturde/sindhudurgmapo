@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.535224",
+                    "16.353366"
+                ]
+            },
+            "properties": {
+                "id": "2f44c43e2e5e5a6566fc10b8c886c93d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-zolai-devi-travels/241",
+                "url": "",
+                "name": "Shree Zolai Devi Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9870771501",
+                "address": "Shree Zolai Devi TravelsrnB-3/9/03, Prabodhankar Thackeray Marg, near Shabri Hotel, Sector 15, Vashi, Navi Mumbai, Maharashtra 400703rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

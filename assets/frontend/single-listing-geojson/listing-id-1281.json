@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.574874",
+                    "16.355483"
+                ]
+            },
+            "properties": {
+                "id": "0dee3018f0d390fe6f6e084dde863c38",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/navin-laboratories/1281",
+                "url": "",
+                "name": "Navin Laboratories",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8322220859",
+                "address": "Block E Ground Floor, Pelicon Apartment, Altinho Panaji, Near Church Altinho, Altinho Panaji, Goa, 403401rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

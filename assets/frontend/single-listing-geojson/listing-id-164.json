@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.563014",
+                    "16.361731"
+                ]
+            },
+            "properties": {
+                "id": "c6a6a62e95b2c875ac9ea915d91d7d4b",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/daksh-tours-and-travels/164",
+                "url": "",
+                "name": "DAKSH TOURS AND TRAVELS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "7045738969",
+                "address": "Chauneshwar Complex, Sai palace, shop no 8, Plot No 644/645, Navi Mumbai., Sector 1, Shiravane, Nerul, Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.547193",
+                    "16.350852"
+                ]
+            },
+            "properties": {
+                "id": "c832c5181f01d15684ee69cca5ef0198",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/hotel-gangai-holiday-resort/2049",
+                "url": "",
+                "name": "Hotel Gangai Holiday Resort",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2362228050",
+                "address": "Sindhudurg, NH-17, Mumbai Goa Highway, Sindhudurga, Sindhudurga, Maharashtra 416814rnrn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

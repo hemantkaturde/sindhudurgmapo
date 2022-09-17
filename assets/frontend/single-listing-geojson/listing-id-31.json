@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.528698",
+                    "16.358143"
+                ]
+            },
+            "properties": {
+                "id": "e22587d977a58715276202575d9d67fc",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-samarth-dental-clinic/31",
+                "url": "mgsgoa.com",
+                "name": "Shree Samarth Dental Clinic",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9822791965",
+                "address": "near, Shop no 17/18 SRK Emperior, College Rd, corner, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,237 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.533703",
+                    "16.362261"
+                ]
+            },
+            "properties": {
+                "id": "d2cb9d8edac523367bd22d263cac5904",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/wedding-venues-in-mandrem/812",
+                "url": "weddingz.in",
+                "name": "Wedding Venues in Mandrem",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "08048072314",
+                "address": "Mandrem, Goa 403519",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.545045",
+                    "16.355512"
+                ]
+            },
+            "properties": {
+                "id": "ef1c4126033d02df890532b296e5c54f",
+                "index": 1,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/police-patil-anav/2870",
+                "url": "",
+                "name": "Police Patil Anav",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "4M4M+64W, Kudal, Maharashtra 416812rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.53281",
+                    "16.349907"
+                ]
+            },
+            "properties": {
+                "id": "f1ef44c555fec44ecf23e3087e503903",
+                "index": 2,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/kesari-tours-pvt-ltd-new-panvel/67",
+                "url": "kesari.in",
+                "name": "Kesari Tours Pvt Ltd - New Panvel",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2227480564",
+                "address": "1st Floor, Plot No 26, Panvel Matheran Rd, Sector 12, New Panvel East, Navi Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.524946",
+                    "16.354849"
+                ]
+            },
+            "properties": {
+                "id": "8d7d7da5a13b6743daa8762f1300ea8a",
+                "index": 3,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/travel-people-india/5710",
+                "url": "",
+                "name": "Travel people india",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9850000735",
+                "address": "opp. La Muella Restaurant, Arambol Beach, Arambol, Goa 403524rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.528698",
+                    "16.361766"
+                ]
+            },
+            "properties": {
+                "id": "c75d6086d947e97fdba2576646c0b538",
+                "index": 4,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/saraswati-kalamandir/596",
+                "url": "",
+                "name": "Saraswati Kalamandir",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Near, Udyam Sankul Rd No 1, College Rd, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537331",
+                    "16.361616"
+                ]
+            },
+            "properties": {
+                "id": "564ba3f7cc5d856fc53b79c8817bd0dc",
+                "index": 5,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/trisha-events/2645",
+                "url": "",
+                "name": "Trisha Events",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "ucassaim, lourdes waddo, Mapusa, Goa 403507t-rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.58286",
+                    "16.340353"
+                ]
+            },
+            "properties": {
+                "id": "b4839f60cb57fa6d8b9547004d1d5aae",
+                "index": 6,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/hotel/pioneer-academy/5759",
+                "url": "www.pioneeracademypace.com",
+                "name": "Pioneer academy",
+                "category": "hotel",
+                "email": "pioneeracademypace.@gmail.com",
+                "stars": "0.0",
+                "phone": "7037015601",
+                "address": "erfer r34r23r234r23r23r r r32r23r",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.560093",
+                    "16.354519"
+                ]
+            },
+            "properties": {
+                "id": "f20176784dfbc0cbf3b1911b3dc51b44",
+                "index": 7,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sai-dental-lab/5504",
+                "url": "",
+                "name": "Sai dental lab",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Arpora, Goa 403519rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

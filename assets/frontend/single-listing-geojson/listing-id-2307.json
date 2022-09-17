@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.54676",
+                    "16.361548"
+                ]
+            },
+            "properties": {
+                "id": "4f0582fbacf4f537cab93209fbb0b978",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/g-d-art-creations/2307",
+                "url": "",
+                "name": "G.D.Art Creations",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2362228503",
+                "address": "118 State Highway, 75/A, Sukalwad, Malvan, Sukalwad, Maharashtra 416534rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

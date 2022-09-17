@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.566988",
+                    "16.363617"
+                ]
+            },
+            "properties": {
+                "id": "f07fb351140660e52de46ee8b8e0ff8f",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/om-sai-furniture/2411",
+                "url": "",
+                "name": "Om Sai Furniture",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "x-80, MIDC, MIDC Area, Kudal, Maharashtra 416528rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

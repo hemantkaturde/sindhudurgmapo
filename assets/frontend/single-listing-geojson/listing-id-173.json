@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537105",
+                    "16.355507"
+                ]
+            },
+            "properties": {
+                "id": "55f884c7326a3e3e35745322dc2c2cb4",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/aadarsh-tour-and-travels/173",
+                "url": "",
+                "name": "Aadarsh Tour and Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "A type 1/3 , Sector 13 Cidco Colony , New, New Panvel East, Panvel, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

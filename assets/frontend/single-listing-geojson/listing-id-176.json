@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.538134",
+                    "16.35106"
+                ]
+            },
+            "properties": {
+                "id": "06e8e37297d9de939e2e30eb73aad374",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/asavari-tours-amp-travels/176",
+                "url": "",
+                "name": "ASAVARI TOURS &amp; TRAVELS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9892103436",
+                "address": "4, Manas Complex Rd, Moral Villa Society, Sector 18, Kamothe, Panvel, Navi Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

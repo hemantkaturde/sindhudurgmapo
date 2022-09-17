@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.523593",
+                    "16.362403"
+                ]
+            },
+            "properties": {
+                "id": "875307a93d9e84b23e1c3c91cb1f9b8f",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/swaraj-tours-and-travels/101",
+                "url": "",
+                "name": "Swaraj Tours And Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9324931458",
+                "address": "PLOT NO. 23, Shubham complex sec 8, Kamothe, Maharashtra 410209rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

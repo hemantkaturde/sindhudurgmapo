@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.550664",
+                    "16.356525"
+                ]
+            },
+            "properties": {
+                "id": "8cbef5fd489f7e3bf209693a8ef35e44",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/kadar-and-brother-open-air-lawn-for-wedding-and-birthday-party/4098",
+                "url": "",
+                "name": "Kadar and brother open air lawn for wedding and birthday party",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Main road, Baherchawada, near suzuki showroom, Sawantwadi, Maharashtra 416510rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537036",
+                    "16.361641"
+                ]
+            },
+            "properties": {
+                "id": "a6a1203d7d83bc79f00588f748574df3",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sp-sindhudurg-office/3585",
+                "url": "",
+                "name": "SP Sindhudurg Office",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Sindhunagari Rd To Collector&#039;s Office, Police Line, Oros, Maharashtra 416812rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

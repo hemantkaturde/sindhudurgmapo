@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.548399",
+                    "16.352916"
+                ]
+            },
+            "properties": {
+                "id": "aea9edb0efdb1f7d361ab57994d67683",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/comman-service-center-csc/2301",
+                "url": "omkarnet.com",
+                "name": "Comman Service Center CSC",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9421975145",
+                "address": "Comman Service Center CSCrnKanedi, Maharashtra 416609rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

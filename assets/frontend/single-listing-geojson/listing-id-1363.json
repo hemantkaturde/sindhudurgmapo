@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.601053",
+                    "16.354678"
+                ]
+            },
+            "properties": {
+                "id": "c48ad2b2aeb6202c38e81b3d5c0539a7",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/italab-goa-pvt-ltd/1363",
+                "url": "italabgoa.com",
+                "name": "Italab (Goa) Pvt. Ltd.",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8322704836",
+                "address": "Italab House, opp. Carmelite Monastery, above Aurora Gas Agency, Sanscar Society, Margao, Goa 403601rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

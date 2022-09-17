@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536521",
+                    "16.358527"
+                ]
+            },
+            "properties": {
+                "id": "fcb9f687a36b10072d87f640f159ebec",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/mahavitaran-office-mseb/3552",
+                "url": "",
+                "name": "Mahavitaran Office MSEB",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Sindhunagari Rd To Collector&#039;s Office, Collector Colony, Oros, Maharashtra 416812rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

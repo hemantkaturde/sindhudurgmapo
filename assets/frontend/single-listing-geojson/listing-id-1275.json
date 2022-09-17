@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.526265",
+                    "16.350934"
+                ]
+            },
+            "properties": {
+                "id": "3027f3bfad573a4f4e9bd05fe3ff50de",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/suhasini-analytical-amp-research-laboratory/1275",
+                "url": "",
+                "name": "Suhasini Analytical &amp; Research Laboratory",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8322229142",
+                "address": "Kamat Estate, Traversa Delhi Road, Near National Club, Opposite Municipal Garden, Altinho, Panaji, Goa 403001rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

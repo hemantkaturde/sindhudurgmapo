@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.53995",
+                    "16.360603"
+                ]
+            },
+            "properties": {
+                "id": "00531fab6958fe1c48181a23fbb4b8f8",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/hotel-sulbha/2557",
+                "url": "",
+                "name": "HOTEL SULBHA",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2362222160",
+                "address": "1747, Udyam Nagar, M.I.D.C Road, Opp. Rawool Maharaj College, Kudal, Dist, Sindhudurg, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

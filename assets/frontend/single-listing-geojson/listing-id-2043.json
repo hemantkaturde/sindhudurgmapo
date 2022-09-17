@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.574015",
+                    "16.354393"
+                ]
+            },
+            "properties": {
+                "id": "6a7a447f0f4e9e4ee4251b9bdb4cc76e",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/foh/2043",
+                "url": "",
+                "name": "FOH",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Bungalow No 922/37 Socorro, Aradi Socorro, Goa 403501rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

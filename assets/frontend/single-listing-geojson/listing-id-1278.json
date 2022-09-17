@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.563731",
+                    "16.358525"
+                ]
+            },
+            "properties": {
+                "id": "fbba42ff06c00223f1de80f480e4414a",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/akeri-primary-health-sub-centre/1278",
+                "url": "",
+                "name": "Akeri Primary Health Sub Centre",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "COVID-19 vaccine locationrn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536419",
+                    "16.363084"
+                ]
+            },
+            "properties": {
+                "id": "156a86b0526a723264ab4098b74613b3",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shifa-tours-amp-travels/207",
+                "url": "",
+                "name": "Shifa Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9029869352",
+                "address": "Shifa Tours &amp; TravelsrnShop no-5, Plot No-15, Sneh Sadan, Behind Nerul Motor Training School, Kamala Devi Marg, near D-Mart, Sector 21, Nerul, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

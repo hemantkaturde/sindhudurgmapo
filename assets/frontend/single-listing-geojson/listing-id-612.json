@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.534874",
+                    "16.35699"
+                ]
+            },
+            "properties": {
+                "id": "de63a6160c79df30e95027e2a6723693",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/amul-icecream-center/612",
+                "url": "",
+                "name": "Amul Icecream Center",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "9CH3+9Q3, Devgad, Maharashtra 416612rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

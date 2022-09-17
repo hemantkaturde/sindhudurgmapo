@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.534699",
+                    "16.356457"
+                ]
+            },
+            "properties": {
+                "id": "76c2bf98e8d31b0df9d6e3a1063f8bf1",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/orion-business-services/3586",
+                "url": "",
+                "name": "Orion Business services",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9403563231",
+                "address": "18-sitai complex Bharad ,Malvan, Malvan, Maharashtra 416606rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.520036",
+                    "16.351429"
+                ]
+            },
+            "properties": {
+                "id": "22be012b132b55342cf828bd25f3b33f",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sadguru-krupa-general-store/4093",
+                "url": "",
+                "name": "Sadguru Krupa General Store",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8421092229",
+                "address": "Shop No 1, Ubha Bazaar, Charathe, Maharashtra 416510rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

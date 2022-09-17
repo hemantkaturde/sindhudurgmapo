@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.525437",
+                    "16.363908"
+                ]
+            },
+            "properties": {
+                "id": "9b716bab2b49112bd5633f45b202e1fb",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/coral-holidays/181",
+                "url": "",
+                "name": "Coral Holidays",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9833744673",
+                "address": "22M9+GRP, Nerul East, Sector 15, Nerul, Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

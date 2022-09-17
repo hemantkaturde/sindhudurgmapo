@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.52784",
+                    "16.356002"
+                ]
+            },
+            "properties": {
+                "id": "e9919578285c1465b86ede1cf54c3e23",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/venkatesh-travels/145",
+                "url": "venkyinteriors.com",
+                "name": "Venkatesh travels",
+                "category": "general",
+                "email": "venkyinteriors@gmail.com, u003Evenkyinteriors@gmail.com,",
+                "stars": "0.0",
+                "phone": "9821171424",
+                "address": "",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

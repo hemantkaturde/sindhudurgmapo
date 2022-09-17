@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.533159",
+                    "16.355837"
+                ]
+            },
+            "properties": {
+                "id": "a768ee990b850a3e5f194ce339fa1d3c",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/bhavani-mata-mandir/599",
+                "url": "",
+                "name": "Bhavani Mata Mandir",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "C9V6+MHC, Phanase, Maharashtra 416805rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

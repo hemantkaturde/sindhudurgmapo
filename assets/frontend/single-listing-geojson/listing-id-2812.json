@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.540074",
+                    "16.361268"
+                ]
+            },
+            "properties": {
+                "id": "d05959bfb851a9b7d85130e1171c9c7d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/tripforgoa/2812",
+                "url": "",
+                "name": "Tripforgoa",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "C/O TVS Showroom, A11, Sattadhar Complex, NH 66, Karaswada, Mapusa, Goa 403507rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

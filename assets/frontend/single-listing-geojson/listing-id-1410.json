@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.586702",
+                    "16.353345"
+                ]
+            },
+            "properties": {
+                "id": "43fcb41dc7fd02452dd46002c6f14da0",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/new-classic-photo-labs/1410",
+                "url": "",
+                "name": "New Classic Photo Labs",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8322435188",
+                "address": "Shop No. LGF/AS-7, Mohidin Tower A, Dr. Dada Vaidhya Rd, Opp. Hotel Manoshanti, Altinho, Panaji, Goa 403001rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

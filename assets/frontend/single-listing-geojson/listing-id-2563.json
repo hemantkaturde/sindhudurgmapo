@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.555268",
+                    "16.36337"
+                ]
+            },
+            "properties": {
+                "id": "78ee8f70ed86eef83cb59801dfefeb3f",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/hotel-rsn-executive-inn/2563",
+                "url": "",
+                "name": "Hotel RSN Executive Inn",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9420106549",
+                "address": "RSN Executive Inn, Gudhipur, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.548695",
+                    "16.353347"
+                ]
+            },
+            "properties": {
+                "id": "c8a9704a189c8bb987136763481e3672",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/prajakta-tours-amp-travels/156",
+                "url": "",
+                "name": "Prajakta Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2227580669",
+                "address": "Sane Guruji Marg, Police Line, Sector 1 Market, CBD Belapur, Navi Mumbai, Maharashtra 400614rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

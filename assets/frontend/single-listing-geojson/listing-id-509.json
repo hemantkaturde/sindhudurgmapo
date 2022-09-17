@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.55066",
+                    "16.363575"
+                ]
+            },
+            "properties": {
+                "id": "9166b34ba0ddcf075bbdefe98fa60713",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/devgad-medical-foundation/509",
+                "url": "",
+                "name": "Devgad Medical Foundation",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9420076100",
+                "address": "India Opp. SBI Bank, A/P Tal, Dist, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

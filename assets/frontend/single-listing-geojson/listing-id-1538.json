@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.588074",
+                    "16.354992"
+                ]
+            },
+            "properties": {
+                "id": "5432256b6f4b197d4e14c77fdb690b49",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-kuldevata-bramhanimaya-temple-talekhol-dodamarg/1538",
+                "url": "",
+                "name": "Shree Kuldevata Bramhanimaya Temple,Talekhol, Dodamarg",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Panchayat Road Dodamarg, Talekhol, Maharashtra 416512rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

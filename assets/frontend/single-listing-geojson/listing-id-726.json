@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.534525",
+                    "16.362765"
+                ]
+            },
+            "properties": {
+                "id": "e47c8cfc85424a2ddda9472ca8a31e20",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/lifestyle-wedding-planner/726",
+                "url": "allriseevents.in",
+                "name": "Lifestyle Wedding Planner",
+                "category": "general",
+                "email": "info@allriseevents.in,",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Corlim Industrial Estate Old Goa, Corlim, Goa 403110rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

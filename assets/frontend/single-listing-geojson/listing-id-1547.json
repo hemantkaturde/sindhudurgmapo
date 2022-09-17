@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.599825",
+                    "16.344181"
+                ]
+            },
+            "properties": {
+                "id": "c7c1ad1904410721a86141c2e61f071d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-sateri-mauli-devi-temple/1547",
+                "url": "",
+                "name": "Shree Sateri Mauli Devi Temple",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "QVPV+46M, Dingne, Maharashtra 416511rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

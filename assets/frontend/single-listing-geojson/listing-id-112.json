@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.548773",
+                    "16.353531"
+                ]
+            },
+            "properties": {
+                "id": "a4b92766221c6f135de8d1b8ec0009ac",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/manaswi-tours-amp-travels/112",
+                "url": "",
+                "name": "Manaswi Tours &amp; Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9769442897",
+                "address": "Koyna Apartment, Shop No.4, Plot No.24, Sector 9, Kamothe, Panvel, Navi Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

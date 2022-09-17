@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.530991",
+                    "16.347805"
+                ]
+            },
+            "properties": {
+                "id": "e26c80b7eba0fa6ec99bcaaf3141eeff",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/grampanchayat-parulebajar/3548",
+                "url": "",
+                "name": "Grampanchayat Parulebajar",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2366269530",
+                "address": "MH SH4, Parule, Maharashtra 416523rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

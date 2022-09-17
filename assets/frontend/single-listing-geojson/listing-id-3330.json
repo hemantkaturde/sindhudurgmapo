@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.532056",
+                    "16.360982"
+                ]
+            },
+            "properties": {
+                "id": "c40b7eda5f092fa790d7dc4e0d5dc4c2",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/rural-hospital-malvan/3330",
+                "url": "",
+                "name": "Rural Hospital, Malvan",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "COVID-19 vaccine locationrn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

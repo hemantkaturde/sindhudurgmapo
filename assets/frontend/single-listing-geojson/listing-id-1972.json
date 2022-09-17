@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.582931",
+                    "16.35994"
+                ]
+            },
+            "properties": {
+                "id": "39ff2456b956d16ce629cd7df9a6ab37",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/limelight-event-planning-services/1972",
+                "url": "",
+                "name": "Limelight Event Planning services",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Tarabai Park, Kolhapur, Maharashtra 416003rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537274",
+                    "16.350566"
+                ]
+            },
+            "properties": {
+                "id": "7c08c3c7a2538d71e2799afeda27c2b2",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "http://sindhudurg.mapodiary.com/general/devgad-police-station/369",
+                "url": "",
+                "name": "Devgad Police Station",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "99JJ+3J4, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

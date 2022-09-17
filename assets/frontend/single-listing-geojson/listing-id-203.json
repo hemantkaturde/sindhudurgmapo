@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.542767",
+                    "16.360614"
+                ]
+            },
+            "properties": {
+                "id": "1b2c81a6401cb69407e8833d8594afa0",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/sai-venkatesh-travels/203",
+                "url": "",
+                "name": "Sai Venkatesh Travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8668216954",
+                "address": "Shop no 6A Plot no 605 Sect 20 Opp Motilal School Nerul ( W ), Navi Mumbai, Maharashtra 400706rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

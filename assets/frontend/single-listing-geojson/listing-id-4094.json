@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.511387",
+                    "16.359748"
+                ]
+            },
+            "properties": {
+                "id": "a65b4c1c9472341f359864d72eea95fc",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/shree-rameshwar-electricals/4094",
+                "url": "",
+                "name": "SHREE RAMESHWAR ELECTRICALS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9860325049",
+                "address": "Shop No 1, Titha, Zarap, Maharashtra 416510rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

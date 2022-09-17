@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536247",
+                    "16.359131"
+                ]
+            },
+            "properties": {
+                "id": "4c3f8be0f1a00f07e544ad4877c33ca2",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/a-one-tours-amp-travels/256",
+                "url": "",
+                "name": "A - ONE TOURS &amp; TRAVELS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "A/2 shop no, 704, Sanpada Station Rd, opp. MAFCO Road, Sector 21, Turbhe, Navi Mumbai, Maharashtra 400705rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

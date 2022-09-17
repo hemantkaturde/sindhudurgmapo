@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.395073",
+                    "16.346106"
+                ]
+            },
+            "properties": {
+                "id": "b713ce0d399435cc3722483b75dca7ad",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/devgad-fort/54",
+                "url": "konkanlive.com",
+                "name": "Devgad Fort",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "99MF+M5R, Devgad Fort Rd, Devgad, Maharashtra 416613rnrn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

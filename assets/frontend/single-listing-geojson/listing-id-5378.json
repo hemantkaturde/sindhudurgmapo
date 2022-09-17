@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.531561",
+                    "16.364889"
+                ]
+            },
+            "properties": {
+                "id": "ad03684e35221da188a5dee442bad13d",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dr-vishakha-patil-039-s-shriram-hospital-and-maternity-home/5378",
+                "url": "",
+                "name": "Dr Vishakha Patil&#039;s Shriram Hospital and Maternity Home",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "NEAR POLICE STATION BEHIND CHINTAMANI PLAZA, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

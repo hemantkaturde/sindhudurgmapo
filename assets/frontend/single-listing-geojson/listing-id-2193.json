@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.572131",
+                    "16.34484"
+                ]
+            },
+            "properties": {
+                "id": "be1783b22ffbeed81a990f40a017b44b",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/balkrushna-general-store/2193",
+                "url": "",
+                "name": "Balkrushna General Store",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9960317327",
+                "address": "Shop No 1 Ashiya Road Songewadi, near by Navjeevan Hospital, opp. Bekari, Kankavli, Maharashtra 416602rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

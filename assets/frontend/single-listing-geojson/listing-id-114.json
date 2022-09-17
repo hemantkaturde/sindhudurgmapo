@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.556961",
+                    "16.352382"
+                ]
+            },
+            "properties": {
+                "id": "fc32f438389d318c42b92056c1ba3362",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/nandai-travels/114",
+                "url": "",
+                "name": "nandai travels",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9021607107",
+                "address": "Shop no. 1,tirupati balaji, plot no.60,Sec 19,, Kamothe, Navi Mumbai, Maharashtra 410209rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.565617",
+                    "16.350276"
+                ]
+            },
+            "properties": {
+                "id": "62b45d0976957576422c0f7a4a06e280",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/ayush-ayurvediy-panchakarm-chikitsalaya-vd-madhav-patade/3073",
+                "url": "",
+                "name": "Ayush Ayurvediy Panchakarm Chikitsalaya Vd Madhav Patade",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9420309101",
+                "address": "shop 1 Dwaraka park Phase 1 Adarsh Park,, NEAR KIRTI HOTEL KUDAL SINDHUDURG MAHARASHTRA INDIA, Kudal, Maharashtra 416520rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

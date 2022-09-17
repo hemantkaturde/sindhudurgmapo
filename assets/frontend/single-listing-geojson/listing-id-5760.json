@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.61532",
+                    "16.337472"
+                ]
+            },
+            "properties": {
+                "id": "f7ead04778f284cbb77b4b5aab227b3c",
+                "index": 0,
+                "isActive": true,
+                "logo": "485802ebdb9a869d39cb7026953570ef.jpg",
+                "image": "485802ebdb9a869d39cb7026953570ef.jpg",
+                "link": "https://sindhudurg.mapodiary.com/general/pioneer-general/5760",
+                "url": "https://youtu.be/SJAj_ZKylNQ",
+                "name": "Pioneer General ",
+                "category": "general",
+                "email": "pioneerforupsc@gmail.com",
+                "stars": "0.0",
+                "phone": "9999977777",
+                "address": "Pioneer General , near Moti Lake ,Sawantwadi .",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

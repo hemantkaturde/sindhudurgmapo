@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.606099",
+                    "16.352252"
+                ]
+            },
+            "properties": {
+                "id": "76719659bebffbddf0c67f2ca44a8c97",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/manglam-geotech-services/1284",
+                "url": "mgsgoa.com",
+                "name": "MANGLAM GEOTECH SERVICES.t",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9822791965",
+                "address": "Tivim Industrial Area, Mapusa, Goa 403502rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.536521",
+                    "16.350605"
+                ]
+            },
+            "properties": {
+                "id": "6c3bef44ebf3a70622dc388479083934",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/gurumauli-tours-and-travels/3246",
+                "url": "",
+                "name": "GURUMAULI TOURS AND TRAVELS",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "8010153250",
+                "address": "Shop No 1 Near Bikaner Sweets Opposite Zarap Titha St Stand, Zarap, Maharashtra 416510rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

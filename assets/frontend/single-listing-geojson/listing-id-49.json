@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537791",
+                    "16.355343"
+                ]
+            },
+            "properties": {
+                "id": "7081936347c0553a88089731de7e1957",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "https://sindhudurg.mapodiary.com/general/dr-sahira-mulla/49",
+                "url": "",
+                "name": "Dr Sahira Mulla",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "MG37+JJP, Mulla Wada, Rajapur, Maharashtra 416702rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
