@@ -5,14 +5,14 @@
 			<p><?php echo get_frontend_settings('slogan'); ?></p>
 			<form action="<?php echo site_url('home/search'); ?>" method="get">
 				<div class="row no-gutters custom-search-input-2">
-					<div class="col-4">
+					<div class="col-lg-3 col-sm-12">
 						<div class="form-group">
 							<input class="form-control" type="text" name="search_string" placeholder="<?php echo get_phrase('what_are_you_looking_for'); ?>...">
 							<i class="icon_search"></i>
 							
 						</div>
 					</div>
-					<div class="col">
+					<div class="col-lg-2 col-sm-12 mb-1">
 						<select class="wide" name="selected_category_id" >
 							<option value=""><?php echo get_phrase('All_categories'); ?></option>
 							<?php
@@ -23,8 +23,7 @@
 						</select>
 					</div>
 					
-					<div class="col">
-					
+					<div class="col-lg-2 col-sm-12 mb-1">
 						<select class="wide" name="selected_subcategory_id">
 							<option value=""><?php echo get_phrase('All_subcategories'); ?></option>
 							<?php
@@ -34,8 +33,8 @@
 							<?php endforeach; ?>
 						</select>
 					</div>
-					<div class="col">
-					
+
+					<div class="col-lg-2 col-sm-12 mb-1">
 						<select class="wide" name="selected_taluka_id">
 							<option value=""><?php echo get_phrase('Taluka'); ?></option>
 							<?php
@@ -45,8 +44,8 @@
 							<?php endforeach; ?>
 						</select>
 					</div>
-					<div class="col">
-					
+
+					<div class="col-lg-2 col-sm-12 mb-1">
 						<select class="wide" name="selected_city_id">
 							<option value=""><?php echo get_phrase('Location'); ?></option>
 							<?php
@@ -56,8 +55,9 @@
 							<?php endforeach; ?>
 						</select>
 					</div>
-					<div class="col">
-						<input type="submit" value="<?= get_phrase('search'); ?>">
+
+					<div class="col-lg-1 col-sm-12 ">
+						<input  style="height: 54px;" type="submit" value="<?= get_phrase('search'); ?>">
 					</div>
 				</div>
 				<!-- /row -->

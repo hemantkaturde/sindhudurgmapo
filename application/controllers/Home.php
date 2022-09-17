@@ -23,6 +23,7 @@ class Home extends CI_Controller {
         $page_data['title']         =   get_phrase('home');
         $this->load->view('frontend/index', $page_data);
     }
+    
 
     public function login() {
         $page_data['page_name']                 = 'login';

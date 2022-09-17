@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
-
 	    <!-- Meta tags and seo configuration -->
 	    <?php include 'site_meta.php';?>
-
 	    <!-- Top css library files -->
 	    <?php include 'includes_top.php';?>
-
 	</head>
 
 	<body>
 		<div id="page">
-
 			<!-- Header -->
 			<?php
 			if ($page_name == 'home' || $page_name == '404')
@@ -30,7 +25,6 @@
 			<main>
 				<?php include $page_name . '.php'; ?>
 			</main>
-
 			<!-- Site footer -->
 			<?php
 				if(!($page_name == 'listings' && $this->session->userdata('listings_view') == 'list_view')):
