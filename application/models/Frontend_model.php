@@ -116,7 +116,15 @@ class Frontend_model extends CI_Model {
             // $this->db->where_in('id', $listing_ids);
             // return $this->db->get('listing', 12, $starting_value)->result_array();
         }else {
-            return array();
+            //return array();
+
+            $this->db->order_by('is_featured', 'desc');
+            //$this->db->where('expired_date >=', time());
+            //$this->db->where_in('listing.id', $listing_ids);
+            $this->db->limit(12, $starting_value);
+            $this->db->from('listing');
+           // $this->db->join('package_purchased_history', 'package_purchased_history.user_id = listing.user_id');
+            return $this->db->get()->result_array();
         }
     }
 
@@ -202,6 +210,7 @@ class Frontend_model extends CI_Model {
         }
 
         if (count($listing_ids) > 0) {
+             
             $this->db->order_by('is_featured', 'desc');
             $this->db->where('expired_date >=', time());
             $this->db->where_in('listing.id', $listing_ids);
@@ -212,7 +221,15 @@ class Frontend_model extends CI_Model {
             // $this->db->where_in('id', $listing_ids);
             // return $this->db->get('listing')->result_array();
         }else {
-            return array();
+
+          $this->db->order_by('is_featured', 'desc');
+          //$this->db->where('expired_date >=', time());
+          //$this->db->where_in('listing.id', $listing_ids);
+          $this->db->from('listing');
+          //$this->db->join('package_purchased_history', 'package_purchased_history.user_id = listing.user_id');
+          return $this->db->get()->result_array();
+
+           // return array();
         }
     }
 

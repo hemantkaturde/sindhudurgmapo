@@ -143,6 +143,7 @@ class Home extends CI_Controller {
 
     function filter_listings($page_number = 1) {
 
+
         $category_ids = array();
         $amenity_ids    = array();
         $city_id        = "";
@@ -201,7 +202,9 @@ class Home extends CI_Controller {
         }
 
         $all_listings = $this->frontend_model->filter_listing_all_rows($category_ids, $amenity_ids, $city_id, $price_range, $with_video, $with_open);
+
         $listings = $this->frontend_model->filter_listing($category_ids, $amenity_ids, $city_id, $price_range, $with_video, $with_open, $page_number);
+
         $page_data['geo_json']       =  $this->make_geo_json_for_map($listings);
 
 
@@ -229,6 +232,7 @@ class Home extends CI_Controller {
         $page_data['with_video']   = $with_video;
         $page_data['with_open']   = $with_open;
         $page_data['price_range']  = $price_range;
+        
         $this->load->view('frontend/index', $page_data);
     }
 

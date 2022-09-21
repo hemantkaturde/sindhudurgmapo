@@ -182,7 +182,6 @@
 </div>
 <!-- /container -->
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .icon-bar {
   position: fixed;
@@ -200,6 +199,10 @@
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
+}
+
+.icon-bar:before {
+    content: '' !important;
 }
 
 .icon-bar a:hover {
@@ -247,7 +250,6 @@
 
 
 <!-- /container -->
-
 <script>
 	function home_categories(limitation){
 		$('#home_category_loader').show();

@@ -163,9 +163,8 @@
 				<form class="filter-form" action="" method="get" enctype="multipart/form-data">
 					<div class="collapse show" id="collapseFilters">
 						<div class="filter_type">
-							
 							<h6><?php echo get_phrase(''); ?></h6>
-  <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="">category<b></b></a>
+                             <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="">category<b></b></a>
 							<ul class="collapse" id="collapseExample">
 								<ul class="">
 								<?php
@@ -178,7 +177,7 @@
 									?>
 									
 									<li class="<?php if($counter > $number_of_visible_categories) echo 'hidden-categories hidden'; ?>">
-										<label class="container_check"> <i class="<?php echo $category['icon_class']; ?>"></i> <?php echo $category['name']; ?> <small></small> <!-- Here will be the number of the total listing -->
+										<label class="container_check"> <i class="<?php echo $category['icon_class']; ?>"></i> <?php echo $category['name']; ?> <small></small>
 											<input type="checkbox" name="category[]" class="categories" value="<?php echo $category['slug']; ?>" onclick="filter(this, '<?php echo 'parent_id'.$category['id'] ?>')" <?php if(in_array($category['id'], $category_ids)) echo 'checked'; ?>>
 											<span class="checkmark"></span>
 										</label>
@@ -187,7 +186,7 @@
 											$counter++;
 										?>
 										<li class="ml-3 <?php if($counter > $number_of_visible_categories) echo 'hidden-categories hidden'; ?>">
-											<label class="container_check"> <?php echo $sub_category['name']; ?> <small></small> <!-- Here will be the number of the total listing -->
+											<label class="container_check"> <?php echo $sub_category['name']; ?> <small></small>
 												<input type="checkbox" name="category[]" class="categories <?php echo 'parent_id'.$category['id'] ?>" value="<?php echo $sub_category['slug']; ?>" onclick="filter(this)" <?php if(in_array($sub_category['id'], $category_ids)) echo 'checked'; ?>>
 												<span class="checkmark"></span>
 											</label>
@@ -196,20 +195,19 @@
 								<?php endforeach; ?>
 							</ul>
 							</ul><br>
-							<a href="javascript::" id = "category-toggle-btn" onclick="showToggle(this, 'hidden-categories')"><?php echo count($categories) > $number_of_visible_categories ? get_phrase('show_more') : ""; ?></a>
 						</div>
 
 						<!-- Price range filter -->
-						<!-- <div class="filter_type">
+						<div class="filter_type">
 							<h6><?php echo get_phrase('price_limit'); ?></h6>
 							<div class="distance"> <?php echo get_phrase('price_within'); ?> <span></span> <?php echo get_settings('system_currency'); ?></div>
 							<input type="range" class="price-range" min="0" max="<?php echo $this->frontend_model->get_the_maximum_price_limit_of_all_listings(); ?>" step="10" value="<?php echo $price_range; ?>" data-orientation="horizontal" onchange="filter(this)">
-						</div> -->
-
-						<!-- <div class="filter_type">
+						</div>
+<!-- 
+						<div class="filter_type">
 							<h6><?php echo get_phrase('amenities'); ?></h6>
 							<ul>
-								<?php
+							<?php
 								$counter = 0;
 								$amenities = $this->crud_model->get_amenities()->result_array();
 								foreach ($amenities as $amenity):
@@ -238,40 +236,6 @@
 							</ul>
 							<a href="javascript::" id = "amenity-toggle-btn" onclick="showToggle(this, 'hidden-amenities')"><?php echo count($amenities) > $number_of_visible_amenities ? get_phrase('show_more') : ""; ?></a>
 						</div> -->
-
-						<div class="filter_type">
-							<h6><?php echo get_phrase('Taluka'); ?></h6>
-							<ul>
-							<?php
-								$counter = 0;
-								$taluka = $this->crud_model->get_taluka()->result_array();
-								foreach ($taluka as $taluka):
-									$counter++;
-								?>
-								<?php if ($counter <= $number_of_visible_taluka): ?>
-									<div class="">
-										<li>
-											<label class="container_check"> <i class="<?php echo $taluka['icon']; ?>"></i> <?php echo $taluka['name']; ?>
-												<input type="checkbox" class="taluka" name="taluka[]" value="<?php echo $taluka['slug']; ?>" onclick="filter(this)" <?php if(in_array($taluka['id'], $taluka_ids)) echo 'checked'; ?>>
-												<span class="checkmark"></span>
-											</label>
-										</li>
-									</div>
-								<?php else: ?>
-									<div class="hidden-taluka hidden">
-										<li>
-											<label class="container_check"> <i class="<?php echo $taluka['icon']; ?>"></i> <?php echo $taluka['name']; ?>
-												<input type="checkbox" class="taluka" name="taluka[]" value="<?php echo $taluka['slug']; ?>" onclick="filter(this)" <?php if(in_array($taluka['id'], $taluka_ids)) echo 'checked'; ?>>
-												<span class="checkmark"></span>
-											</label>
-										</li>
-									</div>
-								<?php endif; ?>
-								<?php endforeach; ?>
-							</ul>
-							<a href="javascript::" id = "taluka-toggle-btn" onclick="showToggle(this, 'hidden-taluka')"><?php echo count($taluka) > $number_of_visible_taluka ? get_phrase('show_more') : ""; ?></a>
-						</div>
-
 
 						<!-- <div class="filter_type">
 							<h6><?php echo get_phrase('cities'); ?></h6>
@@ -312,7 +276,7 @@
 							<a href="javascript::" id = "city-toggle-btn" onclick="showToggle(this, 'hidden-cities')"><?php echo count($cities) > $number_of_visible_cities ? get_phrase('show_more') : ""; ?></a>
 						</div> -->
 
-						<div class="filter_type">
+						<!-- <div class="filter_type">
 							<h6><?php echo get_phrase('Location'); ?></h6>
 							<ul>
 								<li>
@@ -349,9 +313,9 @@
 								<?php endforeach; ?>
 							</ul>
 							<a href="javascript::" id = "city-toggle-btn" onclick="showToggle(this, 'hidden-cities')"><?php echo count($cities) > $number_of_visible_cities ? get_phrase('show_more') : ""; ?></a>
-						</div>
+						</div> -->
 
-						<div class="filter_type">
+						<!-- <div class="filter_type">
 							<h6><?php echo get_phrase('opening_status'); ?></h6>
 							<ul>
 								<li>
@@ -369,9 +333,9 @@
 									</label>
 								</li>
 							</ul>
-						</div>
+						</div> -->
 
-						<div class="filter_type">
+						<!-- <div class="filter_type">
 							<h6><?php echo get_phrase('video'); ?></h6>
 							<ul>
 								<li>
@@ -413,7 +377,10 @@
 									</label>
 								</li>
 							</ul>
-						</div>
+						</div> -->
+
+
+
 					</div>
 					<!--/collapse -->
 				</form>
