@@ -182,6 +182,7 @@
 </div>
 <!-- /container -->
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .icon-bar {
   position: fixed;
@@ -250,6 +251,7 @@
 
 
 <!-- /container -->
+
 <script>
 	function home_categories(limitation){
 		$('#home_category_loader').show();
