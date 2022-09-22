@@ -25,7 +25,7 @@ class Crud_model extends CI_Model {
       $this->db->where('parent', $category_id);
     }
     $this->db->where('parent >', '0');
-    $this->db->order_by('id','DESC');
+    $this->db->order_by('name','ASC');
 
     return $this->db->get('category');
   }

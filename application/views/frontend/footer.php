@@ -29,7 +29,7 @@
 				</a>
 				<div class="collapse show" id="collapse_ft_2">
 					<ul class="links" id="footer_category">
-						<?php $limitation = 6; ?>
+						<?php $limitation = 5; ?>
 						<?php $this->db->limit($limitation); ?>
 						<?php $categories = $this->db->get_where('category', array('parent' => 0))->result_array();
 						foreach ($categories as $key => $category):?>
@@ -37,7 +37,7 @@
 					<?php endforeach; ?>
 					<div id="loader" style="display: none; opacity: .5;"><img src="<?php echo base_url('assets/frontend/images/loader.gif'); ?>" width="25"></div>
 					<?php $category_array_count = count($this->db->get_where('category', array('parent' => 0))->result_array()); ?>
-					<?php if($category_array_count > 6): ?>
+					<?php if($category_array_count > 5): ?>
 						<a href="javascript: void(0)" onclick="more_category()"><?php echo get_phrase('view_all_categories'); ?></a>
 					<?php endif; ?>
 				</ul>

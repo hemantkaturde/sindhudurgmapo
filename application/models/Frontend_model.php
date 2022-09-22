@@ -675,6 +675,7 @@ class Frontend_model extends CI_Model {
         if ($category_id > 0) {
             $this->db->where('id', $category_id);
         }
+        $this->db->order_by('name', 'ASC');
         $this->db->where('parent', 0);
         return $this->db->get('category');
     }
