@@ -17,7 +17,8 @@
 							<h2><?php echo $package['name']; ?></h2>
 							<div class="col">
 							<div class="price">
-								<span class="price-value"><?php echo currency($package['price']); ?></span>
+								<!-- <span class="price-value"><?php echo currency($package['price']); ?></span> -->
+								<span class="price-value"> ₹ <?php echo $package['price']; ?></span>
 								<span class="price-duration"><?php echo $package['validity'].' '.get_phrase('days'); ?></span>
 							</div>
 							</div>
