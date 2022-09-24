@@ -31,10 +31,19 @@
 					</div>
 
 					<div class="form-group">
-						<label for="name" class="col-sm-3 control-label"><?php echo get_phrase('price').'('.currency_code_and_symbol().')'; ?></label>
+						<label for="name" class="col-sm-3 control-label"><?php echo get_phrase('price').' ( ₹ )'; ?></label>
 
 						<div class="col-sm-7">
 							<input type="text" class="form-control" name="price" id="price" placeholder="<?php echo get_phrase('price'); ?>">
+						</div>
+					</div>
+
+
+					<div class="form-group">
+						<label for="name" class="col-sm-3 control-label"><?php echo get_phrase('discounted_price').' ( ₹ )'; ?></label>
+
+						<div class="col-sm-7">
+							<input type="text" class="form-control" name="discounted_price" id="discounted_price" placeholder="<?php echo get_phrase('discounted_price'); ?>">
 						</div>
 					</div>
 

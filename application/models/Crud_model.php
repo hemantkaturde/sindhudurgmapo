@@ -157,6 +157,7 @@ class Crud_model extends CI_Model {
     $data['package_type'] = sanitizer($this->input->post('package_type'));
     $data['name'] = sanitizer($this->input->post('name'));
     $data['price'] = sanitizer($this->input->post('price'));
+    $data['discounted_price'] = sanitizer($this->input->post('discounted_price'));
     $data['validity'] = sanitizer($this->input->post('validity'));
     $data['number_of_listings'] = sanitizer($this->input->post('number_of_listings'));
     $data['number_of_categories'] = sanitizer($this->input->post('number_of_categories'));
@@ -190,6 +191,7 @@ class Crud_model extends CI_Model {
     $data['name'] = sanitizer($this->input->post('name'));
     $data['package_type'] = sanitizer($this->input->post('package_type'));
     $data['price'] = sanitizer($this->input->post('price'));
+    $data['discounted_price'] = sanitizer($this->input->post('discounted_price'));
     $data['validity'] = sanitizer($this->input->post('validity'));
     $data['number_of_listings'] = sanitizer($this->input->post('number_of_listings'));
     $data['number_of_categories'] = sanitizer($this->input->post('number_of_categories'));

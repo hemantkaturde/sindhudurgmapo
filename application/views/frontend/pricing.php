@@ -18,7 +18,13 @@
 							<div class="col">
 							<div class="price">
 								<!-- <span class="price-value"><?php echo currency($package['price']); ?></span> -->
-								<span class="price-value"> ₹ <?php echo $package['price']; ?></span>
+
+								<?php if($package['discounted_price']=='0' || $package['discounted_price']=="" ){ ?>
+									<span class="price-value"> ₹ <?php echo $package['price']; ?></span>
+								<?php }else{ ?>
+      								<span class="price-value"> ₹ <s><?php echo $package['price']; ?></s> <?php echo $package['discounted_price']; ?></span>
+
+							    <?php } ?>
 								<span class="price-duration"><?php echo $package['validity'].' '.get_phrase('days'); ?></span>
 							</div>
 							</div>

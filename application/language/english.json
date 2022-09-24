@@ -604,5 +604,7 @@
     "village/area": "Village/area",
     "select_area": "Select area",
     "you_can_provide_latitude_for_getting_the_exact_result": "You can provide latitude for getting the exact result",
-    "you_can_provide_longitude_for_getting_the_exact_result": "You can provide longitude for getting the exact result"
+    "you_can_provide_longitude_for_getting_the_exact_result": "You can provide longitude for getting the exact result",
+    "discounted_price": "Discounted price",
+    "package_added": "Package added"
 }
