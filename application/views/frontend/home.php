@@ -235,17 +235,30 @@
   color: white;
 }
 
+.insta {
+  background:  #AA336A;
+  color: white;
+}
+
+.pintraets{
+
+ background: #90EE90;
+  color: white;
+}
+
 .content {
   margin-left: 75px;
   font-size: 30px;
 }
 </style>
 <div class="icon-bar">
-  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
-  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.facebook.com/Sindhudurg-Mapodiary-103411165829582" class="facebook"  target="_blank"><i class="fa fa-facebook"></i></a> 
+  <a href="https://twitter.com/SMapodiary" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a> 
   <a href="#" class="google"><i class="fa fa-google"></i></a> 
   <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+  <a href="https://www.pinterest.com/SindhudurgMapodiary/" class="pintraets"  target="_blank"><i class="fa fa-pinterest"></i></a> 
+  <a href="https://www.instagram.com/sindhudurgmapodiary17/" class="insta"  target="_blank"><i class="fa fa-instagram"></i></a> 
 </div>
 
 
