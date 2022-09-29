@@ -1,6 +1,6 @@
-<?php if(get_settings('recaptcha_status')): ?>
+<!-- <?php if(get_settings('recaptcha_status')): ?>
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<?php endif; ?>
+<?php endif; ?> -->
 <div class="container margin_60">
 	<div class="row justify-content-center">
 		<div class="col-xl-6 col-lg-6 col-md-8">
@@ -19,11 +19,11 @@
 							<div class="float-right"><a id="forgot-pass" href="<?php echo site_url('home/forgot_password'); ?>"> <small><?php echo get_phrase('lost_password'); ?>?</small> </a></div>
 						</div>
 
-						<?php if(get_settings('recaptcha_status')): ?>
+						<!-- <?php if(get_settings('recaptcha_status')): ?>
 							<div class="form-group">
 								<div class="g-recaptcha" data-sitekey="<?php echo get_settings('recaptcha_sitekey'); ?>"></div>
 							</div>
-						<?php endif; ?>
+						<?php endif; ?> -->
 
 						<div class="row">
 							<div class="col-md-12 mb-2">
