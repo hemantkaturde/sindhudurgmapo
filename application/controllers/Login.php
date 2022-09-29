@@ -27,10 +27,10 @@ class Login extends CI_Controller {
     }
 
     public function validate_login($from = "") {
-        if(!$this->crud_model->check_rechaptcha()  && get_settings('recaptcha_status') == 1){
-            $this->session->set_flashdata('error_message', get_phrase('recaptcha_validation_failed'));
-            redirect(site_url('home/login'), 'refresh');
-        }
+        // if(!$this->crud_model->check_rechaptcha()  && get_settings('recaptcha_status') == 1){
+        //     $this->session->set_flashdata('error_message', get_phrase('recaptcha_validation_failed'));
+        //     redirect(site_url('home/login'), 'refresh');
+        // }
 
         $email = sanitizer($this->input->post('email'));
         $password = sanitizer($this->input->post('password'));
