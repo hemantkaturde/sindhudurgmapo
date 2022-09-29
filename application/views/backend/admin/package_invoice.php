@@ -83,8 +83,8 @@ $package_details = $this->db->get_where('package', array('id' => $purchase_histo
                   <b><?php echo $package_details['name']; ?></b> <br/>
                 </td>
                 <td><?php echo date('D, d-M-Y', $purchase_history['expired_date']); ?></td>
-                <td><?php echo currency($purchase_history['amount_paid']); ?></td>
-                <td class="text-right"><?php echo currency($purchase_history['amount_paid']); ?></td>
+                <td><?php echo '₹ '.$purchase_history['amount_paid']; ?></td>
+                <td class="text-right"><?php echo '₹ '.$purchase_history['amount_paid']; ?></td>
         			</tr>
         		</tbody>
         	</table>
@@ -104,11 +104,11 @@ $package_details = $this->db->get_where('package', array('id' => $purchase_histo
         				<ul class="list-unstyled">
         					<li>
         						<?php echo get_phrase('sub_total_amount'); ?>:
-        						<strong><?php echo currency($purchase_history['amount_paid']); ?></strong>
+        						<strong><?php echo '₹ '. $purchase_history['amount_paid']; ?></strong>
         					</li>
         					<li>
         						<?php echo get_phrase('grand_total'); ?>:
-        						<strong><?php echo currency($purchase_history['amount_paid']); ?></strong>
+        						<strong><?php echo '₹ '. $purchase_history['amount_paid']; ?></strong>
         					</li>
         				</ul>
 

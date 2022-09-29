@@ -21,9 +21,9 @@ class Crud_model extends CI_Model {
 
 
   function get_sub_categories($category_id = 0) {
-    if ($category_id > 0) {
+    //if ($category_id > 0) {
       $this->db->where('parent', $category_id);
-    }
+    //}
     $this->db->where('parent >', '0');
     $this->db->order_by('name','ASC');
 

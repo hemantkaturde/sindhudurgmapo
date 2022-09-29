@@ -615,6 +615,7 @@ class Admin extends CI_Controller {
 			redirect(site_url('login'), 'refresh');
 		}
 		if ($param1 == 'add') {
+			$page_data['categories'] = $this->crud_model->get_categories()->result_array();
 			$page_data['page_name']  = 'amenity_add';
 			$page_data['page_title'] = get_phrase('add_new_amenity');
 

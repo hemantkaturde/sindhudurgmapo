@@ -19,6 +19,9 @@
 					</div>
 
 
+					
+
+
 
 					<div class="form-group" id = "icon-picker-area">
 						<label for="font_awesome_class" class="col-sm-3 control-label"><?php echo get_phrase('icon_picker'); ?></label>
