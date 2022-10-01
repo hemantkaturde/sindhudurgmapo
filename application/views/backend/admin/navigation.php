@@ -58,7 +58,7 @@
         </li>
 
           <!-- Sub- Category -->
-          <li class="<?php if ($page_name == 'sub_categories' || $page_name == 'sub_categories_add' || $page_name == 'sub_categories_edit'  ) echo 'opened active has-sub'; ?>">
+          <!-- <li class="<?php if ($page_name == 'sub_categories' || $page_name == 'sub_categories_add' || $page_name == 'sub_categories_edit'  ) echo 'opened active has-sub'; ?>">
             <a href="#">
                 <i class="fa fa-globe"></i>
                 <span><?php echo get_phrase('sub-categories'); ?></span>
@@ -76,7 +76,7 @@
                     </a>
                 </li>
             </ul>
-        </li>
+        </li> -->
 
         <!-- Amenity -->
         <li class="<?php if ($page_name == 'amenities' || $page_name == 'amenity_add' || $page_name == 'amenity_edit') echo 'opened active has-sub'; ?>">

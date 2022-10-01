@@ -251,7 +251,7 @@
   font-size: 30px;
 }
 </style>
-<div class="icon-bar">
+<div class="icon-bar d-none d-md-block">
   <a href="https://www.facebook.com/Sindhudurg-Mapodiary-103411165829582" class="facebook"  target="_blank"><i class="fa fa-facebook"></i></a> 
   <a href="https://twitter.com/SMapodiary" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a> 
   <a href="#" class="google"><i class="fa fa-google"></i></a> 
