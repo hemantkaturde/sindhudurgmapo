@@ -1051,4 +1051,10 @@ class Admin extends CI_Controller {
         }
         
     }
+
+	function getPackageprice(){
+		 $postData = $this->input->post();
+		 $data = $this->crud_model->getPackagepricefromdb($postData);
+		 echo json_encode($data); 
+	}
 }

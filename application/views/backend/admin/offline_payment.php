@@ -43,7 +43,7 @@
       </div>
 
       <div class="form-group">
-        <label for="amount" class="col-sm-3 control-label"><?php echo get_phrase('payment_amount').' ('.currency_code_and_symbol().')'; ?></label>
+        <label for="amount" class="col-sm-3 control-label"><?php echo get_phrase('payment_amount').' ₹'; ?></label>
 
         <div class="col-sm-7">
           <input type="number" class="form-control" name="amount" id="amount" value="0" placeholder="<?php echo get_phrase('amount'); ?>" required>
@@ -88,3 +88,36 @@
 </div>
 </div><!-- end col-->
 </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script type='text/javascript'>
+  // baseURL variable
+  var baseURL= "<?php echo base_url();?>";
+ 
+  $(document).ready(function(){
+ 
+    // City change
+    $('#package').change(function(){
+      var package = $(this).val();
+
+      // AJAX request
+      $.ajax({
+        url:'<?=base_url()?>admin/getPackageprice',
+        method: 'post',
+        data: {package: package},
+        dataType: 'json',
+        success: function(response){
+          // Add options
+          $.each(response,function(index,data){
+             $('#amount').val(data['price']);
+          });
+        }
+     });
+   });
+
+  });
+
+
+</script>

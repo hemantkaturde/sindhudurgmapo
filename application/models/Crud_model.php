@@ -1632,4 +1632,19 @@ function get_application_details() {
         $this->db->update('user', array('password' => sha1($this->input->post('new_password')), 'verification_code' => $new_verification_code));
         return true;
     }
+
+    function getPackagepricefromdb($postData){
+
+      $response = array();
+ 
+      // Select record
+      $this->db->select('price');
+      $this->db->where('id', $postData['package']);
+      $q = $this->db->get('package');
+      $response = $q->result_array();
+      return $response;
+
+    }
+
+
 }
