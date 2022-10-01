@@ -110,8 +110,8 @@
 
 <style>
     .footermobilebg{left: 0;bottom: 0;width: 100%;background-color: #ee0b46;position: fixed;z-index: 999999;}
-    .paddl20{padding-left: 23px;}
-    .fs20{font-size: 20px;color: #fff;}
+    .paddl20{padding-left: 18px;}
+    .fs20{font-size: 18px;color: #fff;}
     .fs16{font-size: 16px;color: #fff;}
     .ml12{margin-left: 12px;}
     .ml16{margin-left: 21px;}
