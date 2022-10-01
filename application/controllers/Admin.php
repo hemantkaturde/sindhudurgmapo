@@ -620,6 +620,7 @@ class Admin extends CI_Controller {
 			$page_data['page_title'] = get_phrase('add_new_amenity');
 
 		}elseif ($param1 == 'edit') {
+			$page_data['categories'] = $this->crud_model->get_categories()->result_array();
 			$page_data['page_name']  = 'amenity_edit';
 			$page_data['amenity_id']    = $param2;
 			$page_data['page_title'] = get_phrase('update_amenity');

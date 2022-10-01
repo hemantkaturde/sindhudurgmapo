@@ -18,8 +18,22 @@
 						</div>
 					</div>
 
+					<div class="form-group">
+						<label for="parent" class="col-sm-3 control-label"><?php echo get_phrase('parent_category'); ?></label>
 
+						<div class="col-sm-7">
+							<select name="category" id = "category" class="select2" data-allow-clear="true" data-placeholder="<?php echo get_phrase('select_parent_category'); ?>" onchange="checkCategoryType(this.value)">
+								<option value="0"><?php echo get_phrase('none'); ?></option>
+								<?php foreach ($categories as $category): ?>
+									<?php if ($category['parent'] == 0): ?>
+										<option value="<?php echo $category['id']; ?>"><?php echo $category['name']; ?></option>
+									<?php endif; ?>
+								<?php endforeach; ?>
+							</select>
+						</div>
+					</div>
 					
+
 
 
 

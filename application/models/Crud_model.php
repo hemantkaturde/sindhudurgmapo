@@ -131,12 +131,14 @@ class Crud_model extends CI_Model {
 
   function add_amenity() {
     $data['name'] = sanitizer($this->input->post('name'));
+    $data['category_id'] = sanitizer($this->input->post('category'));
     $data['icon'] = sanitizer($this->input->post('icon'));
     $data['slug'] = slugify(sanitizer($this->input->post('name')));
     $this->db->insert('amenities', $data);
   }
   function edit_amenity($amenity_id) {
     $data['name'] = sanitizer($this->input->post('name'));
+    $data['category_id'] = sanitizer($this->input->post('category'));
     $data['icon'] = sanitizer($this->input->post('icon'));
     $data['slug'] = slugify(sanitizer($this->input->post('name')));
     $this->db->where('id', $amenity_id);
@@ -1240,6 +1242,9 @@ public function get_amenities($amenity_id = "") {
   if ($amenity_id > 0) {
     $this->db->where('id', $amenity_id);
   }
+    //$this->db->join('category','category.id = amenities.category_id','left');
+
+    $this->db->order_by('id','desc');
 
   return $this->db->get('amenities');
 }
