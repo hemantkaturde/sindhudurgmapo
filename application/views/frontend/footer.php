@@ -169,7 +169,7 @@
 			<ul class="contacts ulmargin">
 					<li style="padding-left: 0px;"><i class="ti-headphone-alt fs20 ml23"></i>
 					<br>
-					<div class="fs16">CONTCTS</div>
+					<div class="fs16">CONTACTS</div>
 					</li>
 					
 				</ul>
