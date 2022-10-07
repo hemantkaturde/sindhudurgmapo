@@ -13,7 +13,7 @@
 						</div>
 					</div>
 					<div class="col-lg-2 col-sm-12 mb-1">
-						<select class="wide" name="selected_category_id" >
+						<select class="wide" name="selected_category_id" id="selected_category_id" >
 							<option value=""><?php echo get_phrase('All_categories'); ?></option>
 							<?php
 							$categories = $this->crud_model->get_categories()->result_array();
@@ -24,13 +24,9 @@
 					</div>
 					
 					<div class="col-lg-2 col-sm-12 mb-1">
-						<select class="wide" name="selected_subcategory_id">
+						<select class="wide" name="selected_subcategory_id" id="selected_subcategory_id">
 							<option value=""><?php echo get_phrase('All_subcategories'); ?></option>
-							<?php
-							$categories = $this->crud_model->get_sub_categories()->result_array();
-							foreach ($categories as $category):?>
-								<option value="<?php echo $category['id']; ?>"><?php echo $category['name']; ?></option>
-							<?php endforeach; ?>
+						
 						</select>
 					</div>
 
@@ -278,5 +274,43 @@
 		});
 	}
 </script>
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+<script type='text/javascript'>
+  var baseURL= "<?php echo base_url();?>";
+
+  $(document).ready(function(){
+ 
+		$('#selected_category_id').change(function(){
+		var selected_category_id = $(this).val();
+
+					// AJAX request
+					$.ajax({
+						url:'<?=base_url()?>admin/getSubcategoryDependant',
+						method: 'post',
+						data: {selected_category_id: selected_category_id},
+						dataType: 'json',
+						success: function(response){
+
+						// Remove options 
+						$('#selected_subcategory_id').find('option').not(':first').remove();
+						//$('#sel_depart').find('option').not(':first').remove();
+
+						// Add options
+						$.each(response,function(index,data){
+							$('#selected_subcategory_id').val('<option value="'+data['id']+'">'+data['name']+'</option>');
+						});
+						}
+					});
+			});
+
+  });
+
+
+</script>
+
+
 
 

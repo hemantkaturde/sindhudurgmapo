@@ -201,9 +201,14 @@ class Home extends CI_Controller {
             redirect(site_url('home/listings'), 'refresh');
         }
 
+
         $all_listings = $this->frontend_model->filter_listing_all_rows($category_ids, $amenity_ids, $city_id, $price_range, $with_video, $with_open);
 
         $listings = $this->frontend_model->filter_listing($category_ids, $amenity_ids, $city_id, $price_range, $with_video, $with_open, $page_number);
+
+        if( $all_listings && $listings){
+
+       
 
         $page_data['geo_json']       =  $this->make_geo_json_for_map($listings);
 
@@ -232,6 +237,31 @@ class Home extends CI_Controller {
         $page_data['with_video']   = $with_video;
         $page_data['with_open']   = $with_open;
         $page_data['price_range']  = $price_range;
+
+
+    }else{
+
+        $page_data['pagination'] = "filter_page";
+
+        $total_page_number = '';
+
+        $page_data['total_page_number'] = '';
+        $page_data['active_page_number']= '';
+        $page_data['pagination'] = false;
+
+
+        $page_data['geo_json'] = '';
+        $page_data['page_name']    =  'listings';
+        $page_data['title']        = '';
+        $page_data['listings']     = '';
+        $page_data['category_ids'] = '';
+        $page_data['amenity_ids']  = '';
+        $page_data['city_id']      = '';
+        $page_data['with_video']   = '';
+        $page_data['with_open']   = '';
+        $page_data['price_range']  = '';
+
+    }
         
         $this->load->view('frontend/index', $page_data);
     }

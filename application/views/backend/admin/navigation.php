@@ -212,9 +212,9 @@
                 <span><?php echo get_phrase('cities'); ?></span>
             </a>
             <ul>
-                <li class="<?php if ($page_name == 'cities') echo 'active'; ?> ">
+                <li class="<?php if ($page_name == 'city') echo 'active'; ?> ">
                     <a href="<?php echo site_url('admin/cities'); ?>">
-                        <span><i class="entypo-dot"></i> <?php echo get_phrase('cities'); ?></span>
+                        <span><i class="entypo-dot"></i> <?php echo get_phrase('city'); ?></span>
                     </a>
                 </li>
 
@@ -225,6 +225,49 @@
                 </li>
             </ul>
         </li>
+
+        <!-- Taluka -->
+        <li class="<?php if ($page_name == 'taluka' || $page_name == 'taluka_add' || $page_name == 'taluka_edit') echo 'opened active has-sub'; ?>">
+            <a href="#">
+                <i class="fa fa-map-marker"></i>
+                <span><?php echo get_phrase('taluka'); ?></span>
+            </a>
+            <ul>
+                <li class="<?php if ($page_name == 'all_taluka') echo 'active'; ?> ">
+                    <a href="<?php echo site_url('admin/taluka'); ?>">
+                        <span><i class="entypo-dot"></i> <?php echo get_phrase('all_taluka'); ?></span>
+                    </a>
+                </li>
+                
+                <li class="<?php if ($page_name == 'add_new_taluka_add') echo 'active'; ?> ">
+                    <a href="<?php echo site_url('admin/taluka_form/add'); ?>">
+                        <span><i class="entypo-dot"></i> <?php echo get_phrase('add_new_taluka '); ?></span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+       
+        <!-- village -->
+        <li class="<?php if ($page_name == 'village.location' || $page_name == 'village_add' || $page_name == 'village_edit') echo 'opened active has-sub'; ?>">
+            <a href="#">
+                <i class="fa fa-home"></i>
+                <span><?php echo get_phrase('village'); ?></span>
+            </a>
+            <ul>
+                <li class="<?php if ($page_name == 'all_village') echo 'active'; ?> ">
+                    <a href="<?php echo site_url('admin/village'); ?>">
+                        <span><i class="entypo-dot"></i> <?php echo get_phrase('all_village'); ?></span>
+                    </a>
+                </li>
+                
+                <li class="<?php if ($page_name == 'add_new_village_add') echo 'active'; ?> ">
+                    <a href="<?php echo site_url('admin/village_form/add'); ?>">
+                        <span><i class="entypo-dot"></i> <?php echo get_phrase('add_new_village'); ?></span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
         <!-- Pricing -->
         <li class="<?php if ($page_name == 'packages' || $page_name == 'package_add' || $page_name == 'package_edit') echo 'opened active has-sub'; ?>">
             <a href="#">
@@ -247,12 +290,31 @@
         </li>
 
         <!-- Offline Payment -->
-        <li class="<?php if ($page_name == 'offline_payment') echo 'active'; ?> " style="border-top:1px solid #232540;">
-            <a href="<?php echo site_url('admin/offline_payment'); ?>">
+
+        <li class="<?php if ($page_name == 'offline_payment' || $page_name == 'Payment_mod') echo 'opened active has-sub'; ?>">
+            <a href="#">
                 <i class="fa fa-archive"></i>
+                <span><?php echo get_phrase('payment_method'); ?></span>
+            </a>
+            <ul>
+            <li class="<?php if ($page_name == 'offline_payment') echo 'active'; ?> " style="border-top:1px solid #232540;">
+            <a href="<?php echo site_url('admin/offline_payment'); ?>">
+                <i class="entypo-dot"></i>
                 <span><?php echo get_phrase('offline_payment'); ?></span>
             </a>
         </li>
+
+        <li class="<?php if ($page_name == 'Payment_mod') echo 'active'; ?> " style="border-top:1px solid #232540;">
+            <a href="<?php echo site_url('admin/payment_mod'); ?>">
+                <i class="entypo-dot"></i>
+                <span><?php echo get_phrase('payment_mod'); ?></span>
+            </a>
+        </li>
+            </ul>
+        </li>
+        
+        
+       
 
         <!-- Reports -->
         <li class="<?php if ($page_name == 'report' || $page_name == 'package_invoice') echo 'active'; ?> " style="border-top:1px solid #232540;">

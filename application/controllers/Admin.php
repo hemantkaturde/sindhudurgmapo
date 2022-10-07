@@ -325,6 +325,9 @@ class Admin extends CI_Controller {
 
 		if ($param1 == 'add') {
 			$this->crud_model->add_listing();
+
+
+			
 			redirect(site_url('admin/listings'), 'refresh');
 		}elseif ($param1 == 'edit') {
 			$this->crud_model->update_listing($param2);
@@ -1056,5 +1059,107 @@ class Admin extends CI_Controller {
 		 $postData = $this->input->post();
 		 $data = $this->crud_model->getPackagepricefromdb($postData);
 		 echo json_encode($data); 
+	}
+
+	function getSubcategoryDependant(){
+		$postData = $this->input->post();
+		$data = $this->crud_model->getSubcategoryDependant($postData);
+		echo json_encode($data); 
+
+	}
+
+	//taluka Add
+	public function taluka($param1 = "", $param2 = "") {
+		if ($this->session->userdata('admin_login') != true) {
+			redirect(site_url('login'), 'refresh');
+		}
+		if ($param1 == 'add') {
+			$this->crud_model->add_taluka();
+			$this->session->set_flashdata('flash_message', get_phrase('all_taluka_added'));
+			redirect(site_url('admin/taluka'), 'refresh');
+		}
+		else if ($param1 == 'edit') {
+			$this->crud_model->edit_taluka($param2);
+			$this->session->set_flashdata('flash_message', get_phrase('all_taluka_updated'));
+			redirect(site_url('admin/taluka'), 'refresh');
+		}
+		else if ($param1 == 'delete') {
+			$this->crud_model->delete_from_table('taluka', $param2);
+			$this->session->set_flashdata('flash_message', get_phrase('all_taluka_deleted'));
+			redirect(site_url('admin/taluka'), 'refresh');
+		}
+		$page_data['page_name'] = 'taluka';
+		$page_data['page_title'] = get_phrase('taluka');
+		$page_data['taluka'] = $this->crud_model->get_taluka()->result_array();
+		$this->load->view('backend/index', $page_data);
+	}
+
+    //taluka form
+	public function taluka_form($param1 = "", $param2 = "") {
+		if ($this->session->userdata('admin_login') != true) {
+			redirect(site_url('login'), 'refresh');
+		}
+		if ($param1 == 'add') {
+			$page_data['page_name']  = 'taluka_add';
+			$page_data['page_title'] = get_phrase('add_new_taluka');
+			$page_data['countries']  = $this->crud_model->get_countries()->result_array();
+
+		}elseif ($param1 == 'edit') {
+			$page_data['page_name']  = 'taluka_edit';
+			$page_data['taluka_id']    = $param2;
+			$page_data['page_title'] = get_phrase('update_taluka');
+			$page_data['countries']  = $this->crud_model->get_countries()->result_array();
+
+			$page_data['taluka_data']  = $this->crud_model->get_taluka($page_data['taluka_id'])->result_array();
+		}
+		$this->load->view('backend/index.php', $page_data);
+	}
+
+
+		//village Add
+		public function village($param1 = "", $param2 = "") {
+			if ($this->session->userdata('admin_login') != true) {
+				redirect(site_url('login'), 'refresh');
+			}
+			if ($param1 == 'add') {
+				$this->crud_model->add_village();
+				$this->session->set_flashdata('flash_message', get_phrase('all_village_added'));
+				redirect(site_url('admin/village'), 'refresh');
+			}
+			else if ($param1 == 'edit') {
+				$this->crud_model->edit_village($param2);
+				$this->session->set_flashdata('flash_message', get_phrase('all_village_updated'));
+				redirect(site_url('admin/village'), 'refresh');
+			}
+			else if ($param1 == 'delete') {
+				$this->crud_model->delete_from_table('village', $param2);
+				$this->session->set_flashdata('flash_message', get_phrase('all_village_deleted'));
+				redirect(site_url('admin/village'), 'refresh');
+			}
+			$page_data['page_name'] = 'village';
+			$page_data['page_title'] = get_phrase('village');
+			$page_data['village'] = $this->crud_model->get_village()->result_array();
+			$this->load->view('backend/index', $page_data);
+		}
+	
+	//village form
+	public function village_form($param1 = "", $param2 = "") {
+		if ($this->session->userdata('admin_login') != true) {
+			redirect(site_url('login'), 'refresh');
+		}
+		if ($param1 == 'add') {
+			$page_data['page_name']  = 'village_add';
+			$page_data['page_title'] = get_phrase('add_new_village');
+			$page_data['countries']  = $this->crud_model->get_countries()->result_array();
+	
+		}elseif ($param1 == 'edit') {
+			$page_data['page_name']  = 'village_edit';
+			$page_data['village_id']    = $param2;
+			$page_data['page_title'] = get_phrase('update_village');
+			$page_data['countries']  = $this->crud_model->get_countries()->result_array();
+	
+			$page_data['village_data']  = $this->crud_model->get_village($page_data['village_id'])->result_array();
+		}
+		$this->load->view('backend/index.php', $page_data);
 	}
 }

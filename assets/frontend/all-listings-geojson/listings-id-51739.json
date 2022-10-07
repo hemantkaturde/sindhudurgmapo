@@ -1,0 +1,353 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.533703",
+                    "16.362261"
+                ]
+            },
+            "properties": {
+                "id": "d2cb9d8edac523367bd22d263cac5904",
+                "index": 0,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "http://localhost/sindhu/general/wedding-venues-in-mandrem/812",
+                "url": "weddingz.in",
+                "name": "Wedding Venues in Mandrem",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "08048072314",
+                "address": "Mandrem, Goa 403519",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.545045",
+                    "16.355512"
+                ]
+            },
+            "properties": {
+                "id": "ef1c4126033d02df890532b296e5c54f",
+                "index": 1,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "http://localhost/sindhu/general/police-patil-anav/2870",
+                "url": "",
+                "name": "Police Patil Anav",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "4M4M+64W, Kudal, Maharashtra 416812rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.53281",
+                    "16.349907"
+                ]
+            },
+            "properties": {
+                "id": "f1ef44c555fec44ecf23e3087e503903",
+                "index": 2,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "http://localhost/sindhu/general/kesari-tours-pvt-ltd-new-panvel/67",
+                "url": "kesari.in",
+                "name": "Kesari Tours Pvt Ltd - New Panvel",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2227480564",
+                "address": "1st Floor, Plot No 26, Panvel Matheran Rd, Sector 12, New Panvel East, Navi Mumbai, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.524946",
+                    "16.354849"
+                ]
+            },
+            "properties": {
+                "id": "8d7d7da5a13b6743daa8762f1300ea8a",
+                "index": 3,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "http://localhost/sindhu/general/travel-people-india/5710",
+                "url": "",
+                "name": "Travel people india",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "9850000735",
+                "address": "opp. La Muella Restaurant, Arambol Beach, Arambol, Goa 403524rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.528698",
+                    "16.361766"
+                ]
+            },
+            "properties": {
+                "id": "c75d6086d947e97fdba2576646c0b538",
+                "index": 4,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "http://localhost/sindhu/general/saraswati-kalamandir/596",
+                "url": "",
+                "name": "Saraswati Kalamandir",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Near, Udyam Sankul Rd No 1, College Rd, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.537331",
+                    "16.361616"
+                ]
+            },
+            "properties": {
+                "id": "564ba3f7cc5d856fc53b79c8817bd0dc",
+                "index": 5,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "http://localhost/sindhu/general/trisha-events/2645",
+                "url": "",
+                "name": "Trisha Events",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "ucassaim, lourdes waddo, Mapusa, Goa 403507t-rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.58286",
+                    "16.340353"
+                ]
+            },
+            "properties": {
+                "id": "b4839f60cb57fa6d8b9547004d1d5aae",
+                "index": 6,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "http://localhost/sindhu/hotel/pioneer-academy/5759",
+                "url": "www.pioneeracademypace.com",
+                "name": "Pioneer academy",
+                "category": "hotel",
+                "email": "pioneeracademypace.@gmail.com",
+                "stars": "0.0",
+                "phone": "7037015601",
+                "address": "erfer r34r23r234r23r23r r r32r23r",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.560093",
+                    "16.354519"
+                ]
+            },
+            "properties": {
+                "id": "f20176784dfbc0cbf3b1911b3dc51b44",
+                "index": 7,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "http://localhost/sindhu/general/sai-dental-lab/5504",
+                "url": "",
+                "name": "Sai dental lab",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Arpora, Goa 403519rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.61532",
+                    "16.337472"
+                ]
+            },
+            "properties": {
+                "id": "f7ead04778f284cbb77b4b5aab227b3c",
+                "index": 8,
+                "isActive": true,
+                "logo": "485802ebdb9a869d39cb7026953570ef.jpg",
+                "image": "485802ebdb9a869d39cb7026953570ef.jpg",
+                "link": "http://localhost/sindhu/general/pioneer-general/5760",
+                "url": "https://youtu.be/SJAj_ZKylNQ",
+                "name": "Pioneer General ",
+                "category": "general",
+                "email": "pioneerforupsc@gmail.com",
+                "stars": "0.0",
+                "phone": "9999977777",
+                "address": "Pioneer General , near Moti Lake ,Sawantwadi .",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.541733",
+                    "16.366752"
+                ]
+            },
+            "properties": {
+                "id": "a83a588c521409ffbaac9c727e3b8fa7",
+                "index": 9,
+                "isActive": true,
+                "logo": "thumbnail.png",
+                "image": "thumbnail.png",
+                "link": "http://localhost/sindhu/general/anand-decorators-nigave/4737",
+                "url": "",
+                "name": "Anand Decorators nigave",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Hanuman Mandir near Nigave khalasa, tal, karveer, Maharashtra 416207rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.655186",
+                    "16.331787"
+                ]
+            },
+            "properties": {
+                "id": "42550ef4b4b44147057f6e866fdccff9",
+                "index": 10,
+                "isActive": true,
+                "logo": "904e6f7db47a2ba60109cc22775b9078.jpg",
+                "image": "904e6f7db47a2ba60109cc22775b9078.jpg",
+                "link": "http://localhost/sindhu/hotel/pioneer-hotel/5761",
+                "url": "www.pioneeracademypace.com",
+                "name": "Pioneer Hotel",
+                "category": "hotel",
+                "email": "mapodiary@gmail.com",
+                "stars": "0.0",
+                "phone": "8888844444",
+                "address": "Talav vada  Bazarpeth , Sawantwadi ",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "",
+                    ""
+                ]
+            },
+            "properties": {
+                "id": "81d2d42af62d50e762c2ddaf01bede34",
+                "index": 11,
+                "isActive": true,
+                "logo": "2e652e4bc7621389c7d353ea792745c6.jpg",
+                "image": "2e652e4bc7621389c7d353ea792745c6.jpg",
+                "link": "http://localhost/sindhu/general/tesr/5763",
+                "url": "www.test.com",
+                "name": "Tesr",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "",
+                "address": "Devgad",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

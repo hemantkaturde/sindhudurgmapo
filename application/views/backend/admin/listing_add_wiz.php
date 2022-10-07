@@ -257,6 +257,7 @@ function showListingTypeForm(listing_type) {
 
 // This fucntion checks the minimul required fields of listing form
 function checkMinimumFieldRequired() {
+	
 	var title = $('#title').val();
 	var defaultCategory = $('#category_default').val();
 	var latitude = $('#latitude').val();

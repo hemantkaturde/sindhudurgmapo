@@ -21,12 +21,32 @@ class Crud_model extends CI_Model {
     return $this->db->get('category');
   }
 
+  
+  function getSubcategoryDependant($postData) {
+    // if ($category_id > 0) {
+    //   $this->db->where('parent', $category_id);
+    // }
+    // //$this->db->where('parent >', '0');
+    // $this->db->order_by('name','ASC');
+
+    // return $this->db->get('category');
+
+      $response = array();
+  
+      // Select record
+      $this->db->select('*');
+      $this->db->where('parent', $postData['selected_category_id']);
+      $q = $this->db->get('category');
+      $response = $q->result_array();
+      return $response;
+  }
+
 
   function get_sub_categories($category_id = 0) {
-    //if ($category_id > 0) {
+    if ($category_id > 0) {
       $this->db->where('parent', $category_id);
-    //}
-    $this->db->where('parent >', '0');
+    }
+    //$this->db->where('parent >', '0');
     $this->db->order_by('name','ASC');
 
     return $this->db->get('category');
@@ -1638,7 +1658,6 @@ function get_application_details() {
     function getPackagepricefromdb($postData){
 
       $response = array();
- 
       // Select record
       $this->db->select('price');
       $this->db->where('id', $postData['package']);
@@ -1648,5 +1667,50 @@ function get_application_details() {
 
     }
 
+  
+    function get_taluka_by_country_id($country_id = 0) {
+      $this->db->where('country_id', $country_id);
+      return $this->db->get('taluka');
+    }
+  
+    function add_taluka() {
+      $data['name'] = sanitizer($this->input->post('name'));
+      $data['slug'] =slugify(sanitizer($this->input->post('name')));
+      $data['country_id'] = sanitizer($this->input->post('country_id'));
+      $this->db->insert('taluka', $data);
+    }
+    function edit_taluka($taluka_id) {
+      $data['name'] = sanitizer($this->input->post('name'));
+      $data['slug'] = slugify(sanitizer($this->input->post('name')));
+      $data['country_id'] = sanitizer($this->input->post('country_id'));
+      $this->db->where('id', $taluka_id);
+      $this->db->update('taluka', $data);
+    }
+
+    function get_village($village_id = 0) {
+      if ($village_id > 0) {
+        $this->db->where('id', $village_id);
+      }
+      return $this->db->get('village');
+    }
+  
+    function get_village_by_country_id($country_id = 0) {
+      $this->db->where('country_id', $country_id);
+      return $this->db->get('village');
+    }
+  
+    function add_village() {
+      $data['name'] = sanitizer($this->input->post('name'));
+      $data['slug'] =slugify(sanitizer($this->input->post('name')));
+      $data['country_id'] = sanitizer($this->input->post('country_id'));
+      $this->db->insert('village', $data);
+    }
+    function edit_village($village_id) {
+      $data['name'] = sanitizer($this->input->post('name'));
+      $data['slug'] = slugify(sanitizer($this->input->post('name')));
+      $data['country_id'] = sanitizer($this->input->post('country_id'));
+      $this->db->where('id', $village_id);
+      $this->db->update('village', $data);
+    }
 
 }

@@ -607,5 +607,17 @@
     "you_can_provide_longitude_for_getting_the_exact_result": "You can provide longitude for getting the exact result",
     "discounted_price": "Discounted price",
     "package_added": "Package added",
-    "select_payment_method": "Select payment method"
+    "select_payment_method": "Select payment method",
+    "listing_added_successfully": "Listing added successfully",
+    "all_taluka": "All taluka",
+    "add_new_taluka_": "Add new taluka ",
+    "village": "Village",
+    "all_village": "All village",
+    "add_new_village": "Add new village",
+    "payment_mod": "Payment mod",
+    "add_new_taluka": "Add new taluka",
+    "taluka_name": "Taluka name",
+    "add_taluka": "Add taluka",
+    "add_city": "Add city",
+    "all_taluka_deleted": "All taluka deleted"
 }
