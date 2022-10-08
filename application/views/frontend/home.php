@@ -102,18 +102,18 @@ font-weight: 500;
 
 					<div class="col-lg-2 col-sm-12 mb-1">
 						<select class="wide" name="selected_taluka_id">
-							<option value=""><?php echo get_phrase('Taluka'); ?></option>
+							<option value=""><?php echo get_phrase('All_Taluka'); ?> / <?php echo get_phrase('cites'); ?></option>
 							<?php
-							$taluka = $this->crud_model->get_taluka()->result_array();
-							foreach ($taluka as $taluka):?>
-								<option value="<?php echo $taluka['id']; ?>"><?php echo $taluka['name']; ?></option>
+							$taluka = $this->crud_model->get_cities()->result_array();
+							foreach ($taluka as $taluka_value):?>
+								<option value="<?php echo $taluka_value['id']; ?>"><?php echo $taluka_value['name']; ?></option>
 							<?php endforeach; ?>
 						</select>
 					</div>
 
 					<div class="col-lg-2 col-sm-12 mb-1">
 						<select class="wide" name="selected_city_id">
-							<option value=""><?php echo get_phrase('Location'); ?></option>
+							<option value=""><?php echo get_phrase('village'); ?> / <?php echo get_phrase('area'); ?></option>
 							<?php
 							$cities = $this->crud_model->get_cities()->result_array();
 							foreach ($cities as $city):?>

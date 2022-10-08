@@ -620,5 +620,9 @@
     "add_taluka": "Add taluka",
     "add_city": "Add city",
     "all_taluka_deleted": "All taluka deleted",
-    "area": "Area"
+    "area": "Area",
+    "all_location": "All location",
+    "village_name": "Village name",
+    "add_village": "Add village",
+    "cites": "Cites"
 }
