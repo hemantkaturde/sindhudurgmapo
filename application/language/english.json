@@ -624,5 +624,9 @@
     "all_location": "All location",
     "village_name": "Village name",
     "add_village": "Add village",
-    "cites": "Cites"
+    "cites": "Cites",
+    "select_city_taluka": "Select city taluka",
+    "all_village_added": "All village added",
+    "update_village": "Update village",
+    "all_village_updated": "All village updated"
 }

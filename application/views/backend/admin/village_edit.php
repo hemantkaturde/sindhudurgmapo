@@ -23,6 +23,19 @@
 					</div>
 
 
+					<div class="form-group">
+						<label for="city_id" class="col-sm-3 control-label"><?php echo get_phrase('city'); ?> / <?php echo get_phrase('taluka'); ?></label>
+						
+						<div class="col-sm-7">
+							<select name="city_id" id ="city_id" class="select2" data-allow-clear="true" data-placeholder="<?php echo get_phrase('select_city_taluka'); ?>">
+								<option value="0"><?php echo get_phrase('none'); ?></option>
+								<?php foreach ($city_taluka as $city): ?>
+									<option value="<?php echo $city['id']; ?>" <?php if($village_details['city_id'] == $city['id']) echo 'selected'; ?> ><?php echo $city['name']; ?></option>
+								<?php endforeach; ?>
+							</select>
+						</div>
+					</div>
+
 
 					<div class="form-group">
 						<label for="country_id" class="col-sm-3 control-label"><?php echo get_phrase('country'); ?></label>

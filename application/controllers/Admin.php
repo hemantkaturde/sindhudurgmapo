@@ -1151,14 +1151,16 @@ class Admin extends CI_Controller {
 			$page_data['page_name']  = 'village_add';
 			$page_data['page_title'] = get_phrase('add_new_village');
 			$page_data['countries']  = $this->crud_model->get_countries()->result_array();
+			$page_data['city_taluka']  = $this->crud_model->get_cities()->result_array();
 	
 		}elseif ($param1 == 'edit') {
 			$page_data['page_name']  = 'village_edit';
 			$page_data['village_id']    = $param2;
 			$page_data['page_title'] = get_phrase('update_village');
 			$page_data['countries']  = $this->crud_model->get_countries()->result_array();
-	
 			$page_data['village_data']  = $this->crud_model->get_village($page_data['village_id'])->result_array();
+			$page_data['city_taluka']  = $this->crud_model->get_cities()->result_array();
+
 		}
 		$this->load->view('backend/index.php', $page_data);
 	}
