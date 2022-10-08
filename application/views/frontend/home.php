@@ -1,10 +1,133 @@
+
+<style>
+.addon_search_bar{
+	background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 30%);
+
+}
+.addon_search_bar input{
+
+	border: 0;
+    height: 50px;
+    padding-left: 15px;
+    border-right: 1px solid #d2d8dd;
+    font-weight: 500;
+}
+
+.addon_search_bar select{
+
+border: 0;
+height: 50px;
+padding-left: 15px;
+border-right: 1px solid #d2d8dd;
+font-weight: 500;
+}
+
+
+
+.addon_search_bar input[type='submit'] {
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    font-size: 0.875rem;
+    border: 0;
+    padding: 0 25px;
+    height: 50px;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    background-color: #004dda;
+    margin-right: -1px;
+	height: 54px;
+}
+
+</style>
+
+
 <section class="hero_single version_2" style="background: #222 url(<?php echo base_url('uploads/system/home_banner.jpg'); ?>) center center no-repeat; background-size: cover;">
 	<div class="wrapper">
 		<div class="container">
 			<h3><?php echo get_frontend_settings('banner_title'); ?></h3>
 			<p><?php echo get_frontend_settings('slogan'); ?></p>
 			<form action="<?php echo site_url('home/search'); ?>" method="get">
-				<div class="row no-gutters custom-search-input-2">
+
+
+
+                <div class="row no-gutters addon_search_bar">
+
+                   <div class="col-lg-3 col-sm-12">
+						<div class="form-group">
+							<input class="form-control" type="text" name="search_string" placeholder="<?php echo get_phrase('what_are_you_looking_for'); ?>...">
+							<i class="icon_search"></i>
+							
+						</div>
+					</div>
+
+					<div class="col-lg-2 col-sm-12 mb-1">
+						<select class="wide" name="selected_category_id" id="selected_category_id" >
+							<option value=""><?php echo get_phrase('All_categories'); ?></option>
+							<?php
+							$categories = $this->crud_model->get_categories()->result_array();
+							foreach ($categories as $category):?>
+								<option value="<?php echo $category['id']; ?>"><?php echo $category['name']; ?></option>
+							<?php endforeach; ?>
+						</select>
+					</div>
+
+					<div class="col-lg-2 col-sm-12 mb-1">
+						<select class="wide" name="selected_subcategory_id" id="selected_subcategory_id">
+							<option value=""><?php echo get_phrase('All_subcategories'); ?></option>
+						
+						</select>
+
+						<!-- <select id="mySelect"></select> -->
+					</div>
+
+
+					<div class="col-lg-2 col-sm-12 mb-1">
+						<select class="wide" name="selected_taluka_id">
+							<option value=""><?php echo get_phrase('Taluka'); ?></option>
+							<?php
+							$taluka = $this->crud_model->get_taluka()->result_array();
+							foreach ($taluka as $taluka):?>
+								<option value="<?php echo $taluka['id']; ?>"><?php echo $taluka['name']; ?></option>
+							<?php endforeach; ?>
+						</select>
+					</div>
+
+					<div class="col-lg-2 col-sm-12 mb-1">
+						<select class="wide" name="selected_city_id">
+							<option value=""><?php echo get_phrase('Location'); ?></option>
+							<?php
+							$cities = $this->crud_model->get_cities()->result_array();
+							foreach ($cities as $city):?>
+								<option value="<?php echo $city['id']; ?>"><?php echo $city['name']; ?></option>
+							<?php endforeach; ?>
+						</select>
+					</div>
+
+					<div class="col-lg-1 col-sm-12 ">
+						<input  style="height: 54px;" type="submit" value="<?= get_phrase('search'); ?>">
+					</div>
+                </div>
+
+				<!-- <div class="row no-gutters custom-search-input-2">
 					<div class="col-lg-3 col-sm-12">
 						<div class="form-group">
 							<input class="form-control" type="text" name="search_string" placeholder="<?php echo get_phrase('what_are_you_looking_for'); ?>...">
@@ -24,10 +147,12 @@
 					</div>
 					
 					<div class="col-lg-2 col-sm-12 mb-1">
-						<select class="wide" name="selected_subcategory_id" id="selected_subcategory_id">
+						 <select class="wide" name="selected_subcategory_id" id="selected_subcategory_id">
 							<option value=""><?php echo get_phrase('All_subcategories'); ?></option>
 						
 						</select>
+
+						<select id="mySelect"></select>
 					</div>
 
 					<div class="col-lg-2 col-sm-12 mb-1">
@@ -55,7 +180,7 @@
 					<div class="col-lg-1 col-sm-12 ">
 						<input  style="height: 54px;" type="submit" value="<?= get_phrase('search'); ?>">
 					</div>
-				</div>
+				</div> -->
 				<!-- /row -->
 			</form>
 		</div>
@@ -178,6 +303,7 @@
 </div>
 <!-- /container -->
 
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .icon-bar {
@@ -277,11 +403,43 @@
 
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
 
 <script type='text/javascript'>
+
+
+// var selectValues = {
+//   "1": "test 1",
+//   "2": "test 2"
+// };
+// var $mySelect = $('#mySelect');
+// //
+// $.each(selectValues, function(key, value) {
+//   var $option = $("<option/>", {
+//     value: key,
+//     text: value
+//   });
+//   $mySelect.append($option);
+// });
+
+
+
+
+
+
   var baseURL= "<?php echo base_url();?>";
 
   $(document).ready(function(){
+
+	$('#selected_subcategory_id')
+          .append($('<option>', { 'jemamt' : 'hmemme' })
+          .text('ddd'));
+
+
  
 		$('#selected_category_id').change(function(){
 		var selected_category_id = $(this).val();
@@ -299,8 +457,8 @@
 						//$('#sel_depart').find('option').not(':first').remove();
 
 						// Add options
-						$.each(response,function(index,data){
-							$('#selected_subcategory_id').val('<option value="'+data['id']+'">'+data['name']+'</option>');
+						$.each(response,function(index,data){		
+							$('#selected_subcategory_id').append('<option value="'+data['id']+'">'+data['name']+'</option>');
 						});
 						}
 					});

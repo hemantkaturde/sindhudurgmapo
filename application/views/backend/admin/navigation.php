@@ -209,25 +209,25 @@
         <li class="<?php if ($page_name == 'cities' || $page_name == 'city_add' || $page_name == 'city_edit') echo 'opened active has-sub'; ?>">
             <a href="#">
                 <i class="fa fa-location-arrow"></i>
-                <span><?php echo get_phrase('cities'); ?></span>
+                <span><?php echo get_phrase('cities'); ?> / <?php echo get_phrase('taluka'); ?></span>
             </a>
             <ul>
                 <li class="<?php if ($page_name == 'city') echo 'active'; ?> ">
                     <a href="<?php echo site_url('admin/cities'); ?>">
-                        <span><i class="entypo-dot"></i> <?php echo get_phrase('city'); ?></span>
+                        <span><i class="entypo-dot"></i> <?php echo get_phrase('city'); ?> / <?php echo get_phrase('taluka')?></span>
                     </a>
                 </li>
 
                 <li class="<?php if ($page_name == 'city_add') echo 'active'; ?> ">
                     <a href="<?php echo site_url('admin/city_form/add'); ?>">
-                        <span><i class="entypo-dot"></i> <?php echo get_phrase('add_new_city'); ?></span>
+                        <span><i class="entypo-dot"></i> <?php echo get_phrase('add_new_city'); ?> / <?php echo get_phrase('taluka')?></span>
                     </a>
                 </li>
             </ul>
         </li>
 
         <!-- Taluka -->
-        <li class="<?php if ($page_name == 'taluka' || $page_name == 'taluka_add' || $page_name == 'taluka_edit') echo 'opened active has-sub'; ?>">
+        <!-- <li class="<?php if ($page_name == 'taluka' || $page_name == 'taluka_add' || $page_name == 'taluka_edit') echo 'opened active has-sub'; ?>">
             <a href="#">
                 <i class="fa fa-map-marker"></i>
                 <span><?php echo get_phrase('taluka'); ?></span>
@@ -245,24 +245,24 @@
                     </a>
                 </li>
             </ul>
-        </li>
+        </li> -->
        
         <!-- village -->
-        <li class="<?php if ($page_name == 'village.location' || $page_name == 'village_add' || $page_name == 'village_edit') echo 'opened active has-sub'; ?>">
+        <li class="<?php if ($page_name == 'village' || $page_name == 'village_add' || $page_name == 'village_edit') echo 'opened active has-sub'; ?>">
             <a href="#">
                 <i class="fa fa-home"></i>
-                <span><?php echo get_phrase('village'); ?></span>
+                <span><?php echo get_phrase('village'); ?> / <?php echo get_phrase('area'); ?></span>
             </a>
             <ul>
                 <li class="<?php if ($page_name == 'all_village') echo 'active'; ?> ">
                     <a href="<?php echo site_url('admin/village'); ?>">
-                        <span><i class="entypo-dot"></i> <?php echo get_phrase('all_village'); ?></span>
+                        <span><i class="entypo-dot"></i> <?php echo get_phrase('all_village'); ?> / <?php echo get_phrase('area'); ?></span>
                     </a>
                 </li>
                 
                 <li class="<?php if ($page_name == 'add_new_village_add') echo 'active'; ?> ">
                     <a href="<?php echo site_url('admin/village_form/add'); ?>">
-                        <span><i class="entypo-dot"></i> <?php echo get_phrase('add_new_village'); ?></span>
+                        <span><i class="entypo-dot"></i> <?php echo get_phrase('add_new_village'); ?> / <?php echo get_phrase('area'); ?></span>
                     </a>
                 </li>
             </ul>
