@@ -1164,4 +1164,14 @@ class Admin extends CI_Controller {
 		}
 		$this->load->view('backend/index.php', $page_data);
 	}
+
+
+	public function getVillageareaDependant(){
+
+		$postData = $this->input->post();
+		$data = $this->crud_model->getVillageareaDependant($postData);
+		echo json_encode($data); 
+
+
+	}
 }

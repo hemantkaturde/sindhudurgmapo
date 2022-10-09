@@ -105,8 +105,8 @@ font-weight: 500;
 					<div class="col-lg-2 col-sm-12 mb-1" style="border-right: 1px solid #d2d8dd;width:100%;background:#fff ">
 					    <div class="input-group select-group">
 					         <span class="input-group-addon">
-          <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
-        </span>
+								<span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+							</span>
 						<select class="wide select-box" name="selected_category_id" id="selected_category_id" >
 							<option value=""><?php echo get_phrase('All_categories'); ?></option>
 							<?php
@@ -123,14 +123,13 @@ font-weight: 500;
 							<option value=""><?php echo get_phrase('All_subcategories'); ?></option>
 						
 						</select>
-
 						<!-- <select id="mySelect"></select> -->
 					</div>
 
 
 					<div class="col-lg-2 col-sm-12 mb-1" style="border-right: 1px solid #d2d8dd;width:100%;background:#fff">
-						<select class="wide" name="selected_taluka_id">
-							<option value=""><?php echo get_phrase('All_Taluka'); ?> / <?php echo get_phrase('cites'); ?></option>
+						<select class="wide" name="selected_taluka_id" id="selected_taluka_id">
+							<option value="0"><?php echo get_phrase('all_taluka'); ?> / <?php echo get_phrase('cites'); ?></option>
 							<?php
 							$taluka = $this->crud_model->get_cities()->result_array();
 							foreach ($taluka as $taluka_value):?>
@@ -139,16 +138,22 @@ font-weight: 500;
 						</select>
 					</div>
 
-					<div class="col-lg-2 col-sm-12 mb-1" style="width:100%;background:#fff">
+					<!-- <div class="col-lg-2 col-sm-12 mb-1" style="width:100%;background:#fff">
 						<select class="wide" name="selected_city_id">
-							<option value=""><?php echo get_phrase('village'); ?> / <?php echo get_phrase('area'); ?></option>
+							<option value=""><?php echo get_phrase('all_village'); ?> / <?php echo get_phrase('area'); ?></option>
 							<?php
 							$cities = $this->crud_model->get_cities()->result_array();
 							foreach ($cities as $city):?>
 								<option value="<?php echo $city['id']; ?>"><?php echo $city['name']; ?></option>
 							<?php endforeach; ?>
 						</select>
-					</div>
+					</div> -->
+
+
+					<select class="col-lg-2 col-sm-12 mb-1"  name="selected_city_id" id="selected_city_id" style="border-right: 1px solid #d2d8dd;width:100%;background:#fff">
+							<option value="0"><?php echo get_phrase('all_village'); ?> / <?php echo get_phrase('area'); ?></option>
+						
+						</select>
 
 					<div class="col-lg-1 col-sm-12">
 						<input  style="height: 54px;" type="submit" value="<?= get_phrase('search'); ?>">
@@ -435,37 +440,13 @@ font-weight: 500;
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type='text/javascript'>
-
-
-// var selectValues = {
-//   "1": "test 1",
-//   "2": "test 2"
-// };
-// var $mySelect = $('#mySelect');
-// //
-// $.each(selectValues, function(key, value) {
-//   var $option = $("<option/>", {
-//     value: key,
-//     text: value
-//   });
-//   $mySelect.append($option);
-// });
-
-
-
-
-
-
+  
   var baseURL= "<?php echo base_url();?>";
 
   $(document).ready(function(){
 
-	$('#selected_subcategory_id')
-          .append($('<option>', { 'jemamt' : 'hmemme' })
-          .text('ddd'));
+	// $('#selected_subcategory_id').append($('<option>', { 'jemamt' : 'hmemme' }).text('ddd'));
 
-
- 
 		$('#selected_category_id').change(function(){
 		var selected_category_id = $(this).val();
 
@@ -489,18 +470,31 @@ font-weight: 500;
 					});
 			});
 
-  });
+        });
 
 
+		$('#selected_taluka_id').change(function(){
+		      var selected_taluka_id = $(this).val();
+
+					// AJAX request
+					$.ajax({
+						url:'<?=base_url()?>admin/getVillageareaDependant',
+						method: 'post',
+						data: {selected_taluka_id: selected_taluka_id},
+						dataType: 'json',
+						success: function(response){
+
+						// Remove options 
+						$('#selected_city_id').find('option').not(':first').remove();
+						//$('#sel_depart').find('option').not(':first').remove();
+
+						// Add options
+						$.each(response,function(index,data){		
+							$('#selected_city_id').append('<option value="'+data['id']+'">'+data['name']+'</option>');
+						});
+						}
+					});
+			});
+
+       
 </script>
-
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
-    <!-- Select2 -->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>-->
-    <!--<script>-->
-    <!--  $("#selected_category_id").select2({-->
-    <!--      placeholder: "Select Category",-->
-    <!--      allowClear: true-->
-    <!--  });-->
-     
-    <!--</script>-->

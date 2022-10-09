@@ -1715,4 +1715,25 @@ function get_application_details() {
       $this->db->update('village', $data);
     }
 
+
+    function getVillageareaDependant($postData) {
+      // if ($category_id > 0) {
+      //   $this->db->where('parent', $category_id);
+      // }
+      // //$this->db->where('parent >', '0');
+      // $this->db->order_by('name','ASC');
+  
+      // return $this->db->get('category');
+  
+        $response = array();
+    
+        // Select record
+        $this->db->select('*');
+        $this->db->where('city_id', $postData['selected_taluka_id']);
+        $this->db->where('city_id!=',"");
+        $q = $this->db->get('village');
+        $response = $q->result_array();
+        return $response;
+    }
+
 }
