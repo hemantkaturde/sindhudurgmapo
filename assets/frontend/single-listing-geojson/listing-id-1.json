@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.5594",
+                    "16.3492"
+                ]
+            },
+            "properties": {
+                "id": "79175f18fc42ab0d3de6ee581ea2e0bd",
+                "index": 0,
+                "isActive": true,
+                "logo": "852a8662ae8ac9977453b6e53219a13b.jpg",
+                "image": "852a8662ae8ac9977453b6e53219a13b.jpg",
+                "link": "https://sindhudurg.mapodiary.com/general/abhishek-tours-amp-travels/1",
+                "url": "7mcars.com",
+                "name": "Abhishek Tours &amp; Travels",
+                "category": "general",
+                "email": "info@7mcar.com, sevenmcar@gmail.com,",
+                "stars": "0.0",
+                "phone": "7400379388",
+                "address": "E-101, 1st Floor, Haridwar Co.op hsg Society Sakshi Nagar, Gut-05 Village, Devad, New Panvel East, Vichumbe, Maharashtra 410206rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

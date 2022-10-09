@@ -628,5 +628,9 @@
     "select_city_taluka": "Select city taluka",
     "all_village_added": "All village added",
     "update_village": "Update village",
-    "all_village_updated": "All village updated"
+    "all_village_updated": "All village updated",
+    "expires_in": "Expires in",
+    "total_number_of_listing": "Total number of listing",
+    "all_village_deleted": "All village deleted",
+    "all_category": "All category"
 }

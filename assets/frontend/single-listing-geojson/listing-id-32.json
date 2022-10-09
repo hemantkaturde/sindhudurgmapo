@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    "73.533159",
+                    "16.35699"
+                ]
+            },
+            "properties": {
+                "id": "00e50affb431c5c243dcb523cd60a0d7",
+                "index": 0,
+                "isActive": true,
+                "logo": "9ae83e63feefe42a325e76b39930d52e.jpg",
+                "image": "9ae83e63feefe42a325e76b39930d52e.jpg",
+                "link": "https://sindhudurg.mapodiary.com/general/kulkarni-health-care-centre/32",
+                "url": "",
+                "name": "Kulkarni Health Care Centre",
+                "category": "general",
+                "email": "",
+                "stars": "0.0",
+                "phone": "2364261154",
+                "address": "Anusaya Complex,Ground Floor, TaraMumbri Rd, Devgad, Maharashtra 416613rn",
+                "about": "about",
+                "tags": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

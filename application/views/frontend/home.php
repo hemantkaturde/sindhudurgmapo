@@ -1,7 +1,15 @@
 
+<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />-->
 <style>
+@media screen and (min-width: 999px) {
+    .addon_search_bar{ background-color: #fff; } 
+}
+
+@media screen and (max-width: 999px) {
+    .addon_search_bar{ background-color: transparent; } 
+}
 .addon_search_bar{
-	background-color: #fff;
+	/*background-color: #fff;*/
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -17,16 +25,16 @@
 	border: 0;
     height: 50px;
     padding-left: 15px;
-    border-right: 1px solid #d2d8dd;
+    /*border-right: 1px solid #d2d8dd;*/
     font-weight: 500;
 }
 
 .addon_search_bar select{
-
+width:100%;
 border: 0;
 height: 50px;
-padding-left: 15px;
-border-right: 1px solid #d2d8dd;
+/*padding-left: 15px;*/
+/*border-right: 1px solid #d2d8dd;*/
 font-weight: 500;
 }
 
@@ -56,7 +64,23 @@ font-weight: 500;
     margin-right: -1px;
 	height: 54px;
 }
-
+.form-group
+{
+    margin-bottom:0;
+}
+/*.select2-container*/
+/*{*/
+/*    top:12px;*/
+/*}*/
+/*.select2-dropdown{ border:none; }*/
+/*.select2-container--default .select2-selection--single*/
+/*{*/
+/*    border:none;*/
+/*}*/
+/*.select2-container--default .select2-selection--single .select2-selection__placeholder*/
+/*{*/
+/*    color:#000;*/
+/*}*/
 </style>
 
 
@@ -71,16 +95,19 @@ font-weight: 500;
 
                 <div class="row no-gutters addon_search_bar">
 
-                   <div class="col-lg-3 col-sm-12">
+                   <div class="col-lg-3 col-sm-12 mb-1" style="border-right: 1px solid #d2d8dd;width:100%;background:#fff">
 						<div class="form-group">
 							<input class="form-control" type="text" name="search_string" placeholder="<?php echo get_phrase('what_are_you_looking_for'); ?>...">
-							<i class="icon_search"></i>
-							
+							<!--<i class="icon_search"></i>-->
 						</div>
 					</div>
 
-					<div class="col-lg-2 col-sm-12 mb-1">
-						<select class="wide" name="selected_category_id" id="selected_category_id" >
+					<div class="col-lg-2 col-sm-12 mb-1" style="border-right: 1px solid #d2d8dd;width:100%;background:#fff ">
+					    <div class="input-group select-group">
+					         <span class="input-group-addon">
+          <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+        </span>
+						<select class="wide select-box" name="selected_category_id" id="selected_category_id" >
 							<option value=""><?php echo get_phrase('All_categories'); ?></option>
 							<?php
 							$categories = $this->crud_model->get_categories()->result_array();
@@ -88,9 +115,10 @@ font-weight: 500;
 								<option value="<?php echo $category['id']; ?>"><?php echo $category['name']; ?></option>
 							<?php endforeach; ?>
 						</select>
+						</div>
 					</div>
 
-					<div class="col-lg-2 col-sm-12 mb-1">
+					<div class="col-lg-2 col-sm-12 mb-1" style="border-right: 1px solid #d2d8dd;width:100%;background:#fff">
 						<select class="wide" name="selected_subcategory_id" id="selected_subcategory_id">
 							<option value=""><?php echo get_phrase('All_subcategories'); ?></option>
 						
@@ -100,7 +128,7 @@ font-weight: 500;
 					</div>
 
 
-					<div class="col-lg-2 col-sm-12 mb-1">
+					<div class="col-lg-2 col-sm-12 mb-1" style="border-right: 1px solid #d2d8dd;width:100%;background:#fff">
 						<select class="wide" name="selected_taluka_id">
 							<option value=""><?php echo get_phrase('All_Taluka'); ?> / <?php echo get_phrase('cites'); ?></option>
 							<?php
@@ -111,7 +139,7 @@ font-weight: 500;
 						</select>
 					</div>
 
-					<div class="col-lg-2 col-sm-12 mb-1">
+					<div class="col-lg-2 col-sm-12 mb-1" style="width:100%;background:#fff">
 						<select class="wide" name="selected_city_id">
 							<option value=""><?php echo get_phrase('village'); ?> / <?php echo get_phrase('area'); ?></option>
 							<?php
@@ -122,7 +150,7 @@ font-weight: 500;
 						</select>
 					</div>
 
-					<div class="col-lg-1 col-sm-12 ">
+					<div class="col-lg-1 col-sm-12">
 						<input  style="height: 54px;" type="submit" value="<?= get_phrase('search'); ?>">
 					</div>
                 </div>
@@ -406,9 +434,6 @@ font-weight: 500;
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-
-
 <script type='text/javascript'>
 
 
@@ -469,6 +494,13 @@ font-weight: 500;
 
 </script>
 
-
-
-
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <!-- Select2 -->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>-->
+    <!--<script>-->
+    <!--  $("#selected_category_id").select2({-->
+    <!--      placeholder: "Select Category",-->
+    <!--      allowClear: true-->
+    <!--  });-->
+     
+    <!--</script>-->

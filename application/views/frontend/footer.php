@@ -133,48 +133,74 @@
 
 <div class="footermobile mobmb50" >
 	<div class="container padd10 footermobilebg">
-		<div class="row">
-			<a href="<?php echo base_url(); ?>"><div class="collapse show paddl20" id="collapse_ft_1">
-					<ul class="contacts ulmargin">
-					<li style="padding-left: 0px;"><i class="ti-home fs20 ml12"></i>
-					<br>
-					<div class="fs16">HOME</div>
-					</li>
-					
-				</ul>
-				</div></a>
-		
-				<a href="<?php echo base_url(); ?>home/listings"><div class="collapse show paddl20" id="collapse_ft_2" >
-					<ul class="contacts ulmargin">
-					<li style="padding-left: 0px;"><i class="ti-user fs20 ml16"></i>
-					<br>
-					<div class="fs16">LISTINGS</div>
-					</li>
-					
-				</ul>
-			</div></a>
-		
-		<a href="<?php echo base_url(); ?>home/category"><div class="collapse show paddl20" id="collapse_ft_3" >
-				<ul class="contacts ulmargin">
-					<li style="padding-left: 0px;"><i class="ti-list fs20 ml30"></i>
-					<br>
-					<div class="fs16">CATEGORIES</div>
-					</li>
-					
-				</ul>
-			</div></a>
-		
-		<a href="<?php echo base_url(); ?>home/contact">
-		    <div class="collapse show paddl20" id="collapse_ft_3">
-			<ul class="contacts ulmargin">
-					<li style="padding-left: 0px;"><i class="ti-headphone-alt fs20 ml23"></i>
-					<br>
-					<div class="fs16">CONTACTS</div>
-					</li>
-					
-				</ul>
-			</div></a>
+		<div class="row" style="text-align-last: center;">
+		    <div class="col-2">
+		        <a href="<?php echo base_url(); ?>">
+		            <i class="ti-home fs20" style="font-size:14px"></i><br/>
+		            <span class="fs16" style="font-size:12px">HOME</span>
+		        </a>
+		    </div>
+		    <div class="col-3">
+		        <a href="<?php echo base_url(); ?>home/listings">
+		            <i class="ti-user fs20" style="font-size:14px"></i><br/>
+		            <span class="fs16" style="font-size:12px">LISTING</span>
+		        </a>
+		    </div>
+		    <div class="col-4">
+		        <a href="<?php echo base_url(); ?>home/category">
+		            <i class="ti-list fs20" style="font-size:14px"></i><br/>
+		            <span class="fs16" style="font-size:12px">CATEGORIES</span>
+		        </a>
+		    </div>
+		    <div class="col-3">
+		        <a href="<?php echo base_url(); ?>home/contact">
+		            <i class="ti-headphone-alt fs20" style="font-size:14px"></i><br/>
+		            <span class="fs16" style="font-size:12px">CONTACTS</span>
+		        </a>
+		    </div>
 		</div>
+		<!--<div class="row" style="justify-content: space-between;">-->
+		<!--	<a href="<?php echo base_url(); ?>"><div class="collapse show paddl20" id="collapse_ft_1">-->
+		<!--			<ul class="contacts ulmargin">-->
+		<!--			<li style="padding-left: 0px;"><i class="ti-home fs20 ml12" style="font-size:14px"></i>-->
+		<!--			<br>-->
+		<!--			<div class="fs16" style="font-size:14px">HOME</div>-->
+		<!--			</li>-->
+					
+		<!--		</ul>-->
+		<!--		</div></a>-->
+		
+		<!--		<a href="<?php echo base_url(); ?>home/listings"><div class="collapse show paddl20" id="collapse_ft_2" >-->
+		<!--			<ul class="contacts ulmargin">-->
+		<!--			<li style="padding-left: 0px;"><i class="ti-user fs20 ml16" style="font-size:14px"></i>-->
+		<!--			<br>-->
+		<!--			<div class="fs16" style="font-size:14px">LISTINGS</div>-->
+		<!--			</li>-->
+					
+		<!--		</ul>-->
+		<!--	</div></a>-->
+		
+		<!--<a href="<?php echo base_url(); ?>home/category"><div class="collapse show paddl20" id="collapse_ft_3" >-->
+		<!--		<ul class="contacts ulmargin">-->
+		<!--			<li style="padding-left: 0px;"><i class="ti-list fs20 ml30" style="font-size:14px"></i>-->
+		<!--			<br>-->
+		<!--			<div class="fs16" style="font-size:14px">CATEGORIES</div>-->
+		<!--			</li>-->
+					
+		<!--		</ul>-->
+		<!--	</div></a>-->
+		
+		<!--<a href="<?php echo base_url(); ?>home/contact">-->
+		<!--    <div class="collapse show paddl20" id="collapse_ft_3">-->
+		<!--	<ul class="contacts ulmargin">-->
+		<!--			<li style="padding-left: 0px;"><i class="ti-headphone-alt fs20 ml23" style="font-size:14px"></i>-->
+		<!--			<br>-->
+		<!--			<div class="fs16" style="font-size:14px">CONTACTS</div>-->
+		<!--			</li>-->
+					
+		<!--		</ul>-->
+		<!--	</div></a>-->
+		<!--</div>-->
 	
 	</div>
 	<!-- /row-->
