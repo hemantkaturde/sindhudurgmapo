@@ -1701,12 +1701,14 @@ function get_application_details() {
   
     function add_village() {
       $data['name'] = sanitizer($this->input->post('name'));
+      $data['city_id'] = sanitizer($this->input->post('city_id'));
       $data['slug'] =slugify(sanitizer($this->input->post('name')));
       $data['country_id'] = sanitizer($this->input->post('country_id'));
       $this->db->insert('village', $data);
     }
     function edit_village($village_id) {
       $data['name'] = sanitizer($this->input->post('name'));
+      $data['city_id'] = sanitizer($this->input->post('city_id'));
       $data['slug'] = slugify(sanitizer($this->input->post('name')));
       $data['country_id'] = sanitizer($this->input->post('country_id'));
       $this->db->where('id', $village_id);

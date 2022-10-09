@@ -19,6 +19,7 @@
             <tr>
               <th width="80"><div>#</div></th>
               <th><div><?php echo get_phrase('name');?></div></th>
+              <th><div><?php echo get_phrase('city');?></div></th>
               <th><div><?php echo get_phrase('country');?></div></th>
               <th><div><?php echo get_phrase('options');?></div></th>
             </tr>
@@ -33,10 +34,23 @@
               <td><?php echo $all_village['name']; ?></td>
               <td>
                 <?php
+                if($all_village['city_id']){
+                  $city_details = $this->crud_model->get_cities($all_village['city_id'])->row_array();
+                  echo $city_details['name'];
+                }else{
+                  $city_details = $this->crud_model->get_cities($all_village['city_id'])->row_array();
+                  echo '';
+                }
+              
+                ?>
+              </td>
+              <td>
+                <?php
                 $country_details = $this->crud_model->get_countries($all_village['country_id'])->row_array();
                 echo $country_details['name'];
                 ?>
               </td>
+
               <td>
                 <div class="bs-example">
                   <div class="btn-group">
