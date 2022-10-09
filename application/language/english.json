@@ -632,5 +632,8 @@
     "expires_in": "Expires in",
     "total_number_of_listing": "Total number of listing",
     "all_village_deleted": "All village deleted",
-    "all_category": "All category"
+    "all_category": "All category",
+    "social_media": "Social media",
+    "special_feature": "Special feature",
+    "tag": "Tag"
 }

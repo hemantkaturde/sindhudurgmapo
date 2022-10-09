@@ -7,6 +7,16 @@
 		<ul class="clearfix">
 			<li><a href="#description" class="active"><?php echo get_phrase('description'); ?></a></li>
 			<li><a href="#reviews"><?php echo get_phrase('reviews'); ?></a></li>
+			<li><a href="#media"><?php echo get_phrase('media'); ?></a></li>
+			<li><a href="#social_media"><?php echo get_phrase('social media'); ?></a></li>
+			<li><a href="#amenities"><?php echo get_phrase('amenities'); ?></a></li>
+			<li><a href="#special_feature"><?php echo get_phrase('special feature'); ?></a></li>
+			<li><a href="#contact"><?php echo get_phrase('contact'); ?></a></li>
+			<li><a href="#category"><?php echo get_phrase('category'); ?></a></li>
+			<li><a href="#tag"><?php echo get_phrase('tag'); ?></a></li>
+			<li><a href="#opening"><?php echo get_phrase('opening hours'); ?></a></li>
+			
+
 			<?php if(has_package_feature('ability_to_add_contact_form', $listing_details['user_id']) == 1): ?>
 				<li><a href="#sidebar"><?php echo get_phrase('booking'); ?></a></li>
 			<?php endif; ?>

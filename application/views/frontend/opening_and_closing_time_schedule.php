@@ -1,4 +1,5 @@
 
+<section id="opening">
 <div class="opening">
   <div class="ribbon">
     <span class="<?php echo strtolower(now_open($listing_id)) == 'closed' ? 'closed' : 'open'; ?>"><?php echo now_open($listing_id); ?></span>
@@ -108,3 +109,4 @@
     </div>
   </div>
 </div>
+</section>

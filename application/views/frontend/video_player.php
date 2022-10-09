@@ -1,6 +1,7 @@
+
+  <section id="media">
 <?php if(has_package_feature('ability_to_add_video', $listing_details['user_id']) == 1 && $listing_details['video_url'] != ""): ?>
-  <hr>
-  <h3><?php echo get_phrase('video'); ?></h3>
+  <hr>  <h3><?php echo get_phrase('video'); ?></h3>
   <div class="" style="text-align: center;">
     <?php if (strtolower($listing_details['video_provider']) == 'youtube'): ?>
       <link rel="stylesheet" href="<?php echo base_url();?>assets/global/plyr/plyr.css">
@@ -43,3 +44,4 @@
         <?php endif; ?>
     </div>
 <?php endif; ?>
+</section>

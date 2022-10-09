@@ -1,4 +1,6 @@
+
 <?php $user_details = $this->user_model->get_all_users($listing_details['user_id'])->row_array(); ?>
+<section id="contact">
 <div class="row mb-3">
 	<div class="col-12">
 		<h5 class="mb-3"><?php echo get_phrase('agent_details'); ?></h5>
@@ -46,3 +48,4 @@
 	</div>
 </div>
 <hr>
+		</section>
