@@ -15,10 +15,10 @@
 <div id="results">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 col-md-4 col-10">
+			<div class="col-lg-2 col-md-4 col-10">
 				<h4><strong><?php echo count($listings); ?></strong> <?php echo get_phrase('result_for_all'); ?></h4>
 			</div>
-			<div class="col-lg-9 col-md-8 col-2">
+			<div class="col-lg-10 col-md-8 col-2">
 				<a href="#0" class="search_mob btn_search_mobile"></a> <!-- /open search panel -->
 				<form action="<?php echo site_url('home/search'); ?>" method="GET">
 					<div class="row no-gutters custom-search-input-2 inner">
@@ -28,7 +28,9 @@
 								<i class="icon_search"></i>
 							</div>
 						</div>
-						<div class="col">
+
+
+					<div class="col">
 							<select class="wide" name="selected_category_id">
 								<option value=""><?php echo get_phrase('all_categories'); ?></option>
 								<?php
@@ -37,9 +39,8 @@
 									<option value="<?php echo $category['id']; ?>" <?php if($selected_category_id == $category['id']) echo 'selected'; ?>><?php echo $category['name']; ?></option>
 								<?php endforeach; ?>
 							</select>
-						</div>
-						<div class="col">
-					
+					</div>
+					<div class="col">
 						<select class="wide" name="selected_subcategory_id">
 							<option value=""><?php echo get_phrase('All_subcategories'); ?></option>
 							<?php
@@ -49,8 +50,8 @@
 							<?php endforeach; ?>
 						</select>
 					</div>
+
 					<div class="col">
-					
 						<select class="wide" name="selected_taluka_id">
 							<option value=""><?php echo get_phrase('Taluka'); ?></option>
 							<?php
@@ -60,8 +61,8 @@
 							<?php endforeach; ?>
 						</select>
 					</div>
+
 					<div class="col">
-					
 						<select class="wide" name="selected_city_id">
 							<option value=""><?php echo get_phrase('Location'); ?></option>
 							<?php
@@ -72,9 +73,9 @@
 						</select>
 					</div>
 
-						<div class="col">
+					<div class="col">
 							<input type="submit" value="Search">
-						</div>
+					</div>
 					</div>
 				</form>
 			</div>
@@ -164,7 +165,9 @@
 					<div class="collapse show" id="collapseFilters">
 						<div class="filter_type">
 							<h6><?php echo get_phrase(''); ?></h6>
-                             <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="">category<b></b></a>
+							<div>
+                             <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="">Category<b></b></a>
+					         </div>
 							<ul class="collapse" id="collapseExample">
 								<ul class="">
 								<?php
@@ -175,17 +178,21 @@
 										continue;
 										$counter++;
 									?>
-									
-									<li class="<?php if($counter > $number_of_visible_categories) echo 'hidden-categories hidden'; ?>">
+
+									<li class="">
+									<!-- <li class="<?php if($counter > $number_of_visible_categories) echo 'hidden-categories hidden'; ?>"> -->
 										<label class="container_check"> <i class="<?php echo $category['icon_class']; ?>"></i> <?php echo $category['name']; ?> <small></small>
 											<input type="checkbox" name="category[]" class="categories" value="<?php echo $category['slug']; ?>" onclick="filter(this, '<?php echo 'parent_id'.$category['id'] ?>')" <?php if(in_array($category['id'], $category_ids)) echo 'checked'; ?>>
 											<span class="checkmark"></span>
 										</label>
 									</li>
-									<?php foreach ($this->crud_model->get_sub_categories($category['id'])->result_array() as $sub_category):
+
+
+									 <?php foreach ($this->crud_model->get_sub_categories($category['id'])->result_array() as $sub_category):
 											$counter++;
 										?>
-										<li class="ml-3 <?php if($counter > $number_of_visible_categories) echo 'hidden-categories hidden'; ?>">
+										<li class="ml-3">
+										<!-- <li class="ml-3 <?php if($counter > $number_of_visible_categories) echo 'hidden-categories hidden'; ?>"> -->
 											<label class="container_check"> <?php echo $sub_category['name']; ?> <small></small>
 												<input type="checkbox" name="category[]" class="categories <?php echo 'parent_id'.$category['id'] ?>" value="<?php echo $sub_category['slug']; ?>" onclick="filter(this)" <?php if(in_array($sub_category['id'], $category_ids)) echo 'checked'; ?>>
 												<span class="checkmark"></span>
@@ -197,12 +204,18 @@
 							</ul><br>
 						</div>
 
+
+
+
+
+
+
 						<!-- Price range filter -->
-						<div class="filter_type">
+						<!-- <div class="filter_type">
 							<h6><?php echo get_phrase('price_limit'); ?></h6>
 							<div class="distance"> <?php echo get_phrase('price_within'); ?> <span></span> <?php echo get_settings('system_currency'); ?></div>
 							<input type="range" class="price-range" min="0" max="<?php echo $this->frontend_model->get_the_maximum_price_limit_of_all_listings(); ?>" step="10" value="<?php echo $price_range; ?>" data-orientation="horizontal" onchange="filter(this)">
-						</div>
+						</div> -->
 <!-- 
 						<div class="filter_type">
 							<h6><?php echo get_phrase('amenities'); ?></h6>
