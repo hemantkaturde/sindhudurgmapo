@@ -7,6 +7,10 @@ $categories = $this->db->get('category')->result_array();
 $listing_amenities = json_decode($listing_details['amenities'], false);
 $listing_categories = json_decode($listing_details['categories'], false);
 $all_users = $this->db->get('user')->result_array();
+
+
+$city_taluka = $this->db->get('city')->result_array();
+$village_listing = $this->db->get('village')->result_array();
 ?>
 
 <div class="row">

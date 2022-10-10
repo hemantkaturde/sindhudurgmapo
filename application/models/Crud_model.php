@@ -364,7 +364,9 @@ function add_listing() {
   }
 
   $data['country_id'] = sanitizer($this->input->post('country_id'));
-  $data['city_id'] = sanitizer($this->input->post('city_id'));
+  $data['city_id'] = sanitizer($this->input->post('taluka_id'));
+  $data['village_area_id'] = sanitizer($this->input->post('village_id'));
+
   $data['address'] = sanitizer($this->input->post('address'));
   $data['latitude'] = sanitizer($this->input->post('latitude'));
   $data['longitude'] = sanitizer($this->input->post('longitude'));
@@ -603,7 +605,10 @@ function update_listing($listing_id = "") {
   }
 
   $data['country_id'] = sanitizer($this->input->post('country_id'));
-  $data['city_id'] = sanitizer($this->input->post('city_id'));
+  // $data['city_id'] = sanitizer($this->input->post('city_id'));
+  $data['city_id'] = sanitizer($this->input->post('taluka_id'));
+  $data['village_area_id'] = sanitizer($this->input->post('village_id'));
+
   $data['address'] = sanitizer($this->input->post('address'));
   $data['latitude'] = sanitizer($this->input->post('latitude'));
   $data['longitude'] = sanitizer($this->input->post('longitude'));

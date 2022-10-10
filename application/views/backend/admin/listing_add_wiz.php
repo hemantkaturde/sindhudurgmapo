@@ -2,6 +2,9 @@
 $countries  = $this->db->get('country')->result_array();
 $categories = $this->db->get('category')->result_array();
 $all_users = $this->db->get('user')->result_array();
+$city_taluka = $this->db->get('city')->result_array();
+$village_listing = $this->db->get('village')->result_array();
+
 ?>
 <div class="row">
 	<div class="col-lg-12">
@@ -102,16 +105,16 @@ $all_users = $this->db->get('user')->result_array();
 	</div><!-- end col-->
 </div>
 <script type="text/javascript">
-function getCityList(country_id) {
-	$.ajax({
-		type : 'POST',
-		url : '<?php echo site_url('home/get_city_list_by_country_id'); ?>',
-		data : {country_id : country_id},
-		success : function(response) {
-			$('#city_id').html(response);
-		}
-	});
-}
+// function getCityList(country_id) {
+// 	$.ajax({
+// 		type : 'POST',
+// 		url : '<?php echo site_url('home/get_city_list_by_country_id'); ?>',
+// 		data : {country_id : country_id},
+// 		success : function(response) {
+// 			$('#city_id').html(response);
+// 		}
+// 	});
+// }
 var blank_category = $('#blank_category_field').html();
 var blank_photo_uploader = $('#blank_photo_uploader').html();
 var blank_special_offer_div = $('#blank_special_offer_div').html();
@@ -259,6 +262,7 @@ function showListingTypeForm(listing_type) {
 function checkMinimumFieldRequired() {
 	
 	var title = $('#title').val();
+	alert(title);
 	var defaultCategory = $('#category_default').val();
 	var latitude = $('#latitude').val();
 	var longitude = $('#longitude').val();

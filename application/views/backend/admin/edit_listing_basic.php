@@ -115,6 +115,30 @@
 </div>
 
 <div class="form-group">
+  <label for="taluka_id" class="col-sm-3 control-label"><?php echo get_phrase('Taluka/Block'); ?></label>
+  <div class="col-sm-7">
+    <select name="taluka_id" id = "taluka_id" class="form-control" data-allow-clear="true" data-placeholder="<?php echo get_phrase('select_taluka'); ?>">
+      <option value="0"><?php echo get_phrase('none'); ?></option>
+      <?php foreach ($city_taluka as $taluka): ?>
+        <option value="<?php echo $taluka['id']; ?>" <?php if($listing_details['city_id']== $taluka['id']){ echo 'selected';}?>><?php echo $taluka['name']; ?></option>
+      <?php endforeach; ?>
+    </select>
+  </div>
+</div>
+
+<div class="form-group">
+  <label for="village_id" class="col-sm-3 control-label"><?php echo get_phrase('Village/Area'); ?></label>
+  <div class="col-sm-7">
+    <select name="village_id" id = "village_id" class="form-control" data-allow-clear="true" data-placeholder="<?php echo get_phrase('select_area'); ?>">
+      <option value="0"><?php echo get_phrase('none'); ?></option>
+      <?php foreach ($village_listing as $village): ?>
+        <option value="<?php echo $village['id']; ?>" <?php if($listing_details['village_area_id']== $village['id']){ echo 'selected';}?>><?php echo $village['name']; ?></option>
+      <?php endforeach; ?>
+    </select>
+  </div>
+</div>
+<!-- 
+<div class="form-group">
   <label class="col-sm-3 control-label" for="city_id"> <?php echo get_phrase('city'); ?></label>
   <div class="col-sm-7">
     <select class="form-control select2" name="city_id" id="city_id">
@@ -123,7 +147,7 @@
       <?php endforeach; ?>
     </select>
   </div>
-</div>
+</div> -->
 
 <div class="form-group">
   <label class="col-sm-3 control-label" for="address"><?php echo get_phrase('address'); ?></label>

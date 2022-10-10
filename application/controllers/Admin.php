@@ -324,10 +324,7 @@ class Admin extends CI_Controller {
 
 
 		if ($param1 == 'add') {
-			$this->crud_model->add_listing();
-
-
-			
+			$this->crud_model->add_listing();			
 			redirect(site_url('admin/listings'), 'refresh');
 		}elseif ($param1 == 'edit') {
 			$this->crud_model->update_listing($param2);

@@ -78,55 +78,52 @@
 </div>
 
 
-
-
-
 <div class="form-group">
   <label for="country_id" class="col-sm-3 control-label"><?php echo get_phrase('country'); ?></label>
-
   <div class="col-sm-7">
-    <select name="country_id" id = "country_id" class="select2" data-allow-clear="true" data-placeholder="<?php echo get_phrase('select_country'); ?>" onchange="getCityList(this.value)">
+    <select name="country_id" id = "country_id" class="form-control select2" data-allow-clear="true" data-placeholder="<?php echo get_phrase('select_country'); ?>">
       <option value="0"><?php echo get_phrase('none'); ?></option>
       <?php foreach ($countries as $country): ?>
-        <option value="<?php echo $country['id']; ?>"><?php echo $country['name']; ?></option>
+        <option value="<?php echo $country['id']; ?>" <?php if($country['name']=='India'){ echo 'selected'; } ?>><?php echo $country['name']; ?></option>
       <?php endforeach; ?>
     </select>
   </div>
 </div>
 
+
+
 <div class="form-group">
   <label for="taluka_id" class="col-sm-3 control-label"><?php echo get_phrase('Taluka/Block'); ?></label>
-
   <div class="col-sm-7">
-    <select name="taluka_id" id = "taluka_id" class="select2" data-allow-clear="true" data-placeholder="<?php echo get_phrase('select_taluka'); ?>" onchange="getCityList(this.value)">
+    <select name="taluka_id" id = "taluka_id" class="form-control" data-allow-clear="true" data-placeholder="<?php echo get_phrase('select_taluka'); ?>">
       <option value="0"><?php echo get_phrase('none'); ?></option>
-      <?php foreach ($taluka as $taluka): ?>
+      <?php foreach ($city_taluka as $taluka): ?>
         <option value="<?php echo $taluka['id']; ?>"><?php echo $taluka['name']; ?></option>
       <?php endforeach; ?>
     </select>
   </div>
 </div>
+
 <div class="form-group">
   <label for="village_id" class="col-sm-3 control-label"><?php echo get_phrase('Village/Area'); ?></label>
-
   <div class="col-sm-7">
-    <select name="village_id" id = "village_id" class="select2" data-allow-clear="true" data-placeholder="<?php echo get_phrase('select_area'); ?>" onchange="getCityList(this.value)">
+    <select name="village_id" id = "village_id" class="form-control" data-allow-clear="true" data-placeholder="<?php echo get_phrase('select_area'); ?>">
       <option value="0"><?php echo get_phrase('none'); ?></option>
-      <?php foreach ($countries as $country): ?>
-        <option value="<?php echo $country['id']; ?>"><?php echo $country['name']; ?></option>
+      <?php foreach ($village_listing as $village): ?>
+        <option value="<?php echo $village['id']; ?>"><?php echo $village['name']; ?></option>
       <?php endforeach; ?>
     </select>
   </div>
 </div>
 
-<div class="form-group">
+<!-- <div class="form-group">
   <label class="col-sm-3 control-label" for="city_id"> <?php echo get_phrase('city'); ?></label>
   <div class="col-sm-7">
     <select class="form-control select2" name="city_id" id="city_id">
       <option value=""><?php echo get_phrase('select_city'); ?></option>
     </select>
   </div>
-</div>
+</div> -->
 
 <div class="form-group">
   <label class="col-sm-3 control-label" for="address"><?php echo get_phrase('address'); ?></label>
@@ -202,3 +199,7 @@
      </script>
    </div>
  </div>
+
+
+
+
