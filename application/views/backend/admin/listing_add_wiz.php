@@ -1,6 +1,6 @@
 <?php
 $countries  = $this->db->get('country')->result_array();
-$categories = $this->db->get('category')->result_array();
+$categories = $this->db->where('parent=',0)->get('category')->result_array();
 $all_users = $this->db->get('user')->result_array();
 $city_taluka = $this->db->get('city')->result_array();
 $village_listing = $this->db->get('village')->result_array();
