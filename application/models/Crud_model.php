@@ -1741,4 +1741,11 @@ function get_application_details() {
         return $response;
     }
 
+
+  public function get_category_name_by_id($category_id){
+      $this->db->where('id', $category_id);
+      return $this->db->get('category');
+  
+  }
+
 }

@@ -20,6 +20,7 @@
               <th width="80"><div>#</div></th>
               <th><div><?php echo get_phrase('icon');?></div></th>
               <th><div><?php echo get_phrase('amenity_name');?></div></th>
+              <th><div><?php echo get_phrase('category_name');?></div></th>
               <th><div><?php echo get_phrase('options');?></div></th>
             </tr>
           </thead>
@@ -31,6 +32,9 @@
               <td><?php echo ++$counter; ?></td>
               <td><i class="<?php echo $amenity['icon'] ?>"></i></td>
               <td><?php echo $amenity['name']; ?></td>
+              <td>
+              <?php $category_details = $this->crud_model->get_category_name_by_id($amenity['category_id'])->row_array();
+                echo $category_details['name'];?></td>
               <td>
                 <div class="bs-example">
                   <div class="btn-group">
