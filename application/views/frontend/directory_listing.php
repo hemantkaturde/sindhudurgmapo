@@ -4,7 +4,7 @@
 
 <nav class="secondary_nav sticky_horizontal_2">
 	<div class="container">
-		<ul class="clearfix">
+		<ul class="clearfix meinmenu">
 			<li><a href="#description" class="active"><?php echo get_phrase('description'); ?></a></li>
 			<li><a href="#reviews"><?php echo get_phrase('reviews'); ?></a></li>
 			<li><a href="#media"><?php echo get_phrase('media'); ?></a></li>
@@ -24,7 +24,7 @@
 	</div>
 </nav>
 
-<div class="container margin_60_35">
+<div class="container margin_60_35"> 
 	<div class="row">
 		<div class="col-lg-8">
 			<section id="description">
@@ -107,7 +107,7 @@
 				<?php endif; ?>
 
 				<hr>
-				<?php include 'contact_and_social.php'; ?>
+				<?php //include 'contact_and_social.php'; ?>
 
 				<h5 class="add_bottom_15"><?php echo get_phrase('amenities'); ?></h5>
 				<div class="row add_bottom_30">
@@ -198,7 +198,10 @@
 				<ul class="share-buttons">
 					<li><a href = "https://www.facebook.com/sharer/sharer.php?u=<?php echo current_url();?>" class="fb-share" target="_blank"><i class="social_facebook"></i> Share</a></li>
 					<li><a href = "https://twitter.com/share?url=<?php echo current_url();?>" target = "_blank" class="twitter-share"><i class="social_twitter"></i> Tweet</a></li>
-					<li><a href = "http://pinterest.com/pin/create/link/?url=<?php echo current_url();?>" target="_blank" class="gplus-share"><i class="social_pinterest"></i> Pin</a></li>
+					<li><a href = "?url=<?php echo current_url();?>" target="_blank" class="whatsapp-share"><i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsaap</a></li>
+					<li><a href = "https://www.instagram.com/sharer.php?u=<?php echo current_url();?>" target="_blank" class="gplus-share"><i class="social_instagram"></i> Insta</a></li>
+
+					<!-- <li><a href = "http://pinterest.com/pin/create/link/?url=<?php echo current_url();?>" target="_blank" class="gplus-share"><i class="social_pinterest"></i> Pin</a></li> -->
 				</ul>
 			</aside>
 		<?php endif; ?>
