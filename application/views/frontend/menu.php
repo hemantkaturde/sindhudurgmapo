@@ -6,6 +6,7 @@
         <li><span><a href="<?php echo base_url();?>home/pricing"><?php echo get_phrase('pricing'); ?></a></span></li>
         <li><span><a href="<?php echo base_url();?>home/blog"><?php echo get_phrase('blog'); ?></a></span></li>
         <li><span><a href="<?php echo base_url();?>home/contact"><?php echo get_phrase('contact'); ?></a></span></li>
+        <li><span><a href="<?php echo base_url();?>home/login"><?php echo get_phrase('sign in'); ?></a></span></li>
         <?php if ($this->session->userdata('is_logged_in') == 1): ?>
             <li><span><a href="javascript::"><?php echo get_phrase('account'); ?></a></span>
                     <ul class="manage_account_navbar">

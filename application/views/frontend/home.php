@@ -138,17 +138,8 @@ font-weight: 500;
 						</select>
 					</div>
 
-					<!-- <div class="col-lg-2 col-sm-12 mb-1" style="width:100%;background:#fff">
-						<select class="wide" name="selected_city_id">
-							<option value=""><?php echo get_phrase('all_village'); ?> / <?php echo get_phrase('area'); ?></option>
-							<?php
-							$cities = $this->crud_model->get_cities()->result_array();
-							foreach ($cities as $city):?>
-								<option value="<?php echo $city['id']; ?>"><?php echo $city['name']; ?></option>
-							<?php endforeach; ?>
-						</select>
-					</div> -->
-
+					
+					
 
 					<select class="col-lg-2 col-sm-12 mb-1"  name="selected_city_id" id="selected_city_id" style="border-right: 1px solid #d2d8dd;width:100%;background:#fff">
 							<option value="0"><?php echo get_phrase('all_village'); ?> / <?php echo get_phrase('area'); ?></option>
@@ -296,7 +287,7 @@ font-weight: 500;
 
 					<!--redirect to routs file-->
 					<a href="<?php echo get_listing_url($listing['id']); ?>"><img src="<?php echo base_url('uploads/listing_thumbnails/'.$listing['listing_thumbnail']); ?>" class="img-fluid" alt="" width="400" height="266"><div class="read_more"><span>Read more</span></div></a>
-					<small><?php echo $listing['listing_type'] == "" ? ucfirst(get_phrase('general')) : ucfirst(get_phrase($listing['listing_type'])) ; ?></small>
+					<!-- <small><?php// echo $listing['listing_type'] == "" ? ucfirst(get_phrase('general')) : ucfirst(get_phrase($listing['listing_type'])) ; ?></small> -->
 				</figure>
 				<div class="wrapper">
 					<h3>
@@ -313,16 +304,19 @@ font-weight: 500;
 				<ul>
 					<!-- <li><span class="loc_open"><?php echo now_open($listing['id']); ?></span></li> -->
 					<li><span class="<?php echo strtolower(now_open($listing['id'])) == 'closed' ? 'loc_closed' : 'loc_open'; ?>"><?php echo now_open($listing['id']); ?></span></li>
-					<li><div class="score"><span>
+					<li>
+						<!-- <div class="score"><span>
 						<?php
-						if ($this->frontend_model->get_listing_wise_rating($listing['id']) > 0) {
-							$quality = $this->frontend_model->get_rating_wise_quality($listing['id']);
-							echo $quality['quality'];
-						}else {
-							echo get_phrase('unreviewed');
-						}
+						//if ($this->frontend_model->get_listing_wise_rating($listing['id']) > 0) {
+							//$quality = $this->frontend_model->get_rating_wise_quality($listing['id']);
+							//echo $quality['quality'];
+						//}else {
+							//echo get_phrase('unreviewed');
+						//}
 						?>
-						<em><?php echo count($this->frontend_model->get_listing_wise_review($listing['id'])).' '.get_phrase('reviews'); ?></em></span><strong><?php echo $this->frontend_model->get_listing_wise_rating($listing['id']); ?></strong></div></li>
+						<em><?php //echo count($this->frontend_model->get_listing_wise_review($listing['id'])).' '.get_phrase('reviews'); ?></em></span><strong><?php echo $this->frontend_model->get_listing_wise_rating($listing['id']); ?></strong></div> -->
+					
+					</li>
 					</ul>
 				</div>
 			</div>
@@ -409,10 +403,10 @@ font-weight: 500;
 <div class="icon-bar d-none d-md-block">
   <a href="https://www.facebook.com/Sindhudurg-Mapodiary-103411165829582" class="facebook"  target="_blank"><i class="fa fa-facebook"></i></a> 
   <a href="https://twitter.com/SMapodiary" class="twitter"  target="_blank"><i class="fa fa-twitter"></i></a> 
-  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <!-- <a href="#" class="google"><i class="fa fa-google"></i></a>  -->
   <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
   <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
-  <a href="https://www.pinterest.com/SindhudurgMapodiary/" class="pintraets"  target="_blank"><i class="fa fa-pinterest"></i></a> 
+  <!-- <a href="https://www.pinterest.com/SindhudurgMapodiary/" class="pintraets"  target="_blank"><i class="fa fa-pinterest"></i></a>  -->
   <a href="https://www.instagram.com/sindhudurgmapodiary17/" class="insta"  target="_blank"><i class="fa fa-instagram"></i></a> 
 </div>
 
