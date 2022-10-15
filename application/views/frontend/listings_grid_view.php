@@ -503,13 +503,6 @@ font-weight: 500;
 					if(!has_package($listing['user_id']) > 0)
 						continue; ?>
 
-					<?php
-						// $active_package = has_package($listing['user_id']);
-						// $listing_allowed_number = $this->db->get_where('package_purchased_history', array('id', $active_package))->row('number_of_listings');
-						// $listings_2 = $this->db->get_where('listing', array('user_id' => $listing['user_id']));
-
-					?>
-
 
 
 				<!-- A Single Listing Starts-->
