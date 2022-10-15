@@ -8,6 +8,10 @@
     <i class="ti-user"></i>
   </div>
   <div class="form-group">
+    <input class="form-control" type="text" placeholder="<?= get_phrase('Mobile no.'); ?>" name="mob" id="mob" required>
+    <i class="ti-headphone-alt fs20"></i>
+  </div>
+  <div class="form-group">
     <textarea placeholder="<?= get_phrase('your_message'); ?>" class="form-control" name="message" id="message" required></textarea>
     <i class="ti-pencil"></i>
   </div>

@@ -283,11 +283,41 @@ class Home extends CI_Controller {
         $this->load->view('frontend/index', $page_data);
     }
 
+    // function category()
+    // {
+    //     $page_data['categories']    =   $this->frontend_model->get_parent_categories()->result_array();
+    //     $page_data['page_name']     =   'category';
+    //     $page_data['title']         =   get_phrase('categories');
+    //     $this->load->view('frontend/index', $page_data);
+    // }
+
+
     function category()
     {
-        $page_data['categories']    =   $this->frontend_model->get_parent_categories()->result_array();
-        $page_data['page_name']     =   'category';
-        $page_data['title']         =   get_phrase('categories');
+
+        if(isset($_GET['search'])):
+            $page_data['categories']         = $this->frontend_model->category_search($_GET['search']);
+            $page_data['searching_value'] = $_GET['search'];
+            $page_data['page_name']     = 'category';
+            $page_data['title']         = get_phrase('posts');
+
+     else:
+            $page_data['categories']    =   $this->frontend_model->get_parent_categories()->result_array();
+            $total_rows = count($all_blogs);
+            $config = array();
+            $config = pagintaion($total_rows, 8);
+            $config['base_url']  = site_url('home/category');
+            $this->pagination->initialize($config);
+
+           // $this->db->where('status', 1);
+            $cat= $this->db->get('category', $config['per_page'], $this->uri->segment(3))->result_array();
+            $page_data['category']         = $cat;
+            $page_data['page_name']     =   'category';
+            $page_data['searching_value'] = '';
+          
+            $page_data['title']         =   get_phrase('category');
+    
+    endif;
         $this->load->view('frontend/index', $page_data);
     }
 
@@ -677,4 +707,45 @@ class Home extends CI_Controller {
         $page_data['title'] = get_phrase('user_profile');
         $this->load->view('frontend/index', $page_data);
     }
+
+    function search1($page_number = 1) {
+        $search_string = $_GET['search_string'];
+        $selected_category_id = $_GET['selected_category_id'];
+
+        if($search_string == "" && $selected_category_id == ""){
+            redirect('home/category', 'refresh');
+        }
+
+        $all_listings = $this->frontend_model->search_listing_all_rows($search_string, $selected_category_id);
+        $categories = $this->frontend_model->search_listing($search_string, $selected_category_id, $page_number);
+        $geo_json = $this->make_geo_json_for_map($categories);
+
+        $page_data['search_string'] = $search_string;
+        $page_data['selected_category_id'] = $selected_category_id;
+        $total_listings = count($all_listings);
+        if($total_listings > 12):
+            $page_data['pagination'] = 'search_page';
+            $total_page_number = $total_listings/12;
+            if($total_listings%12 != 0):
+                $total_page_number = intval($total_page_number) + 1;
+            endif;
+
+            $page_data['total_page_number'] = $total_page_number;
+            $page_data['active_page_number']= $page_number;
+        else:
+            $page_data['pagination'] = false;
+        endif;
+        $page_data['page_name']     = 'category';
+        $page_data['title']         = get_phrase('category');
+        $page_data['category']      = $categories;
+        $page_data['geo_json']      = $geo_json;
+        if ($selected_category_id != "") {
+            $page_data['category_ids'] = array($selected_category_id);
+        }
+        if ($search_string != "") {
+            $page_data['search_string'] = $search_string;
+        }
+        $this->load->view('frontend/index', $page_data);
+    }
+
 }

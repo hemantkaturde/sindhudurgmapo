@@ -682,6 +682,11 @@ class Frontend_model extends CI_Model {
 
 
 
+    public function category_search($searching_key = ""){
+      $this->db->like('name', $searching_key);
+      return $this->db->get('category')->result_array();
+     }
+
 
 
 

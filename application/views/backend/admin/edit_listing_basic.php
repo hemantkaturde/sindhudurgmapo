@@ -157,6 +157,9 @@
 </div>
 
 
+
+
+
 <div class="form-group">
   <input type="hidden" class="form-control" id="latitude" value="<?php echo $listing_details['latitude']; ?>" name="latitude">
   <input type="hidden" class="form-control" id="longitude" value="<?php echo $listing_details['longitude']; ?>" name="longitude">
