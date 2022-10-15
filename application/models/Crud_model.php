@@ -1748,4 +1748,12 @@ function get_application_details() {
   
   }
 
+
+  function get_village_by_city_id($city_id = 0) {
+    $this->db->where('city_id', $city_id);
+    return $this->db->get('village');
+  }
+
+  
+
 }

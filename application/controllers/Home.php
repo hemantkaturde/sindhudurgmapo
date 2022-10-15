@@ -61,12 +61,12 @@ class Home extends CI_Controller {
         $this->db->order_by('is_featured', 'desc');
         $this->db->where('status', 'active');
         $listings = $this->db->get('listing', $config['per_page'], $this->uri->segment(3))->result_array();
-        $geo_json = $this->make_geo_json_for_map($listings);
+       // $geo_json = $this->make_geo_json_for_map($listings);
 
         $page_data['page_name']     = 'listings';
         $page_data['title']         = get_phrase('listings');
         $page_data['listings']      = $listings;
-        $page_data['geo_json']      = $geo_json;
+       // $page_data['geo_json']      = $geo_json;
         $this->load->view('frontend/index', $page_data);
     }
 
