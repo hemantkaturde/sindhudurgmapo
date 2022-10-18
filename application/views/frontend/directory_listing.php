@@ -1,3 +1,4 @@
+
 <div class="hero_in shop_detail" style="background: url(<?php echo base_url('uploads/listing_cover_photo/'.$listing_details['listing_cover']); ?>) center center no-repeat; background-size: cover;">
 </div>
 <!--/hero_in-->
@@ -8,7 +9,7 @@
 			<li><a href="#description" class="active"><?php echo get_phrase('description'); ?></a></li>
 			<li><a href="#reviews"><?php echo get_phrase('reviews'); ?></a></li>
 			<li><a href="#media"><?php echo get_phrase('media'); ?></a></li>
-			<li><a href="#social_media"><?php echo get_phrase('social media'); ?></a></li>
+			<!-- <li><a href="#social_media"><?php echo get_phrase('social media'); ?></a></li> -->
 			<li><a href="#amenities"><?php echo get_phrase('amenities'); ?></a></li>
 			<li><a href="#special_feature"><?php echo get_phrase('special feature'); ?></a></li>
 			<li><a href="#contact"><?php echo get_phrase('contact'); ?></a></li>
@@ -52,7 +53,7 @@
 					<?php endif; ?>
 				</div>
 
-				<div class="add_bottom_15">
+				<div class="add_bottom_15" id="category">
 					<?php
 					$categories = json_decode($listing_details['categories']);
 					for ($i = 0; $i < sizeof($categories); $i++):
@@ -75,6 +76,39 @@
 				<p>
 					<?php echo nl2br($listing_details['description']); ?>
 				</p>
+               <hr>
+
+			   <div id ="contact">
+				<h5><?php echo get_phrase('Contacts'); ?></h5>
+				<?php if(!empty ($listing_details['website'])) { ?>
+				<ul>
+					<li><b>Website: </b><?php echo $listing_details['website'] ?></li>
+				</ul>
+				<?php  } ?>
+				<?php if(!empty ($listing_details['email'])) { ?>
+				<ul>
+					<li><b>Email:</b> <?php echo $listing_details['email'] ?></li>
+				</ul>
+
+				<?php  } ?>
+				<?php if(!empty ($listing_details['phone'])) { ?>
+				<ul>
+					<li><b>Phone number: </b><?php echo $listing_details['phone'] ?></li>
+				</ul>
+				<?php  } ?>
+				<?php if(!empty ($listing_details['social'])) { ?>
+				<ul>
+		
+            <?php $social_links = json_decode($listing_details['social'], true); ?>
+			
+						
+					<li><b>Facebook:</b> <?php echo $social_links['facebook']; ?></li>
+					<li><b>Twitter: </b><?php echo $social_links['twitter']; ?></li>
+					<li><b>Linkedin: </b><?php echo $social_links['linkedin']; ?></li>
+				</ul>
+				<?php  } ?>
+
+				</div>
 
 				<!-- SHOP ADDON VIEW WILL BE HERE -->
 				<?php if (get_addon_details('shop')): ?>
@@ -110,7 +144,7 @@
 				<?php //include 'contact_and_social.php'; ?>
 
 				<h5 class="add_bottom_15"><?php echo get_phrase('amenities'); ?></h5>
-				<div class="row add_bottom_30">
+				<div class="row add_bottom_30" id="amenities">
 					<?php foreach (json_decode($listing_details['amenities']) as $key => $amenity): ?>
 						<div class="col-md-4">
 							<ul class="">
@@ -173,7 +207,7 @@
 		<!-- Contact Form Base On Package-->
 		<?php if(has_package_feature('ability_to_add_contact_form', $listing_details['user_id']) == 1): ?>
 			<aside class="col-lg-4" id="sidebar">
-				<div class="box_detail booking">
+				<div class="box_detail booking" >
 					<form class="contact-us-form" action="<?php echo site_url('home/contact_us/'.$listing_details['listing_type']); ?>" method="post">
 						<input type="hidden" name="user_id" value="<?php echo $listing_details['user_id']; ?>">
 						<input type="hidden" name="requester_id" value="<?php echo $this->session->userdata('user_id'); ?>">

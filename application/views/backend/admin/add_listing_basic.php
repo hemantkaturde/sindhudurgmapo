@@ -43,7 +43,7 @@
 <div class="form-group">
   <label class="col-sm-3 control-label" for="category"> <?php echo get_phrase('category'); ?></label>
   <div class="col-sm-7">
-    <div id="category_area">
+    <!-- <div id="category_area">
       <div class="row">
         <div class="col-sm-7">
           <select class="form-control select2" name="categories[]" id = "category_default" required>
@@ -57,25 +57,41 @@
           <button type="button" class="btn btn-primary btn-sm" style="margin-top: 2px; float: right;" name="button" onclick="appendCategory()"> <i class="fa fa-plus"></i> </button>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div id="blank_category_field">
-      <div class="row appendedCategoryFields" style="margin-top: 10px;">
+    <!-- <div id="blank_category_field"> -->
+      <!-- <div class="row appendedCategoryFields" style="margin-top: 10px;"> -->
+      <div id="">
+      <div class="row" style="margin-top: 10px;">
         <div class="col-sm-7 pr-0">
-          <select class="form-control" name="categories[]">
+          <select class="form-control" name="categories[]" class="selected_category_id" id="selected_category_id">
             <option value=""><?php echo get_phrase('select_category'); ?></option>
             <?php foreach ($categories as $category): ?>
               <option value="<?php echo $category['id']; ?>"><?php echo $category['name']; ?></option>
             <?php endforeach; ?>
           </select>
         </div>
-        <div class="col-sm-2">
+        <!-- <div class="col-sm-2">
           <button type="button" class="btn btn-danger btn-sm" style="margin-top: 2px; float: right;" name="button" onclick="removeCategory(this)"> <i class="fa fa-minus"></i> </button>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
 </div>
+
+
+        			
+<div class="form-group">
+  <label for="country_id" class="col-sm-3 control-label"><?php echo get_phrase('country'); ?></label>
+  <div class="col-sm-7">
+          <select  name="selected_subcategory_id" id="selected_subcategory_id">
+                      <option value=""><?php echo get_phrase('All_subcategories'); ?></option>
+                    
+                    </select>
+                    <!-- <select id="mySelect"></select> -->
+                  </div>
+                  </div>
+                  </div>
 
 
 <div class="form-group">
@@ -196,6 +212,43 @@
           //L.marker([lat, lan]).addTo(map).openPopup();
         }
         
+ 
+var baseURL= "<?php echo base_url();?>";
+
+$(document).ready(function(){
+
+// $('#selected_subcategory_id').append($('<option>', { 'jemamt' : 'hmemme' }).text('ddd'));
+
+  $('#selected_category_id').change(function(){
+  var selected_category_id = $(this).val();
+
+        // AJAX request
+        $.ajax({
+          url:'<?=base_url()?>admin/getSubcategoryDependant',
+          method: 'post',
+          data: {selected_category_id: selected_category_id},
+          dataType: 'json',
+          success: function(response){
+
+          // Remove options 
+          $('#selected_subcategory_id').find('option').not(':first').remove();
+          //$('#sel_depart').find('option').not(':first').remove();
+
+          // Add options
+          $.each(response,function(index,data){		
+            $('#selected_subcategory_id').append('<option value="'+data['id']+'">'+data['name']+'</option>');
+          });
+          }
+        });
+    });
+
+      });
+
+
+
+
+
+
      </script>
    </div>
  </div>

@@ -1,7 +1,7 @@
 <?php
 	$number_of_visible_categories = 10;
 	$number_of_visible_amenities 	= 10;
-	$number_of_visible_cities 		= 10;
+	$number_of_visible_cities 		= 5;
 
 	isset($category_ids) ? "" : $category_ids = array();
 	isset($amenity_ids) ? "" 	: $amenity_ids = array();
@@ -24,7 +24,6 @@
 					   </div>
 					   <div class="col-2">
 						   <a href="#0" class="search_mob btn_search_mobile map_view"></a> <!-- /open search panel -->
-
 					   </div>
 				   </div>
 				   <!-- /row -->
@@ -103,11 +102,13 @@
 
 			<div class="collapse map_view" id="filters">
 				<div class="container-fluid margin_30_5">
-					<form class="filter-form" action="" method="get" enctype="multipart/form-data">
-						<div class="row">
-							<div class="col-md-6">
-								<h6><?php echo get_phrase('category'); ?></h6>
-								<ul class="">
+				<form class="filter-form" action="" method="get" enctype="multipart/form-data">
+					<div class="collapse show" id="collapseFilters">
+						<div class="filter_type" style="display: grid">
+							<h6><?php echo get_phrase(''); ?></h6>
+							<a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="">Category<b></b></a>
+							<ul class="collapse" id="collapseExample" style="margin-top: 25px;">
+							<!-- <ul class=""> -->
 									<?php
 									$counter = 0;
 									$categories = $this->db->get('category')->result_array();
@@ -136,50 +137,19 @@
 										<?php endforeach; ?>
 									
 									<?php endforeach; ?>
-								</ul>
+								<!-- </ul> -->
 								<a href="javascript::" id = "category-toggle-btn" onclick="showToggle(this, 'hidden-categories')"><?php echo count($categories) > $number_of_visible_categories ? get_phrase('show_more') : ""; ?></a>
-							</div>
-							<div class="col-md-6">
-								<h6><?php echo get_phrase('amenities'); ?></h6>
-								<ul>
-									<?php
-									$counter = 0;
-									$amenities = $this->crud_model->get_amenities()->result_array();
-									foreach ($amenities as $amenity):
-										$counter++;
-									?>
-									<?php if ($counter <= $number_of_visible_amenities): ?>
-										<div class="">
-											<li>
-												<label class="container_check"> <i class="<?php echo $amenity['icon']; ?>"></i> <?php echo $amenity['name']; ?>
-													<input type="checkbox" class="amenities" name="amenity[]" value="<?php echo $amenity['slug']; ?>" onclick="filter(this)" <?php if(in_array($amenity['id'], $amenity_ids)) echo 'checked'; ?>>
-													<span class="checkmark"></span>
-												</label>
-											</li>
-										</div>
-									<?php else: ?>
-										<div class="hidden-amenities hidden">
-											<li>
-												<label class="container_check"> <i class="<?php echo $amenity['icon']; ?>"></i> <?php echo $amenity['name']; ?>
-													<input type="checkbox" class="amenities" name="amenity[]" value="<?php echo $amenity['slug']; ?>" onclick="filter(this)" <?php if(in_array($amenity['id'], $amenity_ids)) echo 'checked'; ?>>
-													<span class="checkmark"></span>
-												</label>
-											</li>
-										</div>
-									<?php endif; ?>
-									<?php endforeach; ?>
-								</ul>
-								<a href="javascript::" id = "amenity-toggle-btn" onclick="showToggle(this, 'hidden-amenities')"><?php echo count($amenities) > $number_of_visible_amenities ? get_phrase('show_more') : ""; ?></a>
-							</div>
-						</div>
-						
-						<div class="row">
-							<div class="col-md-6">
-								<h6><?php echo get_phrase('cities'); ?></h6>
-								<ul>
+							<!-- </div> -->
+						</ul><br>
+
+ <!-------------------- second tab start ============================ -->
+							 <a data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1" id="">Location<b></b></a>
+							
+                         <ul class="collapse" id="collapseExample1"  style="margin-top: 25px;"> 
+
 									<li>
 										<div class="">
-											<input type="radio" id="city_all" name="city" class="city" value="all" onclick="filter(this)" <?php if($city_id == 'all') echo 'checked'; ?>>
+											<input type="checkbox" id="city_all" name="city" class="city" value="all" onclick="filter(this)" <?php if($city_id == 'all') echo 'checked'; ?>>
 											<label for="city_all"><?php echo get_phrase('all'); ?></label>
 										</div>
 									</li>
@@ -189,33 +159,77 @@
 									foreach ($cities as $city):
 										$counter++;
 									?>
-									<?php if ($counter <= $number_of_visible_cities): ?>
-										<div class="">
-											<li>
-												<div class="">
-													<input type="radio" id="city_<?php echo $city['id'];?>" name="city" class="city" value="<?php echo $city['slug']; ?>" onclick="filter(this)" <?php if($city['id'] == $city_id) echo 'checked'; ?>>
-											    <label for="city_<?php echo $city['id'];?>"><?php echo $city['name']; ?></label>
-												</div>
-											</li>
-										</div>
-									<?php else: ?>
-										<div class="hidden-cities hidden">
-											<li>
-												<div class="">
-													<input type="radio" id="city_<?php echo $city['id'];?>" name="city" class="city" value="<?php echo $city['slug']; ?>" onclick="filter(this)" <?php if($city['id'] == $city_id) echo 'checked'; ?>>
-													<label for="city_<?php echo $city['id'];?>"><?php echo $city['name']; ?></label>
-												</div>
-											</li>
-										</div>
-									<?php endif; ?>
-									<?php endforeach; ?>
-								</ul>
-								<a href="javascript::" id = "city-toggle-btn" onclick="showToggle(this, 'hidden-cities')"><?php echo count($cities) > $number_of_visible_cities ? get_phrase('show_more') : ""; ?></a>
-							</div>
+									<?php //if ($counter <= $number_of_visible_cities): ?>
+										
+							<li class="<?php if($counter > $number_of_visible_cities) echo 'hidden-cities hidden'; ?>">
+								<label class="container_check"> <i class="<?php echo $city['icon_class']; ?>"></i> <?php echo $city['name']; ?> <small></small>
+									<input type="checkbox" name="city[]" class="categories" value="<?php echo $city['slug']; ?>" onclick="filter(this, '<?php echo 'parent_id'.$city['id'] ?>')" <?php if(in_array($city['id'], $city_id)) echo 'checked'; ?>>
+									<span class="checkmark"></span>
+								</label>
+			                </li>
+									
 
-							<div class="col-md-6">
-								<h6><?php echo get_phrase('video'); ?></h6>
-								<ul>
+								<?php foreach ($this->crud_model->get_village_by_city_id($city['id'])->result_array() as $sub_village):
+								$counter++;?>
+															
+							    <li class="ml-3 <?php if($counter > $number_of_visible_cities) echo 'hidden-cities hidden'; ?>">
+									<label class="container_check"> <?php echo $sub_village['name']; ?> <small></small>
+										<input type="checkbox" name="city[]" class="categories <?php echo 'parent_id'.$city['id'] ?>" value="<?php echo $sub_village['slug']; ?>" onclick="filter(this)" <?php if(in_array($sub_village['id'], $city_id)) echo 'checked'; ?>>
+										<span class="checkmark"></span>
+									</label>
+								</li>
+										
+			                       <?php endforeach; ?>
+									
+							     <?php endforeach; ?>
+								<!-- </ul> -->
+							
+								<a href="javascript::" id = "city-toggle-btn" onclick="showToggle(this, 'hidden-cities')"><?php echo count($cities) > $number_of_visible_cities ? get_phrase('show_more') : ""; ?></a>
+
+                            </ul><br>
+
+
+<!------------------- second tab end ============================ -->
+
+
+<!-------------------- third tab start ============================ -->
+
+
+                    <a data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2" id="" >Opening Status<b></b></a>
+
+						<ul class="collapse" id="collapseExample2"  style="margin-top: 25px;">
+
+						<div class="container">
+
+						<ul>
+							<li>
+								<label class="container_check"> <i class=""></i> <?php echo get_phrase('open_now'); ?>
+									<input type="checkbox" class="openingStatus" name="with_open" value="open" onclick="filter(this)" <?php if($with_open == 'open') echo 'checked'; ?>>
+									<span class="checkmark"></span>
+								</label>
+								</li>
+						</ul>
+						<ul>
+							<li>
+								<label class="container_check"> <i class=""></i> <?php echo get_phrase('close_now'); ?>
+									<input type="checkbox" class="closingStatus" name="with_close" value="close" onclick="filter(this)" <?php if($with_close == 'close') echo 'checked'; ?>>
+									<span class="checkmark"></span>
+								</label>
+							</li>
+						</ul>
+						</div>
+						</ul><br>
+
+<!-------------------- third tab end ============================ -->
+
+
+	<!-------------------- forth tab start ============================ -->
+                  <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" id="" style="margin-bottom: 20px;">Media<b></b></a> 
+		
+				  <ul class="collapse" id="collapseExample3"  style="margin-top: 25px;">
+
+
+		                    <ul>
 									<li>
 										<label class="container_check"> <i class=""></i> <?php echo get_phrase('with_video'); ?>
 											<input type="checkbox" class="video_availability" name="with_video" value="1" onclick="filter(this)" <?php if($with_video == 1) echo 'checked'; ?>>
@@ -223,30 +237,47 @@
 										</label>
 									</li>
 								</ul>
+							<ul>
+								<li>
+									<label class="container_check"> <i class=""></i> <?php echo get_phrase('with_photos'); ?>
+										<input type="checkbox" class="image_availability" name="with_photos" value="1" onclick="filter(this)" <?php if($with_photos == 1) echo 'checked'; ?>>
+										<span class="checkmark"></span>
+									</label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<label class="container_check"> <i class=""></i> <?php echo get_phrase('contact_number'); ?>
+										<input type="checkbox" class="contact_availability" name="contact_numbers" value="1" onclick="filter(this)" <?php if($contact_number == 1) echo 'checked'; ?>>
+										<span class="checkmark"></span>
+									</label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<label class="container_check"> <i class=""></i> <?php echo get_phrase('Address'); ?>
+										<input type="checkbox" class="Address_availability" name="Address" value="1" onclick="filter(this)" <?php if($Address == 1) echo 'checked'; ?>>
+										<span class="checkmark"></span>
+									</label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<label class="container_check"> <i class=""></i> <?php echo get_phrase('Website'); ?>
+										<input type="checkbox" class="Website_availability" name="Website" value="1" onclick="filter(this)" <?php if($Website == 1) echo 'checked'; ?>>
+										<span class="checkmark"></span>
+									</label>
+								</li>
+							</ul>
+		         </ul><br>
+	  <!-------------------- forth tab end ============================ -->
 
-								<h6><?php echo get_phrase('opening_status'); ?></h6>
-								<ul>
-									<li>
-										<label class="container_check"> <i class=""></i> <?php echo get_phrase('open_now'); ?>
-											<input type="checkbox" class="openingStatus" name="with_open" value="open" onclick="filter(this)" <?php if($with_open == 'open') echo 'checked'; ?>>
-											<span class="checkmark"></span>
-										</label>
-									</li>
-								</ul>
-							</div>
 						</div>
-						<!-- /row -->
-						<div class="row">
-							<div class="col-md-12">
-								<div class="add_bottom_30">
-									<h6><?php echo get_phrase('price_limit'); ?></h6>
-									<div class="distance"> <?php echo get_phrase('price_within'); ?> <span></span> <?php echo get_settings('system_currency'); ?></div>
-									<input type="range" class="price-range" min="0" max="<?php echo $this->frontend_model->get_the_maximum_price_limit_of_all_listings(); ?>" step="10" value="<?php echo $price_range; ?>" data-orientation="horizontal" onchange="filter(this)">
-								</div>
-							</div>
-						</div>
-						<!-- /row -->
-					</form>
+
+					
+					</div>
+					<!--/collapse -->
+				</form>
 				</div>
 			</div>
 			<!-- /Filters -->
