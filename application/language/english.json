@@ -637,5 +637,7 @@
     "special_feature": "Special feature",
     "tag": "Tag",
     "category_name": "Category name",
-    "mobile_no.": "Mobile no."
+    "mobile_no.": "Mobile no.",
+    "subcategories": "Subcategories",
+    "subcategory": "Subcategory"
 }

@@ -364,6 +364,7 @@ function add_listing() {
   }
 
   $data['country_id'] = sanitizer($this->input->post('country_id'));
+  $data['subcategory_id'] = sanitizer($this->input->post('selected_subcategory_id'));
   $data['city_id'] = sanitizer($this->input->post('taluka_id'));
   $data['village_area_id'] = sanitizer($this->input->post('village_id'));
 

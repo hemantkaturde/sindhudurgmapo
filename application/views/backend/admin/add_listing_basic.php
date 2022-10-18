@@ -82,16 +82,14 @@
 
         			
 <div class="form-group">
-  <label for="country_id" class="col-sm-3 control-label"><?php echo get_phrase('country'); ?></label>
-  <div class="col-sm-7">
-          <select  name="selected_subcategory_id" id="selected_subcategory_id">
-                      <option value=""><?php echo get_phrase('All_subcategories'); ?></option>
-                    
-                    </select>
-                    <!-- <select id="mySelect"></select> -->
-                  </div>
-                  </div>
-                  </div>
+  <label for="subcategory_id" class="col-sm-3 control-label"><?php echo get_phrase('Subcategory'); ?></label>
+        <div class="col-sm-7 pr-0">
+            <select  class="form-control" name="selected_subcategory_id" id="selected_subcategory_id">
+              <option value=""><?php echo get_phrase('All_subcategories'); ?></option>
+            </select>
+          </div>
+      </div>
+</div>
 
 
 <div class="form-group">
